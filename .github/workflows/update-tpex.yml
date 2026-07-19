@@ -1,0 +1,55 @@
+name: Update TPEx disposition list
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_tpex.py"
+      - ".github/workflows/update-tpex.yml"
+  schedule:
+    # UTC times. Taiwan time is UTC+8.
+    - cron: "30 23 * * 0-4" # 07:30 Monday-Friday in Taiwan
+    - cron: "20 0 * * 1-5"  # 08:20 Monday-Friday in Taiwan
+    - cron: "30 6 * * 1-5"  # 14:30 Monday-Friday in Taiwan
+    - cron: "0 10 * * 1-5"  # 18:00 Monday-Friday in Taiwan
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-tpex-disposition
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download and validate official TPEx data
+        run: python scripts/update_tpex.py
+
+      - name: Commit refreshed JSON
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- tpex_disposition.json)" ]; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tpex_disposition.json
+          git commit -m "chore(data): refresh TPEx disposition list"
+          git push
