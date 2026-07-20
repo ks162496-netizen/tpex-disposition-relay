@@ -1,0 +1,4468 @@
+{
+  "schema_version": 1,
+  "dataset": "company_profiles",
+  "market": "tpex",
+  "source_name": "TPEx 上櫃股票基本資料",
+  "source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+  "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+  "fetched_at_utc": "2026-07-20T04:39:09.356495Z",
+  "fetched_at_taipei": "2026-07-20T12:39:09.356495+08:00",
+  "record_count": 890,
+  "response_metadata": {
+    "etag": "\"6a5cedf3-105ae8\"",
+    "last_modified": "Sun, 19 Jul 2026 15:32:03 GMT",
+    "content_type": "application/json"
+  },
+  "records": [
+    {
+      "SecuritiesCompanyCode": "1240",
+      "CompanyAbbreviation": "茂生農經",
+      "SecuritiesIndustryCode": "33"
+    },
+    {
+      "SecuritiesCompanyCode": "1259",
+      "CompanyAbbreviation": "安心",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "1264",
+      "CompanyAbbreviation": "德麥",
+      "SecuritiesIndustryCode": "02"
+    },
+    {
+      "SecuritiesCompanyCode": "1268",
+      "CompanyAbbreviation": "漢來美食",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "1294",
+      "CompanyAbbreviation": "漢田生技",
+      "SecuritiesIndustryCode": "02"
+    },
+    {
+      "SecuritiesCompanyCode": "1295",
+      "CompanyAbbreviation": "生合",
+      "SecuritiesIndustryCode": "02"
+    },
+    {
+      "SecuritiesCompanyCode": "1336",
+      "CompanyAbbreviation": "台翰",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "1565",
+      "CompanyAbbreviation": "精華",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "1569",
+      "CompanyAbbreviation": "濱川",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "1570",
+      "CompanyAbbreviation": "力肯",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "1580",
+      "CompanyAbbreviation": "新麥",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "1584",
+      "CompanyAbbreviation": "精剛",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "1586",
+      "CompanyAbbreviation": "和勤",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "1591",
+      "CompanyAbbreviation": "駿吉-KY",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "1593",
+      "CompanyAbbreviation": "祺驊",
+      "SecuritiesIndustryCode": "37"
+    },
+    {
+      "SecuritiesCompanyCode": "1595",
+      "CompanyAbbreviation": "川寶",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "1599",
+      "CompanyAbbreviation": "宏佳騰",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "1742",
+      "CompanyAbbreviation": "台蠟",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "1777",
+      "CompanyAbbreviation": "生泰",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "1780",
+      "CompanyAbbreviation": "立弘",
+      "SecuritiesIndustryCode": "02"
+    },
+    {
+      "SecuritiesCompanyCode": "1781",
+      "CompanyAbbreviation": "合世",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "1784",
+      "CompanyAbbreviation": "訊聯",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "1785",
+      "CompanyAbbreviation": "光洋科",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "1788",
+      "CompanyAbbreviation": "杏昌",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "1796",
+      "CompanyAbbreviation": "金穎生技",
+      "SecuritiesIndustryCode": "02"
+    },
+    {
+      "SecuritiesCompanyCode": "1799",
+      "CompanyAbbreviation": "易威",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "1813",
+      "CompanyAbbreviation": "寶利徠",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "1815",
+      "CompanyAbbreviation": "富喬",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "2035",
+      "CompanyAbbreviation": "唐榮公司",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "2061",
+      "CompanyAbbreviation": "風青",
+      "SecuritiesIndustryCode": "06"
+    },
+    {
+      "SecuritiesCompanyCode": "2063",
+      "CompanyAbbreviation": "世鎧精密",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "2064",
+      "CompanyAbbreviation": "晉椿",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "2065",
+      "CompanyAbbreviation": "世豐",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "2066",
+      "CompanyAbbreviation": "世德",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "2067",
+      "CompanyAbbreviation": "嘉鋼",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "2070",
+      "CompanyAbbreviation": "精湛",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "2073",
+      "CompanyAbbreviation": "雄順",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "2221",
+      "CompanyAbbreviation": "大甲",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "2230",
+      "CompanyAbbreviation": "泰茂",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "2235",
+      "CompanyAbbreviation": "謚源",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "2596",
+      "CompanyAbbreviation": "綠意",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "2640",
+      "CompanyAbbreviation": "大車隊",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "2641",
+      "CompanyAbbreviation": "正德",
+      "SecuritiesIndustryCode": "15"
+    },
+    {
+      "SecuritiesCompanyCode": "2643",
+      "CompanyAbbreviation": "捷迅",
+      "SecuritiesIndustryCode": "15"
+    },
+    {
+      "SecuritiesCompanyCode": "2718",
+      "CompanyAbbreviation": "全心投控",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "2719",
+      "CompanyAbbreviation": "燦星旅",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2724",
+      "CompanyAbbreviation": "藝舍-KY",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "2726",
+      "CompanyAbbreviation": "雅茗-KY",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2729",
+      "CompanyAbbreviation": "瓦城",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2732",
+      "CompanyAbbreviation": "六角",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2734",
+      "CompanyAbbreviation": "易飛網",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2736",
+      "CompanyAbbreviation": "富野",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2740",
+      "CompanyAbbreviation": "華軒",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2743",
+      "CompanyAbbreviation": "山富",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2745",
+      "CompanyAbbreviation": "五福",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2751",
+      "CompanyAbbreviation": "王座",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2752",
+      "CompanyAbbreviation": "豆府",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2754",
+      "CompanyAbbreviation": "亞洲藏壽司",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2755",
+      "CompanyAbbreviation": "揚秦",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2756",
+      "CompanyAbbreviation": "聯發國際",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "2916",
+      "CompanyAbbreviation": "滿心",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "2924",
+      "CompanyAbbreviation": "宏太-KY",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "2926",
+      "CompanyAbbreviation": "誠品生活",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "2937",
+      "CompanyAbbreviation": "集雅社",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "2941",
+      "CompanyAbbreviation": "米斯特",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "2947",
+      "CompanyAbbreviation": "振宇五金",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "2948",
+      "CompanyAbbreviation": "寶陞",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "2949",
+      "CompanyAbbreviation": "欣新網",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "3064",
+      "CompanyAbbreviation": "泰偉",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "3066",
+      "CompanyAbbreviation": "李洲",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3067",
+      "CompanyAbbreviation": "全域",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "3071",
+      "CompanyAbbreviation": "協禧",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3073",
+      "CompanyAbbreviation": "天方能源",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "3078",
+      "CompanyAbbreviation": "僑威",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3081",
+      "CompanyAbbreviation": "聯亞",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3083",
+      "CompanyAbbreviation": "網龍",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "3085",
+      "CompanyAbbreviation": "新零售",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "3086",
+      "CompanyAbbreviation": "華義*",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "3088",
+      "CompanyAbbreviation": "艾訊",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3093",
+      "CompanyAbbreviation": "港建*",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3095",
+      "CompanyAbbreviation": "及成",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3105",
+      "CompanyAbbreviation": "穩懋",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3114",
+      "CompanyAbbreviation": "好德",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3115",
+      "CompanyAbbreviation": "富榮綱",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3118",
+      "CompanyAbbreviation": "進階",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "3122",
+      "CompanyAbbreviation": "笙泉",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3128",
+      "CompanyAbbreviation": "昇銳",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3131",
+      "CompanyAbbreviation": "弘塑",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3141",
+      "CompanyAbbreviation": "晶宏",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3147",
+      "CompanyAbbreviation": "大綜",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "3152",
+      "CompanyAbbreviation": "璟德",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3158",
+      "CompanyAbbreviation": "嘉實",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "3162",
+      "CompanyAbbreviation": "精確",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "3163",
+      "CompanyAbbreviation": "波若威",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3169",
+      "CompanyAbbreviation": "亞信",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3171",
+      "CompanyAbbreviation": "炎洲流通",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "3176",
+      "CompanyAbbreviation": "基亞",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "3178",
+      "CompanyAbbreviation": "公準",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3188",
+      "CompanyAbbreviation": "鑫龍騰",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "3191",
+      "CompanyAbbreviation": "雲嘉南",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3205",
+      "CompanyAbbreviation": "佰研",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "3206",
+      "CompanyAbbreviation": "志豐",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3207",
+      "CompanyAbbreviation": "耀勝",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3211",
+      "CompanyAbbreviation": "順達",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3213",
+      "CompanyAbbreviation": "茂訊",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3217",
+      "CompanyAbbreviation": "優群",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3218",
+      "CompanyAbbreviation": "大學光",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "3219",
+      "CompanyAbbreviation": "倚強科",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3221",
+      "CompanyAbbreviation": "台嘉碩",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3224",
+      "CompanyAbbreviation": "三顧",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "3226",
+      "CompanyAbbreviation": "龍鋒",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "3227",
+      "CompanyAbbreviation": "原相",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3228",
+      "CompanyAbbreviation": "金麗科",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3230",
+      "CompanyAbbreviation": "錦明",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3232",
+      "CompanyAbbreviation": "昱捷",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "3234",
+      "CompanyAbbreviation": "光環",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3236",
+      "CompanyAbbreviation": "千如",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3252",
+      "CompanyAbbreviation": "海灣",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "3259",
+      "CompanyAbbreviation": "鑫創",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3260",
+      "CompanyAbbreviation": "威剛",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3264",
+      "CompanyAbbreviation": "欣銓",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3265",
+      "CompanyAbbreviation": "台星科",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3268",
+      "CompanyAbbreviation": "海德威",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3272",
+      "CompanyAbbreviation": "東碩",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3276",
+      "CompanyAbbreviation": "宇環",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3284",
+      "CompanyAbbreviation": "太普高",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "3285",
+      "CompanyAbbreviation": "微端",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3287",
+      "CompanyAbbreviation": "廣寰科",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3288",
+      "CompanyAbbreviation": "點晶",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3289",
+      "CompanyAbbreviation": "宜特",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3290",
+      "CompanyAbbreviation": "東浦",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3293",
+      "CompanyAbbreviation": "鈊象",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "3294",
+      "CompanyAbbreviation": "英濟",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3297",
+      "CompanyAbbreviation": "杭特",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3303",
+      "CompanyAbbreviation": "岱稜",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3306",
+      "CompanyAbbreviation": "鼎天",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3310",
+      "CompanyAbbreviation": "佳穎",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3313",
+      "CompanyAbbreviation": "斐成",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "3317",
+      "CompanyAbbreviation": "尼克森",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3322",
+      "CompanyAbbreviation": "建舜電",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3323",
+      "CompanyAbbreviation": "加百裕",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3324",
+      "CompanyAbbreviation": "雙鴻",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3325",
+      "CompanyAbbreviation": "旭品",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3332",
+      "CompanyAbbreviation": "幸康",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3339",
+      "CompanyAbbreviation": "泰谷",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3349",
+      "CompanyAbbreviation": "寶德",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3354",
+      "CompanyAbbreviation": "律勝",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3357",
+      "CompanyAbbreviation": "臺慶科",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3360",
+      "CompanyAbbreviation": "尚立",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "3362",
+      "CompanyAbbreviation": "先進光",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3363",
+      "CompanyAbbreviation": "上詮",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3372",
+      "CompanyAbbreviation": "典範",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3373",
+      "CompanyAbbreviation": "熱映",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3374",
+      "CompanyAbbreviation": "精材",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3379",
+      "CompanyAbbreviation": "彬台",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "3388",
+      "CompanyAbbreviation": "崇越電",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3390",
+      "CompanyAbbreviation": "旭軟",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3402",
+      "CompanyAbbreviation": "漢科",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3430",
+      "CompanyAbbreviation": "奇鈦科",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "3434",
+      "CompanyAbbreviation": "哲固",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3438",
+      "CompanyAbbreviation": "類比科",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3441",
+      "CompanyAbbreviation": "聯一光電",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3444",
+      "CompanyAbbreviation": "利機",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "3455",
+      "CompanyAbbreviation": "由田",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3465",
+      "CompanyAbbreviation": "進泰電子",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3466",
+      "CompanyAbbreviation": "德晉",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3467",
+      "CompanyAbbreviation": "台灣精材",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3479",
+      "CompanyAbbreviation": "安勤",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3483",
+      "CompanyAbbreviation": "力致",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3484",
+      "CompanyAbbreviation": "崧騰",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3485",
+      "CompanyAbbreviation": "敘豐",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3489",
+      "CompanyAbbreviation": "森寶",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "3490",
+      "CompanyAbbreviation": "單井",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3491",
+      "CompanyAbbreviation": "昇達科",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3492",
+      "CompanyAbbreviation": "長盛",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3498",
+      "CompanyAbbreviation": "陽程",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3499",
+      "CompanyAbbreviation": "環天科",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3508",
+      "CompanyAbbreviation": "位速",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3511",
+      "CompanyAbbreviation": "矽瑪",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3512",
+      "CompanyAbbreviation": "皇龍",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "3516",
+      "CompanyAbbreviation": "亞帝歐",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3520",
+      "CompanyAbbreviation": "華盈",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3521",
+      "CompanyAbbreviation": "台鋼建設",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "3522",
+      "CompanyAbbreviation": "御嵿",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "3523",
+      "CompanyAbbreviation": "迎輝",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3526",
+      "CompanyAbbreviation": "凡甲",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3527",
+      "CompanyAbbreviation": "聚積",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3529",
+      "CompanyAbbreviation": "力旺",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3531",
+      "CompanyAbbreviation": "先益",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3537",
+      "CompanyAbbreviation": "堡達",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3540",
+      "CompanyAbbreviation": "曜越",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3541",
+      "CompanyAbbreviation": "西柏",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3546",
+      "CompanyAbbreviation": "宇峻",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "3548",
+      "CompanyAbbreviation": "兆利",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3551",
+      "CompanyAbbreviation": "世禾",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "3552",
+      "CompanyAbbreviation": "同致",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3555",
+      "CompanyAbbreviation": "博士旺",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3556",
+      "CompanyAbbreviation": "禾瑞亞",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3558",
+      "CompanyAbbreviation": "神準",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3564",
+      "CompanyAbbreviation": "其陽",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3567",
+      "CompanyAbbreviation": "逸昌",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3570",
+      "CompanyAbbreviation": "大塚",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "3577",
+      "CompanyAbbreviation": "泓格",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3580",
+      "CompanyAbbreviation": "友威科",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3581",
+      "CompanyAbbreviation": "博磊",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3587",
+      "CompanyAbbreviation": "閎康",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3594",
+      "CompanyAbbreviation": "磐儀",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3597",
+      "CompanyAbbreviation": "映興",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3609",
+      "CompanyAbbreviation": "三一東林",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3611",
+      "CompanyAbbreviation": "鼎翰",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3615",
+      "CompanyAbbreviation": "安可",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3623",
+      "CompanyAbbreviation": "富晶通",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3624",
+      "CompanyAbbreviation": "光頡",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3625",
+      "CompanyAbbreviation": "西勝",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3628",
+      "CompanyAbbreviation": "盈正",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3629",
+      "CompanyAbbreviation": "地心引力",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "3630",
+      "CompanyAbbreviation": "新鉅科",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3631",
+      "CompanyAbbreviation": "晟楠",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3632",
+      "CompanyAbbreviation": "研勤",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3646",
+      "CompanyAbbreviation": "艾恩特",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3663",
+      "CompanyAbbreviation": "鑫科",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "3664",
+      "CompanyAbbreviation": "安瑞-KY",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3666",
+      "CompanyAbbreviation": "光耀",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3672",
+      "CompanyAbbreviation": "康聯訊",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3675",
+      "CompanyAbbreviation": "德微",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3680",
+      "CompanyAbbreviation": "家登",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3684",
+      "CompanyAbbreviation": "榮昌",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "3685",
+      "CompanyAbbreviation": "元創精密",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "3687",
+      "CompanyAbbreviation": "歐買尬",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "3689",
+      "CompanyAbbreviation": "湧德",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3691",
+      "CompanyAbbreviation": "碩禾",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "3693",
+      "CompanyAbbreviation": "營邦",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3707",
+      "CompanyAbbreviation": "漢磊",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "3709",
+      "CompanyAbbreviation": "鑫聯大投控",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "3710",
+      "CompanyAbbreviation": "連展投控",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "3713",
+      "CompanyAbbreviation": "新晶投控",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "4102",
+      "CompanyAbbreviation": "永日",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4105",
+      "CompanyAbbreviation": "東洋",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4107",
+      "CompanyAbbreviation": "邦特",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4109",
+      "CompanyAbbreviation": "加捷生醫",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4111",
+      "CompanyAbbreviation": "濟生",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4113",
+      "CompanyAbbreviation": "聯上",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "4114",
+      "CompanyAbbreviation": "健喬",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4116",
+      "CompanyAbbreviation": "明基醫",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4120",
+      "CompanyAbbreviation": "友華",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4121",
+      "CompanyAbbreviation": "優盛",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4123",
+      "CompanyAbbreviation": "晟德",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4126",
+      "CompanyAbbreviation": "太醫",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4127",
+      "CompanyAbbreviation": "天良",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4128",
+      "CompanyAbbreviation": "中天",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4129",
+      "CompanyAbbreviation": "聯合",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4130",
+      "CompanyAbbreviation": "健亞",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4131",
+      "CompanyAbbreviation": "浩泰",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4138",
+      "CompanyAbbreviation": "曜亞",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4139",
+      "CompanyAbbreviation": "馬光-KY",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4147",
+      "CompanyAbbreviation": "中裕",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4153",
+      "CompanyAbbreviation": "鈺緯",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4154",
+      "CompanyAbbreviation": "樂威科-KY",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "4157",
+      "CompanyAbbreviation": "太景*-KY",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4160",
+      "CompanyAbbreviation": "訊聯基因",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4161",
+      "CompanyAbbreviation": "聿新科",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4162",
+      "CompanyAbbreviation": "智擎",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4163",
+      "CompanyAbbreviation": "鐿鈦",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4166",
+      "CompanyAbbreviation": "友霖",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4167",
+      "CompanyAbbreviation": "松瑞藥",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4168",
+      "CompanyAbbreviation": "醣聯",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4171",
+      "CompanyAbbreviation": "瑞基",
+      "SecuritiesIndustryCode": "33"
+    },
+    {
+      "SecuritiesCompanyCode": "4173",
+      "CompanyAbbreviation": "久裕",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4174",
+      "CompanyAbbreviation": "浩鼎",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4175",
+      "CompanyAbbreviation": "杏一",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4183",
+      "CompanyAbbreviation": "福永生技",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4188",
+      "CompanyAbbreviation": "安克",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4192",
+      "CompanyAbbreviation": "杏國",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4198",
+      "CompanyAbbreviation": "欣大健康",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4205",
+      "CompanyAbbreviation": "中華食",
+      "SecuritiesIndustryCode": "02"
+    },
+    {
+      "SecuritiesCompanyCode": "4207",
+      "CompanyAbbreviation": "環泰",
+      "SecuritiesIndustryCode": "02"
+    },
+    {
+      "SecuritiesCompanyCode": "4303",
+      "CompanyAbbreviation": "信立",
+      "SecuritiesIndustryCode": "03"
+    },
+    {
+      "SecuritiesCompanyCode": "4304",
+      "CompanyAbbreviation": "勝昱",
+      "SecuritiesIndustryCode": "03"
+    },
+    {
+      "SecuritiesCompanyCode": "4305",
+      "CompanyAbbreviation": "世坤",
+      "SecuritiesIndustryCode": "03"
+    },
+    {
+      "SecuritiesCompanyCode": "4401",
+      "CompanyAbbreviation": "東隆興",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "4402",
+      "CompanyAbbreviation": "郡都開發",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "4406",
+      "CompanyAbbreviation": "新昕纖",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "4413",
+      "CompanyAbbreviation": "飛寶企業",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "4416",
+      "CompanyAbbreviation": "三圓",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "4417",
+      "CompanyAbbreviation": "金洲",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "4419",
+      "CompanyAbbreviation": "皇家美食",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "4420",
+      "CompanyAbbreviation": "光明",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "4430",
+      "CompanyAbbreviation": "耀億",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "4432",
+      "CompanyAbbreviation": "銘旺實",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "4433",
+      "CompanyAbbreviation": "興采",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "4442",
+      "CompanyAbbreviation": "竣邦-KY",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "4502",
+      "CompanyAbbreviation": "健信",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4503",
+      "CompanyAbbreviation": "金雨",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4506",
+      "CompanyAbbreviation": "崇友",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4510",
+      "CompanyAbbreviation": "高鋒",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4513",
+      "CompanyAbbreviation": "福裕",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4523",
+      "CompanyAbbreviation": "永彰",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4527",
+      "CompanyAbbreviation": "方方土霖",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4528",
+      "CompanyAbbreviation": "江興鍛",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4529",
+      "CompanyAbbreviation": "淳紳",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "4530",
+      "CompanyAbbreviation": "宏易",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "4533",
+      "CompanyAbbreviation": "協易機",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4534",
+      "CompanyAbbreviation": "慶騰",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4535",
+      "CompanyAbbreviation": "至興",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4538",
+      "CompanyAbbreviation": "大詠城",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4541",
+      "CompanyAbbreviation": "晟田",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "4542",
+      "CompanyAbbreviation": "科嶠",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "4543",
+      "CompanyAbbreviation": "萬在",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4549",
+      "CompanyAbbreviation": "桓達",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4550",
+      "CompanyAbbreviation": "長佳",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4554",
+      "CompanyAbbreviation": "橙的",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "4556",
+      "CompanyAbbreviation": "旭然",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "4558",
+      "CompanyAbbreviation": "寶緯",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4561",
+      "CompanyAbbreviation": "健椿",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4563",
+      "CompanyAbbreviation": "百德",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4568",
+      "CompanyAbbreviation": "科際精密",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4577",
+      "CompanyAbbreviation": "達航科技",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "4580",
+      "CompanyAbbreviation": "捷流閥業",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4584",
+      "CompanyAbbreviation": "君帆",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "4609",
+      "CompanyAbbreviation": "唐鋒",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "4702",
+      "CompanyAbbreviation": "中美實",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "4706",
+      "CompanyAbbreviation": "大恭",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4707",
+      "CompanyAbbreviation": "磐亞",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4711",
+      "CompanyAbbreviation": "永純",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4714",
+      "CompanyAbbreviation": "永捷",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4716",
+      "CompanyAbbreviation": "大立",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4721",
+      "CompanyAbbreviation": "美琪瑪",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4726",
+      "CompanyAbbreviation": "永昕",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4728",
+      "CompanyAbbreviation": "雙美",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4729",
+      "CompanyAbbreviation": "熒茂",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "4735",
+      "CompanyAbbreviation": "豪展",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4741",
+      "CompanyAbbreviation": "泓瀚",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4743",
+      "CompanyAbbreviation": "合一",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4744",
+      "CompanyAbbreviation": "皇將",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4745",
+      "CompanyAbbreviation": "合富-KY",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4747",
+      "CompanyAbbreviation": "強生製藥",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4749",
+      "CompanyAbbreviation": "新應材",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "4754",
+      "CompanyAbbreviation": "國碳科",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4760",
+      "CompanyAbbreviation": "勤凱科技",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "4767",
+      "CompanyAbbreviation": "誠泰科技",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4768",
+      "CompanyAbbreviation": "晶呈科技",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4772",
+      "CompanyAbbreviation": "台特化",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "4804",
+      "CompanyAbbreviation": "大略-KY",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "4806",
+      "CompanyAbbreviation": "桂田文創",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "4903",
+      "CompanyAbbreviation": "聯光通",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "4905",
+      "CompanyAbbreviation": "台聯電",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4907",
+      "CompanyAbbreviation": "富宇",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "4908",
+      "CompanyAbbreviation": "前鼎",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "4909",
+      "CompanyAbbreviation": "新復興",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "4911",
+      "CompanyAbbreviation": "德英",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "4923",
+      "CompanyAbbreviation": "力士",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "4924",
+      "CompanyAbbreviation": "欣厚-KY",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "4931",
+      "CompanyAbbreviation": "新盛力",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "4933",
+      "CompanyAbbreviation": "友輝",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "4939",
+      "CompanyAbbreviation": "亞電",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "4946",
+      "CompanyAbbreviation": "辣椒",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "4950",
+      "CompanyAbbreviation": "金耘國際",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "4951",
+      "CompanyAbbreviation": "精拓科",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "4953",
+      "CompanyAbbreviation": "緯致",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "4966",
+      "CompanyAbbreviation": "譜瑞-KY",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "4971",
+      "CompanyAbbreviation": "英特磊科技股份有限公司",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "4972",
+      "CompanyAbbreviation": "湯石照明",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "4973",
+      "CompanyAbbreviation": "廣穎電通",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "4974",
+      "CompanyAbbreviation": "亞泰",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "4979",
+      "CompanyAbbreviation": "華星光",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "4991",
+      "CompanyAbbreviation": "環宇-KY",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "4995",
+      "CompanyAbbreviation": "晶達",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "5009",
+      "CompanyAbbreviation": "榮剛",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "5011",
+      "CompanyAbbreviation": "久陽",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "5013",
+      "CompanyAbbreviation": "強新",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "5014",
+      "CompanyAbbreviation": "建錩",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "5015",
+      "CompanyAbbreviation": "華祺",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "5016",
+      "CompanyAbbreviation": "松和",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "5201",
+      "CompanyAbbreviation": "凱衛",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "5202",
+      "CompanyAbbreviation": "力新",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "5205",
+      "CompanyAbbreviation": "中茂",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "5206",
+      "CompanyAbbreviation": "坤悅",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5209",
+      "CompanyAbbreviation": "新鼎",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "5210",
+      "CompanyAbbreviation": "寶碩",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "5211",
+      "CompanyAbbreviation": "蒙恬",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "5212",
+      "CompanyAbbreviation": "凌網",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "5213",
+      "CompanyAbbreviation": "亞昕",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5220",
+      "CompanyAbbreviation": "萬達光電",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "5223",
+      "CompanyAbbreviation": "安力-KY",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "5227",
+      "CompanyAbbreviation": "立凱-KY",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5228",
+      "CompanyAbbreviation": "鈺鎧",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5230",
+      "CompanyAbbreviation": "雷笛克光學",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "5245",
+      "CompanyAbbreviation": "智晶",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "5251",
+      "CompanyAbbreviation": "天鉞電",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "5263",
+      "CompanyAbbreviation": "智崴",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "5272",
+      "CompanyAbbreviation": "笙科",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5274",
+      "CompanyAbbreviation": "信驊",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5276",
+      "CompanyAbbreviation": "達輝-KY",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "5278",
+      "CompanyAbbreviation": "尚凡*",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "5287",
+      "CompanyAbbreviation": "數字",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "5289",
+      "CompanyAbbreviation": "宜鼎",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "5291",
+      "CompanyAbbreviation": "邑昇",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5299",
+      "CompanyAbbreviation": "杰力",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5301",
+      "CompanyAbbreviation": "寶得利",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "5302",
+      "CompanyAbbreviation": "太欣",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5309",
+      "CompanyAbbreviation": "系統電",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5310",
+      "CompanyAbbreviation": "天剛",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "5312",
+      "CompanyAbbreviation": "寶島科",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "5314",
+      "CompanyAbbreviation": "世紀*",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "5315",
+      "CompanyAbbreviation": "光聯",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "5321",
+      "CompanyAbbreviation": "美而快",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "5324",
+      "CompanyAbbreviation": "士開",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5328",
+      "CompanyAbbreviation": "華容",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5340",
+      "CompanyAbbreviation": "建榮",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5344",
+      "CompanyAbbreviation": "立衛",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5345",
+      "CompanyAbbreviation": "馥鴻",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "5347",
+      "CompanyAbbreviation": "世界",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5348",
+      "CompanyAbbreviation": "正能量智能",
+      "SecuritiesIndustryCode": "37"
+    },
+    {
+      "SecuritiesCompanyCode": "5351",
+      "CompanyAbbreviation": "鈺創",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5353",
+      "CompanyAbbreviation": "台林",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "5355",
+      "CompanyAbbreviation": "佳總",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5356",
+      "CompanyAbbreviation": "協益",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "5364",
+      "CompanyAbbreviation": "力麗店",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "5371",
+      "CompanyAbbreviation": "中光電",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "5381",
+      "CompanyAbbreviation": "光譜",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "5386",
+      "CompanyAbbreviation": "青雲",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "5392",
+      "CompanyAbbreviation": "能率",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "5398",
+      "CompanyAbbreviation": "慕康生醫",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "5403",
+      "CompanyAbbreviation": "中菲",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "5410",
+      "CompanyAbbreviation": "國眾",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "5425",
+      "CompanyAbbreviation": "台半",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5426",
+      "CompanyAbbreviation": "振發",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "5432",
+      "CompanyAbbreviation": "新門",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "5438",
+      "CompanyAbbreviation": "東友",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "5439",
+      "CompanyAbbreviation": "高技",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5443",
+      "CompanyAbbreviation": "均豪",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5450",
+      "CompanyAbbreviation": "南良",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "5452",
+      "CompanyAbbreviation": "佶優",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "5455",
+      "CompanyAbbreviation": "昇益",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5457",
+      "CompanyAbbreviation": "宣德",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5460",
+      "CompanyAbbreviation": "同協",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5464",
+      "CompanyAbbreviation": "霖宏",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5465",
+      "CompanyAbbreviation": "富驊",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "5468",
+      "CompanyAbbreviation": "凱鈺",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5474",
+      "CompanyAbbreviation": "聰泰",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "5475",
+      "CompanyAbbreviation": "德宏",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5478",
+      "CompanyAbbreviation": "智冠",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "5481",
+      "CompanyAbbreviation": "新華",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "5483",
+      "CompanyAbbreviation": "中美晶",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5487",
+      "CompanyAbbreviation": "通泰",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "5488",
+      "CompanyAbbreviation": "松普",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5489",
+      "CompanyAbbreviation": "彩富",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "5490",
+      "CompanyAbbreviation": "同亨",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "5493",
+      "CompanyAbbreviation": "三聯",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "5498",
+      "CompanyAbbreviation": "凱崴",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "5508",
+      "CompanyAbbreviation": "永信建",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5511",
+      "CompanyAbbreviation": "德昌",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5512",
+      "CompanyAbbreviation": "力麒",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5514",
+      "CompanyAbbreviation": "三豐",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5516",
+      "CompanyAbbreviation": "雙喜",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5520",
+      "CompanyAbbreviation": "力泰",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5523",
+      "CompanyAbbreviation": "豐謙",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5529",
+      "CompanyAbbreviation": "鉅陞",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5530",
+      "CompanyAbbreviation": "龍巖",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "5536",
+      "CompanyAbbreviation": "聖暉*",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "5543",
+      "CompanyAbbreviation": "桓鼎-KY",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5547",
+      "CompanyAbbreviation": "久舜",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5548",
+      "CompanyAbbreviation": "安倉",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "5601",
+      "CompanyAbbreviation": "台聯櫃",
+      "SecuritiesIndustryCode": "15"
+    },
+    {
+      "SecuritiesCompanyCode": "5603",
+      "CompanyAbbreviation": "陸海",
+      "SecuritiesIndustryCode": "15"
+    },
+    {
+      "SecuritiesCompanyCode": "5604",
+      "CompanyAbbreviation": "中連",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "5609",
+      "CompanyAbbreviation": "中菲行",
+      "SecuritiesIndustryCode": "15"
+    },
+    {
+      "SecuritiesCompanyCode": "5701",
+      "CompanyAbbreviation": "劍湖山",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "5703",
+      "CompanyAbbreviation": "亞都麗緻",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "5704",
+      "CompanyAbbreviation": "老爺知",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "5864",
+      "CompanyAbbreviation": "致和證",
+      "SecuritiesIndustryCode": "17"
+    },
+    {
+      "SecuritiesCompanyCode": "5878",
+      "CompanyAbbreviation": "台名",
+      "SecuritiesIndustryCode": "17"
+    },
+    {
+      "SecuritiesCompanyCode": "5902",
+      "CompanyAbbreviation": "德記",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "5903",
+      "CompanyAbbreviation": "全家",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "5904",
+      "CompanyAbbreviation": "寶雅",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "5905",
+      "CompanyAbbreviation": "南仁湖",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "6015",
+      "CompanyAbbreviation": "宏遠證",
+      "SecuritiesIndustryCode": "17"
+    },
+    {
+      "SecuritiesCompanyCode": "6016",
+      "CompanyAbbreviation": "康和證",
+      "SecuritiesIndustryCode": "17"
+    },
+    {
+      "SecuritiesCompanyCode": "6020",
+      "CompanyAbbreviation": "大展證",
+      "SecuritiesIndustryCode": "17"
+    },
+    {
+      "SecuritiesCompanyCode": "6021",
+      "CompanyAbbreviation": "美好證",
+      "SecuritiesIndustryCode": "17"
+    },
+    {
+      "SecuritiesCompanyCode": "6023",
+      "CompanyAbbreviation": "元大期貨",
+      "SecuritiesIndustryCode": "17"
+    },
+    {
+      "SecuritiesCompanyCode": "6026",
+      "CompanyAbbreviation": "福邦證",
+      "SecuritiesIndustryCode": "17"
+    },
+    {
+      "SecuritiesCompanyCode": "6028",
+      "CompanyAbbreviation": "公勝保經",
+      "SecuritiesIndustryCode": "17"
+    },
+    {
+      "SecuritiesCompanyCode": "6101",
+      "CompanyAbbreviation": "寬魚國際",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6103",
+      "CompanyAbbreviation": "合邦",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6104",
+      "CompanyAbbreviation": "創惟",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6109",
+      "CompanyAbbreviation": "亞元",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6111",
+      "CompanyAbbreviation": "光聚晶電",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6113",
+      "CompanyAbbreviation": "亞矽",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "6114",
+      "CompanyAbbreviation": "久威",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6118",
+      "CompanyAbbreviation": "建達",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "6121",
+      "CompanyAbbreviation": "新普",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6122",
+      "CompanyAbbreviation": "擎邦",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "6123",
+      "CompanyAbbreviation": "上奇",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6124",
+      "CompanyAbbreviation": "業強",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6125",
+      "CompanyAbbreviation": "廣運",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "6126",
+      "CompanyAbbreviation": "信音",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6127",
+      "CompanyAbbreviation": "九豪",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6129",
+      "CompanyAbbreviation": "普誠",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6130",
+      "CompanyAbbreviation": "上亞科技",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6134",
+      "CompanyAbbreviation": "萬旭",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6138",
+      "CompanyAbbreviation": "茂達",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6140",
+      "CompanyAbbreviation": "訊達電腦",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6143",
+      "CompanyAbbreviation": "振曜",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6144",
+      "CompanyAbbreviation": "得利影",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6146",
+      "CompanyAbbreviation": "耕興",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6147",
+      "CompanyAbbreviation": "頎邦",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6148",
+      "CompanyAbbreviation": "驊宏資",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6150",
+      "CompanyAbbreviation": "撼訊",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6151",
+      "CompanyAbbreviation": "晉倫",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6154",
+      "CompanyAbbreviation": "順發",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "6156",
+      "CompanyAbbreviation": "松上",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6158",
+      "CompanyAbbreviation": "禾昌",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6160",
+      "CompanyAbbreviation": "欣技",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6161",
+      "CompanyAbbreviation": "捷波",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6163",
+      "CompanyAbbreviation": "華電網",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6167",
+      "CompanyAbbreviation": "久正",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6169",
+      "CompanyAbbreviation": "昱泉",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6170",
+      "CompanyAbbreviation": "統振",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6171",
+      "CompanyAbbreviation": "大城地產",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "6173",
+      "CompanyAbbreviation": "信昌電",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6174",
+      "CompanyAbbreviation": "安碁",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6175",
+      "CompanyAbbreviation": "立敦",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6179",
+      "CompanyAbbreviation": "亞通",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "6180",
+      "CompanyAbbreviation": "橘子",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6182",
+      "CompanyAbbreviation": "合晶",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6185",
+      "CompanyAbbreviation": "幃翔",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6186",
+      "CompanyAbbreviation": "新潤",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "6187",
+      "CompanyAbbreviation": "萬潤",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6188",
+      "CompanyAbbreviation": "廣明",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6190",
+      "CompanyAbbreviation": "萬泰科",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6194",
+      "CompanyAbbreviation": "育富",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6195",
+      "CompanyAbbreviation": "詩肯",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "6198",
+      "CompanyAbbreviation": "瑞築",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "6199",
+      "CompanyAbbreviation": "天品",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "6203",
+      "CompanyAbbreviation": "海韻電",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6204",
+      "CompanyAbbreviation": "艾華",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6207",
+      "CompanyAbbreviation": "雷科",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6208",
+      "CompanyAbbreviation": "日揚",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6210",
+      "CompanyAbbreviation": "慶生",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6212",
+      "CompanyAbbreviation": "理銘",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "6217",
+      "CompanyAbbreviation": "中探針",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6218",
+      "CompanyAbbreviation": "豪勉",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6219",
+      "CompanyAbbreviation": "富旺",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "6220",
+      "CompanyAbbreviation": "岳豐",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6221",
+      "CompanyAbbreviation": "晉泰",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6222",
+      "CompanyAbbreviation": "立軒",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6223",
+      "CompanyAbbreviation": "旺矽",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6227",
+      "CompanyAbbreviation": "茂綸",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "6228",
+      "CompanyAbbreviation": "全譜",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6229",
+      "CompanyAbbreviation": "研通",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6231",
+      "CompanyAbbreviation": "系微",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6233",
+      "CompanyAbbreviation": "旺玖",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6234",
+      "CompanyAbbreviation": "高僑",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6236",
+      "CompanyAbbreviation": "中湛",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "6237",
+      "CompanyAbbreviation": "驊訊",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6240",
+      "CompanyAbbreviation": "松崗",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6241",
+      "CompanyAbbreviation": "鑫永洋",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6242",
+      "CompanyAbbreviation": "立康",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6244",
+      "CompanyAbbreviation": "茂迪",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6245",
+      "CompanyAbbreviation": "立端",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6246",
+      "CompanyAbbreviation": "臺龍",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6248",
+      "CompanyAbbreviation": "沛波",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "6259",
+      "CompanyAbbreviation": "百徽",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6261",
+      "CompanyAbbreviation": "久元",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6263",
+      "CompanyAbbreviation": "普萊德",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6264",
+      "CompanyAbbreviation": "富裔",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "6265",
+      "CompanyAbbreviation": "方土昶",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "6266",
+      "CompanyAbbreviation": "泰詠",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6270",
+      "CompanyAbbreviation": "倍微",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "6274",
+      "CompanyAbbreviation": "台燿",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6275",
+      "CompanyAbbreviation": "元山",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6276",
+      "CompanyAbbreviation": "安鈦克",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6279",
+      "CompanyAbbreviation": "胡連",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6284",
+      "CompanyAbbreviation": "佳邦",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6290",
+      "CompanyAbbreviation": "良維",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6291",
+      "CompanyAbbreviation": "沛亨",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6292",
+      "CompanyAbbreviation": "迅德",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6294",
+      "CompanyAbbreviation": "智基",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6411",
+      "CompanyAbbreviation": "晶焱",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6417",
+      "CompanyAbbreviation": "韋僑",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6418",
+      "CompanyAbbreviation": "詠昇",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6419",
+      "CompanyAbbreviation": "京晨科",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6423",
+      "CompanyAbbreviation": "億而得",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6425",
+      "CompanyAbbreviation": "易發",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "6432",
+      "CompanyAbbreviation": "今展科",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6435",
+      "CompanyAbbreviation": "大中",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6441",
+      "CompanyAbbreviation": "廣錠",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6461",
+      "CompanyAbbreviation": "益得",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6462",
+      "CompanyAbbreviation": "神盾",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6465",
+      "CompanyAbbreviation": "威潤",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6469",
+      "CompanyAbbreviation": "大樹",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6470",
+      "CompanyAbbreviation": "宇智",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6474",
+      "CompanyAbbreviation": "華豫寧",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "6482",
+      "CompanyAbbreviation": "弘煜科",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6485",
+      "CompanyAbbreviation": "點序",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6486",
+      "CompanyAbbreviation": "互動",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6488",
+      "CompanyAbbreviation": "環球晶",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6492",
+      "CompanyAbbreviation": "生華科",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6494",
+      "CompanyAbbreviation": "九齊",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6496",
+      "CompanyAbbreviation": "科懋",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6498",
+      "CompanyAbbreviation": "久禾光",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6499",
+      "CompanyAbbreviation": "益安",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6506",
+      "CompanyAbbreviation": "雙邦",
+      "SecuritiesIndustryCode": "04"
+    },
+    {
+      "SecuritiesCompanyCode": "6508",
+      "CompanyAbbreviation": "惠光",
+      "SecuritiesIndustryCode": "33"
+    },
+    {
+      "SecuritiesCompanyCode": "6509",
+      "CompanyAbbreviation": "聚和",
+      "SecuritiesIndustryCode": "21"
+    },
+    {
+      "SecuritiesCompanyCode": "6510",
+      "CompanyAbbreviation": "精測",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6512",
+      "CompanyAbbreviation": "啟發電",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6516",
+      "CompanyAbbreviation": "勤崴國際",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6517",
+      "CompanyAbbreviation": "保勝光學",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6523",
+      "CompanyAbbreviation": "達爾膚",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6527",
+      "CompanyAbbreviation": "明達醫",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6530",
+      "CompanyAbbreviation": "創威",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6532",
+      "CompanyAbbreviation": "瑞耘",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6535",
+      "CompanyAbbreviation": "順藥",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6538",
+      "CompanyAbbreviation": "倉和",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6542",
+      "CompanyAbbreviation": "隆中",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6546",
+      "CompanyAbbreviation": "正基",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6547",
+      "CompanyAbbreviation": "高端疫苗",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6548",
+      "CompanyAbbreviation": "長科*",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6556",
+      "CompanyAbbreviation": "勝品",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6560",
+      "CompanyAbbreviation": "欣普羅",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6561",
+      "CompanyAbbreviation": "是方",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6568",
+      "CompanyAbbreviation": "宏觀",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6569",
+      "CompanyAbbreviation": "醫揚",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6570",
+      "CompanyAbbreviation": "維田",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6574",
+      "CompanyAbbreviation": "霈方",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6576",
+      "CompanyAbbreviation": "逸達",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6577",
+      "CompanyAbbreviation": "勁豐",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6578",
+      "CompanyAbbreviation": "達邦蛋白",
+      "SecuritiesIndustryCode": "33"
+    },
+    {
+      "SecuritiesCompanyCode": "6584",
+      "CompanyAbbreviation": "南俊國際",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6588",
+      "CompanyAbbreviation": "東典光電",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "6590",
+      "CompanyAbbreviation": "普鴻",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6593",
+      "CompanyAbbreviation": "台灣銘板",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6596",
+      "CompanyAbbreviation": "寬宏藝術",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6597",
+      "CompanyAbbreviation": "立誠",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6603",
+      "CompanyAbbreviation": "富強鑫",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "6609",
+      "CompanyAbbreviation": "瀧澤科",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "6612",
+      "CompanyAbbreviation": "奈米醫材",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6613",
+      "CompanyAbbreviation": "朋億*",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6615",
+      "CompanyAbbreviation": "慧智",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6616",
+      "CompanyAbbreviation": "特昇-KY",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "6617",
+      "CompanyAbbreviation": "共信-KY",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6620",
+      "CompanyAbbreviation": "漢達",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6624",
+      "CompanyAbbreviation": "萬年清",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "6629",
+      "CompanyAbbreviation": "泰金-KY",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "6637",
+      "CompanyAbbreviation": "醫影",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6640",
+      "CompanyAbbreviation": "均華",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6642",
+      "CompanyAbbreviation": "富致",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6643",
+      "CompanyAbbreviation": "&#20870;星科技股份有限公司",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6649",
+      "CompanyAbbreviation": "台生材",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6651",
+      "CompanyAbbreviation": "全宇昕",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6654",
+      "CompanyAbbreviation": "天正國際",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6661",
+      "CompanyAbbreviation": "威健生技",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6662",
+      "CompanyAbbreviation": "樂斯科",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6664",
+      "CompanyAbbreviation": "群翊",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6667",
+      "CompanyAbbreviation": "信紘科",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6679",
+      "CompanyAbbreviation": "鈺太",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6680",
+      "CompanyAbbreviation": "鑫創電子",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6683",
+      "CompanyAbbreviation": "雍智科技",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6684",
+      "CompanyAbbreviation": "安格",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6690",
+      "CompanyAbbreviation": "安碁資訊",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "6692",
+      "CompanyAbbreviation": "進能服",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "6693",
+      "CompanyAbbreviation": "廣閎科",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6697",
+      "CompanyAbbreviation": "東捷資訊",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6703",
+      "CompanyAbbreviation": "軒郁",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6708",
+      "CompanyAbbreviation": "天擎",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6712",
+      "CompanyAbbreviation": "長聖",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6716",
+      "CompanyAbbreviation": "應廣",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6720",
+      "CompanyAbbreviation": "久昌",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6721",
+      "CompanyAbbreviation": "信實",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "6725",
+      "CompanyAbbreviation": "矽科宏晟",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6727",
+      "CompanyAbbreviation": "亞泰金屬",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6728",
+      "CompanyAbbreviation": "上洋",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "6730",
+      "CompanyAbbreviation": "常廣",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6732",
+      "CompanyAbbreviation": "昇佳電子",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6733",
+      "CompanyAbbreviation": "博晟生醫",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6735",
+      "CompanyAbbreviation": "美達科技",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6739",
+      "CompanyAbbreviation": "竹陞科技",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6751",
+      "CompanyAbbreviation": "智聯服務",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6752",
+      "CompanyAbbreviation": "叡揚",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6761",
+      "CompanyAbbreviation": "穩得",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6762",
+      "CompanyAbbreviation": "達亞",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6763",
+      "CompanyAbbreviation": "綠界科技*",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "6767",
+      "CompanyAbbreviation": "台微醫",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6785",
+      "CompanyAbbreviation": "昱展新藥",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6788",
+      "CompanyAbbreviation": "華景電",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6791",
+      "CompanyAbbreviation": "虎門科技",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6803",
+      "CompanyAbbreviation": "崑鼎",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "6804",
+      "CompanyAbbreviation": "明係",
+      "SecuritiesIndustryCode": "37"
+    },
+    {
+      "SecuritiesCompanyCode": "6811",
+      "CompanyAbbreviation": "宏碁資訊",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "6821",
+      "CompanyAbbreviation": "聯寶",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6823",
+      "CompanyAbbreviation": "濾能",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6829",
+      "CompanyAbbreviation": "千附精密",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6840",
+      "CompanyAbbreviation": "東研信超",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6841",
+      "CompanyAbbreviation": "長佳智能",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6843",
+      "CompanyAbbreviation": "進典",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "6844",
+      "CompanyAbbreviation": "諾貝兒",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6846",
+      "CompanyAbbreviation": "綠茵",
+      "SecuritiesIndustryCode": "02"
+    },
+    {
+      "SecuritiesCompanyCode": "6855",
+      "CompanyAbbreviation": "數泓科",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6856",
+      "CompanyAbbreviation": "鑫傳",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "6859",
+      "CompanyAbbreviation": "伯特光",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6865",
+      "CompanyAbbreviation": "偉康科技",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "6870",
+      "CompanyAbbreviation": "騰雲",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "6872",
+      "CompanyAbbreviation": "浩宇生醫",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6874",
+      "CompanyAbbreviation": "倍力",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6875",
+      "CompanyAbbreviation": "國邑*",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6877",
+      "CompanyAbbreviation": "鏵友益",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6881",
+      "CompanyAbbreviation": "潤德",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "6884",
+      "CompanyAbbreviation": "海柏特",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "6894",
+      "CompanyAbbreviation": "衛司特",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "6895",
+      "CompanyAbbreviation": "宏碩系統",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6899",
+      "CompanyAbbreviation": "創為精密",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "6903",
+      "CompanyAbbreviation": "巨漢",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6904",
+      "CompanyAbbreviation": "伯鑫",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "6907",
+      "CompanyAbbreviation": "雅特力-KY",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6910",
+      "CompanyAbbreviation": "德鴻",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "6913",
+      "CompanyAbbreviation": "鴻呈",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6922",
+      "CompanyAbbreviation": "宸曜",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "6925",
+      "CompanyAbbreviation": "意藍",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "6929",
+      "CompanyAbbreviation": "佑全",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6945",
+      "CompanyAbbreviation": "圓祥生技",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6953",
+      "CompanyAbbreviation": "家碩",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6961",
+      "CompanyAbbreviation": "旅天下",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "6967",
+      "CompanyAbbreviation": "汎瑋材料",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "6968",
+      "CompanyAbbreviation": "萬達寵物",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "6971",
+      "CompanyAbbreviation": "惠民實業",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "6982",
+      "CompanyAbbreviation": "大井泵浦",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "6983",
+      "CompanyAbbreviation": "華洋精機",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "6986",
+      "CompanyAbbreviation": "和迅",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6996",
+      "CompanyAbbreviation": "力領科技",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6997",
+      "CompanyAbbreviation": "博弘",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "7402",
+      "CompanyAbbreviation": "邑錡",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "7547",
+      "CompanyAbbreviation": "碩網",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "7556",
+      "CompanyAbbreviation": "意德士科技",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "7584",
+      "CompanyAbbreviation": "樂意",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "7642",
+      "CompanyAbbreviation": "昶瑞機電",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "7703",
+      "CompanyAbbreviation": "銳澤",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "7704",
+      "CompanyAbbreviation": "明遠精密",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "7708",
+      "CompanyAbbreviation": "全家餐飲",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "7709",
+      "CompanyAbbreviation": "榮田",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "7712",
+      "CompanyAbbreviation": "博盛半導體",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "7713",
+      "CompanyAbbreviation": "威力德生醫",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "7714",
+      "CompanyAbbreviation": "創泓科技",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "7715",
+      "CompanyAbbreviation": "裕山",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "7716",
+      "CompanyAbbreviation": "昱臺國際",
+      "SecuritiesIndustryCode": "15"
+    },
+    {
+      "SecuritiesCompanyCode": "7717",
+      "CompanyAbbreviation": "萊德光電-KY",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "7718",
+      "CompanyAbbreviation": "友鋮",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "7723",
+      "CompanyAbbreviation": "築間",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "7728",
+      "CompanyAbbreviation": "光焱科技",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "7734",
+      "CompanyAbbreviation": "印能科技",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "7738",
+      "CompanyAbbreviation": "東聯互動",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "7743",
+      "CompanyAbbreviation": "金利食安",
+      "SecuritiesIndustryCode": "02"
+    },
+    {
+      "SecuritiesCompanyCode": "7744",
+      "CompanyAbbreviation": "崴寶",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "7747",
+      "CompanyAbbreviation": "昕奇雲端",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "7751",
+      "CompanyAbbreviation": "竑騰",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "7753",
+      "CompanyAbbreviation": "星亞",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "7757",
+      "CompanyAbbreviation": "金色三麥",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "7767",
+      "CompanyAbbreviation": "仁大資訊",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "7770",
+      "CompanyAbbreviation": "君曜",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "7772",
+      "CompanyAbbreviation": "耀穎",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "7777",
+      "CompanyAbbreviation": "能率亞洲",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "7782",
+      "CompanyAbbreviation": "光速火箭",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "7792",
+      "CompanyAbbreviation": "安葆",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "7794",
+      "CompanyAbbreviation": "宏碁智新",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "7805",
+      "CompanyAbbreviation": "威聯通",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "7810",
+      "CompanyAbbreviation": "捷創科技",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "7811",
+      "CompanyAbbreviation": "民盛",
+      "SecuritiesIndustryCode": "37"
+    },
+    {
+      "SecuritiesCompanyCode": "7814",
+      "CompanyAbbreviation": "海昌生技",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "7819",
+      "CompanyAbbreviation": "精誠金融",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "7820",
+      "CompanyAbbreviation": "立盈",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "7828",
+      "CompanyAbbreviation": "創新服務",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "7839",
+      "CompanyAbbreviation": "達人網",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "7842",
+      "CompanyAbbreviation": "天能綠電",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "8024",
+      "CompanyAbbreviation": "佑華",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8027",
+      "CompanyAbbreviation": "鈦昇",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "8032",
+      "CompanyAbbreviation": "光菱",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "8034",
+      "CompanyAbbreviation": "榮群",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "8038",
+      "CompanyAbbreviation": "長園科",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8040",
+      "CompanyAbbreviation": "九暘",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8042",
+      "CompanyAbbreviation": "金山電",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8043",
+      "CompanyAbbreviation": "蜜望實",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8044",
+      "CompanyAbbreviation": "網家",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "8047",
+      "CompanyAbbreviation": "星雲",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "8048",
+      "CompanyAbbreviation": "德勝",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "8049",
+      "CompanyAbbreviation": "晶采",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "8050",
+      "CompanyAbbreviation": "廣積",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "8054",
+      "CompanyAbbreviation": "安國",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8059",
+      "CompanyAbbreviation": "凱碩",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "8064",
+      "CompanyAbbreviation": "東捷",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "8066",
+      "CompanyAbbreviation": "來思達",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "8067",
+      "CompanyAbbreviation": "志旭",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "8068",
+      "CompanyAbbreviation": "全達",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "8069",
+      "CompanyAbbreviation": "元太",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "8071",
+      "CompanyAbbreviation": "能率網通",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8074",
+      "CompanyAbbreviation": "鉅橡",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8076",
+      "CompanyAbbreviation": "伍豐",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "8077",
+      "CompanyAbbreviation": "洛碁",
+      "SecuritiesIndustryCode": "16"
+    },
+    {
+      "SecuritiesCompanyCode": "8080",
+      "CompanyAbbreviation": "泰霖",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "8083",
+      "CompanyAbbreviation": "瑞穎",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "8084",
+      "CompanyAbbreviation": "巨虹",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "8085",
+      "CompanyAbbreviation": "福華",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "8086",
+      "CompanyAbbreviation": "宏捷科",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8087",
+      "CompanyAbbreviation": "麗升能源",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "8088",
+      "CompanyAbbreviation": "品安",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8089",
+      "CompanyAbbreviation": "康全電訊",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "8091",
+      "CompanyAbbreviation": "翔名",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8092",
+      "CompanyAbbreviation": "建暐",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "8093",
+      "CompanyAbbreviation": "保銳",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8096",
+      "CompanyAbbreviation": "擎亞",
+      "SecuritiesIndustryCode": "29"
+    },
+    {
+      "SecuritiesCompanyCode": "8097",
+      "CompanyAbbreviation": "常珵",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "8099",
+      "CompanyAbbreviation": "大世科",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "8102",
+      "CompanyAbbreviation": "傑霖科技",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8107",
+      "CompanyAbbreviation": "大億金茂",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "8109",
+      "CompanyAbbreviation": "博大",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8111",
+      "CompanyAbbreviation": "立碁",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "8121",
+      "CompanyAbbreviation": "越峰",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8147",
+      "CompanyAbbreviation": "正淩",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8155",
+      "CompanyAbbreviation": "博智",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8171",
+      "CompanyAbbreviation": "天宇",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "8176",
+      "CompanyAbbreviation": "智捷",
+      "SecuritiesIndustryCode": "27"
+    },
+    {
+      "SecuritiesCompanyCode": "8182",
+      "CompanyAbbreviation": "加高",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8183",
+      "CompanyAbbreviation": "精星",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "8227",
+      "CompanyAbbreviation": "巨有科技",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8234",
+      "CompanyAbbreviation": "新漢",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "8240",
+      "CompanyAbbreviation": "華宏",
+      "SecuritiesIndustryCode": "26"
+    },
+    {
+      "SecuritiesCompanyCode": "8255",
+      "CompanyAbbreviation": "朋程",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "8272",
+      "CompanyAbbreviation": "全景軟體",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "8277",
+      "CompanyAbbreviation": "商丞",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8279",
+      "CompanyAbbreviation": "生展",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "8284",
+      "CompanyAbbreviation": "三竹",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "8289",
+      "CompanyAbbreviation": "泰藝",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8291",
+      "CompanyAbbreviation": "尚茂",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8299",
+      "CompanyAbbreviation": "群聯",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8342",
+      "CompanyAbbreviation": "益張",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8349",
+      "CompanyAbbreviation": "恒耀國際",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "8354",
+      "CompanyAbbreviation": "冠好",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8358",
+      "CompanyAbbreviation": "金居",
+      "SecuritiesIndustryCode": "28"
+    },
+    {
+      "SecuritiesCompanyCode": "8383",
+      "CompanyAbbreviation": "千附",
+      "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "8390",
+      "CompanyAbbreviation": "金益鼎",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "8401",
+      "CompanyAbbreviation": "白紗科",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8403",
+      "CompanyAbbreviation": "盛弘",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "8409",
+      "CompanyAbbreviation": "商之器",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "8410",
+      "CompanyAbbreviation": "森田",
+      "SecuritiesIndustryCode": "25"
+    },
+    {
+      "SecuritiesCompanyCode": "8415",
+      "CompanyAbbreviation": "大國鋼",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "8416",
+      "CompanyAbbreviation": "實威",
+      "SecuritiesIndustryCode": "30"
+    },
+    {
+      "SecuritiesCompanyCode": "8421",
+      "CompanyAbbreviation": "旭源",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8423",
+      "CompanyAbbreviation": "保綠-KY",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "8424",
+      "CompanyAbbreviation": "惠普",
+      "SecuritiesIndustryCode": "14"
+    },
+    {
+      "SecuritiesCompanyCode": "8426",
+      "CompanyAbbreviation": "紅木-KY",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8431",
+      "CompanyAbbreviation": "匯鑽科",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "8432",
+      "CompanyAbbreviation": "東生華",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "8433",
+      "CompanyAbbreviation": "弘帆",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "8435",
+      "CompanyAbbreviation": "鉅邁",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8436",
+      "CompanyAbbreviation": "大江",
+      "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "8437",
+      "CompanyAbbreviation": "大地-KY",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8440",
+      "CompanyAbbreviation": "綠電",
+      "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "8444",
+      "CompanyAbbreviation": "綠河-KY",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8446",
+      "CompanyAbbreviation": "華研",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "8450",
+      "CompanyAbbreviation": "霹靂",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "8455",
+      "CompanyAbbreviation": "大拓-KY",
+      "SecuritiesIndustryCode": "31"
+    },
+    {
+      "SecuritiesCompanyCode": "8472",
+      "CompanyAbbreviation": "納維康",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "8477",
+      "CompanyAbbreviation": "創業家",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "8489",
+      "CompanyAbbreviation": "三貝德",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8905",
+      "CompanyAbbreviation": "裕國",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8906",
+      "CompanyAbbreviation": "花王",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8908",
+      "CompanyAbbreviation": "欣雄",
+      "SecuritiesIndustryCode": "23"
+    },
+    {
+      "SecuritiesCompanyCode": "8916",
+      "CompanyAbbreviation": "光隆",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8917",
+      "CompanyAbbreviation": "欣泰",
+      "SecuritiesIndustryCode": "23"
+    },
+    {
+      "SecuritiesCompanyCode": "8921",
+      "CompanyAbbreviation": "沈氏",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8923",
+      "CompanyAbbreviation": "時報",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "8924",
+      "CompanyAbbreviation": "大田",
+      "SecuritiesIndustryCode": "37"
+    },
+    {
+      "SecuritiesCompanyCode": "8927",
+      "CompanyAbbreviation": "北基",
+      "SecuritiesIndustryCode": "23"
+    },
+    {
+      "SecuritiesCompanyCode": "8928",
+      "CompanyAbbreviation": "鉅明",
+      "SecuritiesIndustryCode": "37"
+    },
+    {
+      "SecuritiesCompanyCode": "8929",
+      "CompanyAbbreviation": "富堡",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8930",
+      "CompanyAbbreviation": "青鋼",
+      "SecuritiesIndustryCode": "10"
+    },
+    {
+      "SecuritiesCompanyCode": "8931",
+      "CompanyAbbreviation": "大汽電",
+      "SecuritiesIndustryCode": "23"
+    },
+    {
+      "SecuritiesCompanyCode": "8932",
+      "CompanyAbbreviation": "智通*",
+      "SecuritiesIndustryCode": "36"
+    },
+    {
+      "SecuritiesCompanyCode": "8933",
+      "CompanyAbbreviation": "愛地雅",
+      "SecuritiesIndustryCode": "37"
+    },
+    {
+      "SecuritiesCompanyCode": "8935",
+      "CompanyAbbreviation": "邦泰",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8936",
+      "CompanyAbbreviation": "國統",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8937",
+      "CompanyAbbreviation": "合騏*",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "8938",
+      "CompanyAbbreviation": "明安",
+      "SecuritiesIndustryCode": "37"
+    },
+    {
+      "SecuritiesCompanyCode": "8941",
+      "CompanyAbbreviation": "關中",
+      "SecuritiesIndustryCode": "38"
+    },
+    {
+      "SecuritiesCompanyCode": "8942",
+      "CompanyAbbreviation": "森鉅",
+      "SecuritiesIndustryCode": "20"
+    },
+    {
+      "SecuritiesCompanyCode": "9949",
+      "CompanyAbbreviation": "琉園",
+      "SecuritiesIndustryCode": "32"
+    },
+    {
+      "SecuritiesCompanyCode": "9950",
+      "CompanyAbbreviation": "萬國通",
+      "SecuritiesIndustryCode": "03"
+    },
+    {
+      "SecuritiesCompanyCode": "9951",
+      "CompanyAbbreviation": "皇田",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "9960",
+      "CompanyAbbreviation": "邁達康",
+      "SecuritiesIndustryCode": "37"
+    },
+    {
+      "SecuritiesCompanyCode": "9962",
+      "CompanyAbbreviation": "有益",
+      "SecuritiesIndustryCode": "10"
+    }
+  ]
+}
