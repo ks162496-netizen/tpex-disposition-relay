@@ -4,13 +4,14 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-07-20T04:39:09.356495Z",
-  "fetched_at_taipei": "2026-07-20T12:39:09.356495+08:00",
-  "record_count": 24,
-  "security_code_count": 23,
+  "fetched_at_utc": "2026-07-20T10:28:16.896511Z",
+  "fetched_at_taipei": "2026-07-20T18:28:16.896511+08:00",
+  "record_count": 25,
+  "security_code_count": 24,
   "security_codes": [
     "3147",
     "3230",
+    "4139",
     "4542",
     "45421",
     "4556",
@@ -39,6 +40,14 @@
     "content_type": "application/csv;charset=utf-8"
   },
   "records": [
+    {
+      "公布日期": "1150720",
+      "證券代號": "4139",
+      "證券名稱": "馬光-KY",
+      "處置起訖時間": "1150721~1150803",
+      "處置原因": "因連續3個營業日達本中心作業要點第四條第一項第一款",
+      "處置內容": "馬光保健控股股份有限公司股票(代號：4139)因連續3個營業日達本中心作業要點第四條第一項第一款經本中心公布注意交易資訊，爰自115年7月21日起10個營業日(115年7月21日至115年8月3日，如遇休市、有價證券停止買賣、全日暫停交易則順延執行)改以人工管制之撮合終端機執行撮合作業(約每5分鐘撮合一次)，各證券商於投資人每日委託買賣該有價證券數量單筆達10交易單位或多筆累積達30交易單位以上時，應就其當日已委託之買賣，向該投資人收取全部之買進價金或賣出證券。暫停融資券交易，但信用交易了結或違約專戶委託買賣該有價證券時，不在此限。"
+    },
     {
       "公布日期": "1150717",
       "證券代號": "8383",
