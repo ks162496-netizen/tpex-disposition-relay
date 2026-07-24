@@ -4,8 +4,8 @@
   "source_name": "TDCC 集保戶股權分散表（400張以上彙總）",
   "source_url": "https://openapi-t.tdcc.com.tw/v1/opendata/1-5",
   "resolved_source_url": "https://openapi-t.tdcc.com.tw/v1/opendata/1-5",
-  "fetched_at_utc": "2026-07-23T16:09:14.571706Z",
-  "fetched_at_taipei": "2026-07-24T00:09:14.571706+08:00",
+  "fetched_at_utc": "2026-07-24T09:14:21.650525Z",
+  "fetched_at_taipei": "2026-07-24T17:14:21.650525+08:00",
   "source_data_date": "20260717",
   "record_count": 2955,
   "response_metadata": {
