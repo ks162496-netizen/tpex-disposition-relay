@@ -146,11 +146,13 @@ def download_json_dataset(
     source_url: str,
     label: str,
     minimum_bytes: int = 1000,
+    timeout_seconds: int = 60,
+    max_attempts: int = 3,
 ) -> tuple[bytes, dict[str, str], str]:
     """Download an official JSON dataset with retries and redirect checks."""
     last_error: Exception | None = None
 
-    for attempt in range(1, 4):
+    for attempt in range(1, max_attempts + 1):
         request = urllib.request.Request(
             source_url,
             headers={
@@ -166,7 +168,7 @@ def download_json_dataset(
         )
 
         try:
-            with urllib.request.urlopen(request, timeout=60) as response:
+            with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
                 raw = response.read()
                 final_url = response.geturl()
                 headers = {
@@ -182,7 +184,7 @@ def download_json_dataset(
             return raw, headers, final_url
         except (OSError, RuntimeError, urllib.error.URLError) as error:
             last_error = error
-            if attempt < 3:
+            if attempt < max_attempts:
                 time.sleep(attempt * 3)
 
     raise RuntimeError(f"Unable to download {label}: {last_error}")
@@ -262,6 +264,34 @@ def aggregate_tdcc_big_holders(rows: list[dict]) -> list[dict[str, object]]:
             f"TDCC big-holder validation found only {len(records)} stock codes"
         )
     return records
+
+
+def load_existing_tdcc_holder_payload() -> dict[str, object]:
+    """Load the last validated TDCC payload for a non-blocking fallback."""
+    try:
+        payload = json.loads(TDCC_HOLDER_OUTPUT_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise RuntimeError(
+            "TDCC refresh failed and no readable fallback file is available"
+        ) from error
+
+    if not isinstance(payload, dict):
+        raise RuntimeError("Existing TDCC fallback payload must be an object")
+
+    records = payload.get("records")
+    if not isinstance(records, list):
+        raise RuntimeError("Existing TDCC fallback payload has no records array")
+
+    valid_records = [row for row in records if isinstance(row, dict)]
+    if len(valid_records) < 500:
+        raise RuntimeError(
+            "Existing TDCC fallback payload has too few validated stock codes"
+        )
+
+    normalized = dict(payload)
+    normalized["records"] = valid_records
+    normalized["record_count"] = len(valid_records)
+    return normalized
 
 
 def parse_records(text: str) -> tuple[list[dict[str, str]], list[str]]:
@@ -387,19 +417,63 @@ def main() -> None:
         100,
     )
     validate_tpex_chip_records(institution_records, margin_records)
-    tdcc_raw, tdcc_headers, tdcc_final_url = download_json_dataset(
-        TDCC_HOLDER_SOURCE_URL,
-        "TDCC shareholder distribution data",
-        minimum_bytes=100_000,
-    )
-    tdcc_rows = parse_json_array(
-        tdcc_raw,
-        "TDCC shareholder distribution data",
-        5_000,
-    )
-    tdcc_big_holders = aggregate_tdcc_big_holders(tdcc_rows)
     now_utc = datetime.now(timezone.utc)
     now_taipei = now_utc.astimezone(TAIPEI)
+    tdcc_refresh_error = ""
+
+    try:
+        tdcc_raw, tdcc_headers, tdcc_final_url = download_json_dataset(
+            TDCC_HOLDER_SOURCE_URL,
+            "TDCC shareholder distribution data",
+            minimum_bytes=100_000,
+            timeout_seconds=20,
+            max_attempts=2,
+        )
+        tdcc_rows = parse_json_array(
+            tdcc_raw,
+            "TDCC shareholder distribution data",
+            5_000,
+        )
+        tdcc_big_holders = aggregate_tdcc_big_holders(tdcc_rows)
+        tdcc_holder_payload: dict[str, object] = {
+            "schema_version": 1,
+            "dataset": "tdcc_big_holders",
+            "source_name": "TDCC 集保戶股權分散表（400張以上彙總）",
+            "source_url": TDCC_HOLDER_SOURCE_URL,
+            "resolved_source_url": tdcc_final_url,
+            "fetched_at_utc": now_utc.isoformat().replace("+00:00", "Z"),
+            "fetched_at_taipei": now_taipei.isoformat(),
+            "last_refresh_attempt_at_utc": now_utc.isoformat().replace("+00:00", "Z"),
+            "last_refresh_attempt_at_taipei": now_taipei.isoformat(),
+            "refresh_status": "fresh",
+            "stale": False,
+            "refresh_error": None,
+            "source_data_date": max(
+                (str(row.get("date", "")) for row in tdcc_big_holders),
+                default="",
+            ),
+            "record_count": len(tdcc_big_holders),
+            "response_metadata": tdcc_headers,
+            "records": tdcc_big_holders,
+        }
+    except RuntimeError as error:
+        tdcc_refresh_error = str(error)
+        tdcc_holder_payload = load_existing_tdcc_holder_payload()
+        tdcc_holder_payload.update(
+            {
+                "last_refresh_attempt_at_utc": now_utc.isoformat().replace(
+                    "+00:00", "Z"
+                ),
+                "last_refresh_attempt_at_taipei": now_taipei.isoformat(),
+                "refresh_status": "stale_fallback",
+                "stale": True,
+                "refresh_error": tdcc_refresh_error,
+            }
+        )
+        print(
+            "::warning title=TDCC refresh degraded::"
+            f"{tdcc_refresh_error}; keeping previously validated TDCC records"
+        )
 
     payload = {
         "schema_version": 1,
@@ -454,23 +528,6 @@ def main() -> None:
         },
     }
 
-    tdcc_holder_payload = {
-        "schema_version": 1,
-        "dataset": "tdcc_big_holders",
-        "source_name": "TDCC 集保戶股權分散表（400張以上彙總）",
-        "source_url": TDCC_HOLDER_SOURCE_URL,
-        "resolved_source_url": tdcc_final_url,
-        "fetched_at_utc": now_utc.isoformat().replace("+00:00", "Z"),
-        "fetched_at_taipei": now_taipei.isoformat(),
-        "source_data_date": max(
-            (str(row.get("date", "")) for row in tdcc_big_holders),
-            default="",
-        ),
-        "record_count": len(tdcc_big_holders),
-        "response_metadata": tdcc_headers,
-        "records": tdcc_big_holders,
-    }
-
     OUTPUT_PATH.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
@@ -500,8 +557,10 @@ def main() -> None:
         f"{len(margin_records)} margin records"
     )
     print(
-        f"Wrote {TDCC_HOLDER_OUTPUT_PATH}: {len(tdcc_big_holders)} stock codes, "
-        f"source date {tdcc_holder_payload['source_data_date']}"
+        f"Wrote {TDCC_HOLDER_OUTPUT_PATH}: "
+        f"{tdcc_holder_payload['record_count']} stock codes, "
+        f"source date {tdcc_holder_payload.get('source_data_date', '')}, "
+        f"refresh status {tdcc_holder_payload['refresh_status']}"
     )
 
 
