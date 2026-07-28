@@ -2,16 +2,16 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-07-28T10:13:34.039664Z",
-  "fetched_at_taipei": "2026-07-28T18:13:34.039664+08:00",
+  "fetched_at_utc": "2026-07-28T12:27:17.473902Z",
+  "fetched_at_taipei": "2026-07-28T20:27:17.473902+08:00",
   "institutions": {
     "source_name": "TPEx 上櫃三大法人買賣超",
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "record_count": 916,
     "response_metadata": {
-      "etag": "\"6a687db9-d4347\"",
-      "last_modified": "Tue, 28 Jul 2026 10:00:25 GMT",
+      "etag": "\"6a6899d7-d4357\"",
+      "last_modified": "Tue, 28 Jul 2026 12:00:23 GMT",
       "content_type": "application/json"
     },
     "records": [
@@ -6122,14 +6122,14 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "481184",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "430437",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "50747",
-        "SecuritiesInvestmentTrustCompanies-TotalBuy": "48000",
+        "SecuritiesInvestmentTrustCompanies-TotalBuy": "106000",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
-        "SecuritiesInvestmentTrustCompanies-Difference": "48000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "106000",
         "Dealers-TotalBuy": "13560",
         "Dealers-TotalSell": "18499",
         "Dealers-Difference": "-4939",
         "Dealers -TotalSell": "18199",
-        "TotalDifference": "93808"
+        "TotalDifference": "151808"
       },
       {
         "Date": "1150728",
@@ -10522,14 +10522,14 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "7719908",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "7830050",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-110142",
-        "SecuritiesInvestmentTrustCompanies-TotalBuy": "1903000",
+        "SecuritiesInvestmentTrustCompanies-TotalBuy": "1909022",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "321000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "1582000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "1588022",
         "Dealers-TotalBuy": "191459",
         "Dealers-TotalSell": "382715",
         "Dealers-Difference": "-191256",
         "Dealers -TotalSell": "266715",
-        "TotalDifference": "1280602"
+        "TotalDifference": "1286624"
       },
       {
         "Date": "1150728",
@@ -11161,13 +11161,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "9908697",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "2568597",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "9000",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "10000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "-1000",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "716000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "-707000",
         "Dealers-TotalBuy": "268518",
         "Dealers-TotalSell": "555908",
         "Dealers-Difference": "-287390",
         "Dealers -TotalSell": "327908",
-        "TotalDifference": "2280207"
+        "TotalDifference": "1574207"
       },
       {
         "Date": "1150728",
@@ -13713,13 +13713,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "2001547",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "550355",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "79000",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "208000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "-129000",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "456000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "-377000",
         "Dealers-TotalBuy": "239069",
         "Dealers-TotalSell": "241495",
         "Dealers-Difference": "-2426",
         "Dealers -TotalSell": "76975",
-        "TotalDifference": "418929"
+        "TotalDifference": "170929"
       },
       {
         "Date": "1150728",
@@ -14307,13 +14307,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "1912245",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "16643",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "158000",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "117000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "41000",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "177000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "-19000",
         "Dealers-TotalBuy": "200645",
         "Dealers-TotalSell": "250709",
         "Dealers-Difference": "-50064",
         "Dealers -TotalSell": "109709",
-        "TotalDifference": "7579"
+        "TotalDifference": "-52421"
       },
       {
         "Date": "1150728",
@@ -17276,14 +17276,14 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "58000",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "78003",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-20003",
-        "SecuritiesInvestmentTrustCompanies-TotalBuy": "0",
+        "SecuritiesInvestmentTrustCompanies-TotalBuy": "35000",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
-        "SecuritiesInvestmentTrustCompanies-Difference": "0",
+        "SecuritiesInvestmentTrustCompanies-Difference": "35000",
         "Dealers-TotalBuy": "3530",
         "Dealers-TotalSell": "5107",
         "Dealers-Difference": "-1577",
         "Dealers -TotalSell": "4107",
-        "TotalDifference": "-21580"
+        "TotalDifference": "13420"
       },
       {
         "Date": "1150728",
@@ -20175,8 +20175,8 @@
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_margin_balance",
     "record_count": 913,
     "response_metadata": {
-      "etag": "\"6a687da9-856c9\"",
-      "last_modified": "Tue, 28 Jul 2026 10:00:09 GMT",
+      "etag": "\"6a6899c8-856c9\"",
+      "last_modified": "Tue, 28 Jul 2026 12:00:08 GMT",
       "content_type": "application/json"
     },
     "records": [
