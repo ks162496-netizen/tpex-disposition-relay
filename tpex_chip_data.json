@@ -2,16 +2,16 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-07-28T08:08:17.185949Z",
-  "fetched_at_taipei": "2026-07-28T16:08:17.185949+08:00",
+  "fetched_at_utc": "2026-07-28T10:13:34.039664Z",
+  "fetched_at_taipei": "2026-07-28T18:13:34.039664+08:00",
   "institutions": {
     "source_name": "TPEx 上櫃三大法人買賣超",
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "record_count": 916,
     "response_metadata": {
-      "etag": "\"6a686197-d4330\"",
-      "last_modified": "Tue, 28 Jul 2026 08:00:23 GMT",
+      "etag": "\"6a687db9-d4347\"",
+      "last_modified": "Tue, 28 Jul 2026 10:00:25 GMT",
       "content_type": "application/json"
     },
     "records": [
@@ -7368,14 +7368,14 @@
         "SecuritiesCompanyCode": "4127",
         "CompanyName": "天良",
         "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Buy": "62000",
-        " Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Sell": "45000",
-        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Difference": "17000",
+        " Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Sell": "715000",
+        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Difference": "-653000",
         "Foreign Dealers-Total Buy": "0",
         "Foreign Dealers-TotalSell": "0",
         "ForeignDealers-Difference": "0",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "62000",
-        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "45000",
-        "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "17000",
+        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "715000",
+        "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-653000",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "0",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
         "SecuritiesInvestmentTrustCompanies-Difference": "0",
@@ -7383,7 +7383,7 @@
         "Dealers-TotalSell": "0",
         "Dealers-Difference": "0",
         "Dealers -TotalSell": "0",
-        "TotalDifference": "17000"
+        "TotalDifference": "-653000"
       },
       {
         "Date": "1150728",
@@ -10360,14 +10360,14 @@
         "SecuritiesCompanyCode": "5314",
         "CompanyName": "世紀*",
         "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Buy": "896400",
-        " Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Sell": "842100",
-        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Difference": "54300",
+        " Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Sell": "1842100",
+        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Difference": "-945700",
         "Foreign Dealers-Total Buy": "0",
         "Foreign Dealers-TotalSell": "0",
         "ForeignDealers-Difference": "0",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "896400",
-        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "842100",
-        "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "54300",
+        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "1842100",
+        "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-945700",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "0",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
         "SecuritiesInvestmentTrustCompanies-Difference": "0",
@@ -10375,7 +10375,7 @@
         "Dealers-TotalSell": "52511",
         "Dealers-Difference": "7364",
         "Dealers -TotalSell": "52511",
-        "TotalDifference": "61664"
+        "TotalDifference": "-938336"
       },
       {
         "Date": "1150728",
@@ -19137,15 +19137,15 @@
         "Date": "1150728",
         "SecuritiesCompanyCode": "8421",
         "CompanyName": "旭源",
-        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Buy": "43000",
+        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Buy": "2622000",
         " Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Sell": "56000",
-        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Difference": "-13000",
+        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Difference": "2566000",
         "Foreign Dealers-Total Buy": "0",
         "Foreign Dealers-TotalSell": "0",
         "ForeignDealers-Difference": "0",
-        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "43000",
+        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "2622000",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "56000",
-        "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-13000",
+        "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "2566000",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "0",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
         "SecuritiesInvestmentTrustCompanies-Difference": "0",
@@ -19153,7 +19153,7 @@
         "Dealers-TotalSell": "545",
         "Dealers-Difference": "455",
         "Dealers -TotalSell": "545",
-        "TotalDifference": "-12545"
+        "TotalDifference": "2566455"
       },
       {
         "Date": "1150728",
@@ -20175,8 +20175,8 @@
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_margin_balance",
     "record_count": 913,
     "response_metadata": {
-      "etag": "\"6a686188-856c9\"",
-      "last_modified": "Tue, 28 Jul 2026 08:00:08 GMT",
+      "etag": "\"6a687da9-856c9\"",
+      "last_modified": "Tue, 28 Jul 2026 10:00:09 GMT",
       "content_type": "application/json"
     },
     "records": [
