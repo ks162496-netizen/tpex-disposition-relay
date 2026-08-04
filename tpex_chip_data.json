@@ -2,16 +2,16 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-08-04T09:45:02.544301Z",
-  "fetched_at_taipei": "2026-08-04T17:45:02.544301+08:00",
+  "fetched_at_utc": "2026-08-04T13:15:28.097885Z",
+  "fetched_at_taipei": "2026-08-04T21:15:28.097885+08:00",
   "institutions": {
     "source_name": "TPEx 上櫃三大法人買賣超",
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "record_count": 890,
     "response_metadata": {
-      "etag": "\"6a719c1d-cdb01\"",
-      "last_modified": "Tue, 04 Aug 2026 08:00:29 GMT",
+      "etag": "\"6a71d45b-cdb13\"",
+      "last_modified": "Tue, 04 Aug 2026 12:00:27 GMT",
       "content_type": "application/json"
     },
     "records": [
@@ -3923,13 +3923,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "114487",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "109387",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "0",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "88000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "-88000",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "89081",
+        "SecuritiesInvestmentTrustCompanies-Difference": "-89081",
         "Dealers-TotalBuy": "10969",
         "Dealers-TotalSell": "12274",
         "Dealers-Difference": "-1305",
         "Dealers -TotalSell": "9274",
-        "TotalDifference": "20082"
+        "TotalDifference": "19001"
       },
       {
         "Date": "1150804",
@@ -5749,13 +5749,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "441375",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "49768",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "12000",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
-        "SecuritiesInvestmentTrustCompanies-Difference": "12000",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "2000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "10000",
         "Dealers-TotalBuy": "48265",
         "Dealers-TotalSell": "44121",
         "Dealers-Difference": "4144",
         "Dealers -TotalSell": "34375",
-        "TotalDifference": "65912"
+        "TotalDifference": "63912"
       },
       {
         "Date": "1150804",
@@ -6012,14 +6012,14 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "587078",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "659078",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-72000",
-        "SecuritiesInvestmentTrustCompanies-TotalBuy": "2000",
+        "SecuritiesInvestmentTrustCompanies-TotalBuy": "65000",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "2000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "0",
+        "SecuritiesInvestmentTrustCompanies-Difference": "63000",
         "Dealers-TotalBuy": "25494",
         "Dealers-TotalSell": "33304",
         "Dealers-Difference": "-7810",
         "Dealers -TotalSell": "31304",
-        "TotalDifference": "-79810"
+        "TotalDifference": "-16810"
       },
       {
         "Date": "1150804",
@@ -10280,14 +10280,14 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "9507728",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "12061555",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-2553827",
-        "SecuritiesInvestmentTrustCompanies-TotalBuy": "541000",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "5224000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "-4683000",
+        "SecuritiesInvestmentTrustCompanies-TotalBuy": "545233",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "5250000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "-4704767",
         "Dealers-TotalBuy": "817578",
         "Dealers-TotalSell": "638590",
         "Dealers-Difference": "178988",
         "Dealers -TotalSell": "414590",
-        "TotalDifference": "-7057839"
+        "TotalDifference": "-7079606"
       },
       {
         "Date": "1150804",
@@ -10909,14 +10909,14 @@
         "Date": "1150804",
         "SecuritiesCompanyCode": "5483",
         "CompanyName": "中美晶",
-        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Buy": "13075069",
-        " Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Sell": "16150657",
+        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Buy": "14950069",
+        " Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Sell": "18025657",
         "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Difference": "-3075588",
         "Foreign Dealers-Total Buy": "0",
         "Foreign Dealers-TotalSell": "0",
         "ForeignDealers-Difference": "0",
-        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "13075069",
-        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "16150657",
+        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "14950069",
+        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "18025657",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-3075588",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "89000",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "1000",
@@ -12525,13 +12525,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "723255",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "498433",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "22000",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
-        "SecuritiesInvestmentTrustCompanies-Difference": "22000",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "1000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "21000",
         "Dealers-TotalBuy": "174978",
         "Dealers-TotalSell": "106251",
         "Dealers-Difference": "68727",
         "Dealers -TotalSell": "94724",
-        "TotalDifference": "589160"
+        "TotalDifference": "588160"
       },
       {
         "Date": "1150804",
@@ -12965,13 +12965,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "646585",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-277907",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "250000",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "4000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "246000",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "5000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "245000",
         "Dealers-TotalBuy": "18764",
         "Dealers-TotalSell": "36739",
         "Dealers-Difference": "-17975",
         "Dealers -TotalSell": "27894",
-        "TotalDifference": "-49882"
+        "TotalDifference": "-50882"
       },
       {
         "Date": "1150804",
@@ -14174,14 +14174,14 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "157232",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "418661",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-261429",
-        "SecuritiesInvestmentTrustCompanies-TotalBuy": "2000",
+        "SecuritiesInvestmentTrustCompanies-TotalBuy": "95000",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
-        "SecuritiesInvestmentTrustCompanies-Difference": "2000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "95000",
         "Dealers-TotalBuy": "30229",
         "Dealers-TotalSell": "28027",
         "Dealers-Difference": "2202",
         "Dealers -TotalSell": "5662",
-        "TotalDifference": "-257227"
+        "TotalDifference": "-164227"
       },
       {
         "Date": "1150804",
@@ -16770,14 +16770,14 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "53015",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "113005",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-59990",
-        "SecuritiesInvestmentTrustCompanies-TotalBuy": "33000",
+        "SecuritiesInvestmentTrustCompanies-TotalBuy": "70000",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
-        "SecuritiesInvestmentTrustCompanies-Difference": "33000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "70000",
         "Dealers-TotalBuy": "6310",
         "Dealers-TotalSell": "7031",
         "Dealers-Difference": "-721",
         "Dealers -TotalSell": "4031",
-        "TotalDifference": "-27711"
+        "TotalDifference": "9289"
       },
       {
         "Date": "1150804",
@@ -17101,13 +17101,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "19005",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "29995",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "0",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
-        "SecuritiesInvestmentTrustCompanies-Difference": "0",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "2000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "-2000",
         "Dealers-TotalBuy": "0",
         "Dealers-TotalSell": "5000",
         "Dealers-Difference": "-5000",
         "Dealers -TotalSell": "0",
-        "TotalDifference": "24995"
+        "TotalDifference": "22995"
       },
       {
         "Date": "1150804",
@@ -19603,8 +19603,8 @@
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_margin_balance",
     "record_count": 915,
     "response_metadata": {
-      "etag": "\"6a719c0c-85b90\"",
-      "last_modified": "Tue, 04 Aug 2026 08:00:12 GMT",
+      "etag": "\"6a71d44a-85b90\"",
+      "last_modified": "Tue, 04 Aug 2026 12:00:10 GMT",
       "content_type": "application/json"
     },
     "records": [
