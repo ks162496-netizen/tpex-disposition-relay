@@ -2,16 +2,16 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-08-06T10:17:15.303548Z",
-  "fetched_at_taipei": "2026-08-06T18:17:15.303548+08:00",
+  "fetched_at_utc": "2026-08-06T13:04:33.767915Z",
+  "fetched_at_taipei": "2026-08-06T21:04:33.767915+08:00",
   "institutions": {
     "source_name": "TPEx 上櫃三大法人買賣超",
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "record_count": 906,
     "response_metadata": {
-      "etag": "\"6a745b3f-d16ec\"",
-      "last_modified": "Thu, 06 Aug 2026 10:00:31 GMT",
+      "etag": "\"6a74775b-d16fa\"",
+      "last_modified": "Thu, 06 Aug 2026 12:00:27 GMT",
       "content_type": "application/json"
     },
     "records": [
@@ -4275,13 +4275,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "2612000",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-383713",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "764000",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "6800",
-        "SecuritiesInvestmentTrustCompanies-Difference": "757200",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "911800",
+        "SecuritiesInvestmentTrustCompanies-Difference": "-147800",
         "Dealers-TotalBuy": "234425",
         "Dealers-TotalSell": "356101",
         "Dealers-Difference": "-121676",
         "Dealers -TotalSell": "161601",
-        "TotalDifference": "251811"
+        "TotalDifference": "-653189"
       },
       {
         "Date": "1150806",
@@ -4626,14 +4626,14 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "3167027",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "4963501",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-1796474",
-        "SecuritiesInvestmentTrustCompanies-TotalBuy": "131319",
+        "SecuritiesInvestmentTrustCompanies-TotalBuy": "1397319",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "4000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "127319",
+        "SecuritiesInvestmentTrustCompanies-Difference": "1393319",
         "Dealers-TotalBuy": "275972",
         "Dealers-TotalSell": "151518",
         "Dealers-Difference": "124454",
         "Dealers -TotalSell": "80518",
-        "TotalDifference": "-1544701"
+        "TotalDifference": "-278701"
       },
       {
         "Date": "1150806",
@@ -5793,13 +5793,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "1709178",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-274863",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "0",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
-        "SecuritiesInvestmentTrustCompanies-Difference": "0",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "33000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "-33000",
         "Dealers-TotalBuy": "173023",
         "Dealers-TotalSell": "111141",
         "Dealers-Difference": "61882",
         "Dealers -TotalSell": "110033",
-        "TotalDifference": "-212981"
+        "TotalDifference": "-245981"
       },
       {
         "Date": "1150806",
@@ -19955,8 +19955,8 @@
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_margin_balance",
     "record_count": 916,
     "response_metadata": {
-      "etag": "\"6a745b2e-85e52\"",
-      "last_modified": "Thu, 06 Aug 2026 10:00:14 GMT",
+      "etag": "\"6a74774a-85e52\"",
+      "last_modified": "Thu, 06 Aug 2026 12:00:10 GMT",
       "content_type": "application/json"
     },
     "records": [
