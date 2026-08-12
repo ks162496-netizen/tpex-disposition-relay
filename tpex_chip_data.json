@@ -2,16 +2,16 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-08-12T09:50:28.533738Z",
-  "fetched_at_taipei": "2026-08-12T17:50:28.533738+08:00",
+  "fetched_at_utc": "2026-08-12T12:35:02.027236Z",
+  "fetched_at_taipei": "2026-08-12T20:35:02.027236+08:00",
   "institutions": {
     "source_name": "TPEx 上櫃三大法人買賣超",
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "record_count": 909,
     "response_metadata": {
-      "etag": "\"6a7c281f-d2169\"",
-      "last_modified": "Wed, 12 Aug 2026 08:00:31 GMT",
+      "etag": "\"6a7c6061-d2172\"",
+      "last_modified": "Wed, 12 Aug 2026 12:00:33 GMT",
       "content_type": "application/json"
     },
     "records": [
@@ -3988,14 +3988,14 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "357345",
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "315000",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "42345",
-        "SecuritiesInvestmentTrustCompanies-TotalBuy": "0",
+        "SecuritiesInvestmentTrustCompanies-TotalBuy": "6000",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "4000",
-        "SecuritiesInvestmentTrustCompanies-Difference": "-4000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "2000",
         "Dealers-TotalBuy": "19133",
         "Dealers-TotalSell": "20729",
         "Dealers-Difference": "-1596",
         "Dealers -TotalSell": "8539",
-        "TotalDifference": "36749"
+        "TotalDifference": "42749"
       },
       {
         "Date": "1150812",
@@ -6145,13 +6145,13 @@
         "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "322807",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-7219",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "3",
-        "SecuritiesInvestmentTrustCompanies-TotalSell": "0",
-        "SecuritiesInvestmentTrustCompanies-Difference": "3",
+        "SecuritiesInvestmentTrustCompanies-TotalSell": "3000",
+        "SecuritiesInvestmentTrustCompanies-Difference": "-2997",
         "Dealers-TotalBuy": "12055",
         "Dealers-TotalSell": "15380",
         "Dealers-Difference": "-3325",
         "Dealers -TotalSell": "11280",
-        "TotalDifference": "-10541"
+        "TotalDifference": "-13541"
       },
       {
         "Date": "1150812",
@@ -10447,14 +10447,14 @@
         "Date": "1150812",
         "SecuritiesCompanyCode": "5347",
         "CompanyName": "世界",
-        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Buy": "3676904",
-        " Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Sell": "7708515",
+        "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Buy": "4407904",
+        " Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Total Sell": "8439515",
         "Foreign Investors include Mainland Area Investors (Foreign Dealers excluded)-Difference": "-4031611",
         "Foreign Dealers-Total Buy": "0",
         "Foreign Dealers-TotalSell": "0",
         "ForeignDealers-Difference": "0",
-        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "3676904",
-        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "7708515",
+        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalBuy": "4407904",
+        "ForeignInvestorsIncludeMainlandAreaInvestors-TotalSell": "8439515",
         "ForeignInvestorsInclude MainlandAreaInvestors-Difference": "-4031611",
         "SecuritiesInvestmentTrustCompanies-TotalBuy": "1654795",
         "SecuritiesInvestmentTrustCompanies-TotalSell": "7611",
@@ -20021,8 +20021,8 @@
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_margin_balance",
     "record_count": 916,
     "response_metadata": {
-      "etag": "\"6a7c280c-85e61\"",
-      "last_modified": "Wed, 12 Aug 2026 08:00:12 GMT",
+      "etag": "\"6a7c604e-85e61\"",
+      "last_modified": "Wed, 12 Aug 2026 12:00:14 GMT",
       "content_type": "application/json"
     },
     "records": [
