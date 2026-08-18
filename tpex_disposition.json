@@ -4,14 +4,15 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-08-18T08:05:27.867889Z",
-  "fetched_at_taipei": "2026-08-18T16:05:27.867889+08:00",
-  "record_count": 13,
-  "security_code_count": 13,
+  "fetched_at_utc": "2026-08-18T10:59:32.999328Z",
+  "fetched_at_taipei": "2026-08-18T18:59:32.999328+08:00",
+  "record_count": 14,
+  "security_code_count": 14,
   "security_codes": [
     "3163",
     "3362",
     "33621",
+    "3498",
     "36053",
     "45421",
     "4931",
@@ -29,6 +30,14 @@
     "content_type": "application/csv;charset=utf-8"
   },
   "records": [
+    {
+      "公布日期": "1150818",
+      "證券代號": "3498",
+      "證券名稱": "陽程",
+      "處置起訖時間": "1150819~1150825",
+      "處置原因": "因連續3個營業日達本中心作業要點第四條第一項第一款",
+      "處置內容": "陽程科技股份有限公司股票(代號：3498)因連續3個營業日達本中心作業要點第四條第一項第一款經本中心公布注意交易資訊，爰自115年8月19日起5個營業日(115年8月19日至115年8月25日，如遇休市、有價證券停止買賣、全日暫停交易則順延執行)改以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)，各證券商於投資人每日委託買賣該有價證券數量單筆達10交易單位或多筆累積達30交易單位以上時，應就其當日已委託之買賣，向該投資人收取全部之買進價金或賣出證券。信用交易部分，則收足融資自備款或融券保證金。但信用交易了結及違約專戶委託買賣該有價證券時，不在此限。"
+    },
     {
       "公布日期": "1150814",
       "證券代號": "5475",
