@@ -2,8 +2,8 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-08-24T23:42:41.861913Z",
-  "fetched_at_taipei": "2026-08-25T07:42:41.861913+08:00",
+  "fetched_at_utc": "2026-08-25T01:56:03.256032Z",
+  "fetched_at_taipei": "2026-08-25T09:56:03.256032+08:00",
   "institutions": {
     "source_name": "TPEx 上櫃三大法人買賣超",
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
