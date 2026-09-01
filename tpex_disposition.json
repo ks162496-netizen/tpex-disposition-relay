@@ -4,8 +4,8 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-09-01T11:50:56.917129Z",
-  "fetched_at_taipei": "2026-09-01T19:50:56.917129+08:00",
+  "fetched_at_utc": "2026-09-01T14:30:00.481508Z",
+  "fetched_at_taipei": "2026-09-01T22:30:00.481508+08:00",
   "record_count": 21,
   "security_code_count": 20,
   "security_codes": [
