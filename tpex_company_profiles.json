@@ -5,12 +5,12 @@
   "source_name": "TPEx 上櫃股票基本資料",
   "source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
   "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
-  "fetched_at_utc": "2026-09-22T05:08:00.551467Z",
-  "fetched_at_taipei": "2026-09-22T13:08:00.551467+08:00",
-  "record_count": 891,
+  "fetched_at_utc": "2026-09-22T11:54:42.615325Z",
+  "fetched_at_taipei": "2026-09-22T19:54:42.615325+08:00",
+  "record_count": 892,
   "response_metadata": {
-    "etag": "\"6ab14e68-10603a\"",
-    "last_modified": "Mon, 21 Sep 2026 15:34:00 GMT",
+    "etag": "\"6ab252a4-1064e4\"",
+    "last_modified": "Tue, 22 Sep 2026 10:04:20 GMT",
     "content_type": "application/json"
   },
   "records": [
@@ -3888,6 +3888,11 @@
       "SecuritiesCompanyCode": "7842",
       "CompanyAbbreviation": "天能綠電",
       "SecuritiesIndustryCode": "35"
+    },
+    {
+      "SecuritiesCompanyCode": "7856",
+      "CompanyAbbreviation": "漢測",
+      "SecuritiesIndustryCode": "24"
     },
     {
       "SecuritiesCompanyCode": "8024",
