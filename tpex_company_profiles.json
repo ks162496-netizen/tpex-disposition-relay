@@ -5,8 +5,8 @@
   "source_name": "TPEx 上櫃股票基本資料",
   "source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
   "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
-  "fetched_at_utc": "2026-09-21T16:11:09.999081Z",
-  "fetched_at_taipei": "2026-09-22T00:11:09.999081+08:00",
+  "fetched_at_utc": "2026-09-22T05:08:00.551467Z",
+  "fetched_at_taipei": "2026-09-22T13:08:00.551467+08:00",
   "record_count": 891,
   "response_metadata": {
     "etag": "\"6ab14e68-10603a\"",
