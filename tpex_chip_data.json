@@ -2,16 +2,16 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-09-24T14:36:52.846419Z",
-  "fetched_at_taipei": "2026-09-24T22:36:52.846419+08:00",
+  "fetched_at_utc": "2026-09-25T01:39:10.507126Z",
+  "fetched_at_taipei": "2026-09-25T09:39:10.507126+08:00",
   "institutions": {
     "source_name": "TPEx 上櫃三大法人買賣超",
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "record_count": 896,
     "response_metadata": {
-      "etag": "\"6ab52cf3-cf1d9\"",
-      "last_modified": "Thu, 24 Sep 2026 14:00:19 GMT",
+      "etag": "\"6ab5420a-cf1d9\"",
+      "last_modified": "Thu, 24 Sep 2026 15:30:18 GMT",
       "content_type": "application/json"
     },
     "records": [
@@ -19735,8 +19735,8 @@
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_margin_balance",
     "record_count": 919,
     "response_metadata": {
-      "etag": "\"6ab52ce9-866a5\"",
-      "last_modified": "Thu, 24 Sep 2026 14:00:09 GMT",
+      "etag": "\"6ab54200-866a5\"",
+      "last_modified": "Thu, 24 Sep 2026 15:30:08 GMT",
       "content_type": "application/json"
     },
     "records": [
