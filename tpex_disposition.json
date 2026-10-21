@@ -4,9 +4,9 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-10-21T04:59:24.156909Z",
-  "fetched_at_taipei": "2026-10-21T12:59:24.156909+08:00",
-  "record_count": 12,
+  "fetched_at_utc": "2026-10-21T14:50:40.329447Z",
+  "fetched_at_taipei": "2026-10-21T22:50:40.329447+08:00",
+  "record_count": 13,
   "security_code_count": 12,
   "security_codes": [
     "2221",
@@ -28,6 +28,14 @@
     "content_type": "application/csv;charset=utf-8"
   },
   "records": [
+    {
+      "公布日期": "1151021",
+      "證券代號": "3287",
+      "證券名稱": "廣寰科",
+      "處置起訖時間": "1151022~1151029",
+      "處置原因": "連續3個營業日",
+      "處置內容": "* 公布日期：115/10/21* 證券代號：3287* 證券名稱：廣寰科技股份有限公司* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準，且最近30個營業日內曾發布處置。* 處置起訖期間：自115年10月22日起5個營業日(115年10月22日至115年10月29日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券，向該投資人收取全部之買進價金或賣出證券；(3)信用交易部分，則收足融資自備款或融券保證金。但信用交易了結及違約專戶委託買賣該有價證券時，不在此限。"
+    },
     {
       "公布日期": "1151020",
       "證券代號": "3354",
