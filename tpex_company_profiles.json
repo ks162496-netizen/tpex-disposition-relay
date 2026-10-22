@@ -5,12 +5,12 @@
   "source_name": "TPEx 上櫃股票基本資料",
   "source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
   "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
-  "fetched_at_utc": "2026-10-22T05:01:07.651722Z",
-  "fetched_at_taipei": "2026-10-22T13:01:07.651722+08:00",
-  "record_count": 892,
+  "fetched_at_utc": "2026-10-22T12:10:07.151465Z",
+  "fetched_at_taipei": "2026-10-22T20:10:07.151465+08:00",
+  "record_count": 893,
   "response_metadata": {
-    "etag": "\"6ad8daf3-106511\"",
-    "last_modified": "Wed, 21 Oct 2026 15:32:03 GMT",
+    "etag": "\"6ad9fb4d-1069d5\"",
+    "last_modified": "Thu, 22 Oct 2026 12:02:21 GMT",
     "content_type": "application/json"
   },
   "records": [
@@ -212,6 +212,11 @@
     {
       "SecuritiesCompanyCode": "2235",
       "CompanyAbbreviation": "謚源",
+      "SecuritiesIndustryCode": "05"
+    },
+    {
+      "SecuritiesCompanyCode": "2249",
+      "CompanyAbbreviation": "湧盛",
       "SecuritiesIndustryCode": "05"
     },
     {
