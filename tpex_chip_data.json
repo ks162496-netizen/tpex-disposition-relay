@@ -2,16 +2,16 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-10-23T05:01:42.070952Z",
-  "fetched_at_taipei": "2026-10-23T13:01:42.070952+08:00",
+  "fetched_at_utc": "2026-10-23T11:52:14.794839Z",
+  "fetched_at_taipei": "2026-10-23T19:52:14.794839+08:00",
   "institutions": {
     "source_name": "TPEx 上櫃三大法人買賣超",
     "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
     "record_count": 909,
     "response_metadata": {
-      "etag": "\"6ada2c09-d21e1\"",
-      "last_modified": "Thu, 22 Oct 2026 15:30:17 GMT",
+      "etag": "\"6adb3033-d21e1\"",
+      "last_modified": "Fri, 23 Oct 2026 10:00:19 GMT",
       "content_type": "application/json"
     },
     "records": [
@@ -20021,8 +20021,8 @@
     "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_margin_balance",
     "record_count": 919,
     "response_metadata": {
-      "etag": "\"6ada2bfe-867d6\"",
-      "last_modified": "Thu, 22 Oct 2026 15:30:06 GMT",
+      "etag": "\"6adb3027-867ca\"",
+      "last_modified": "Fri, 23 Oct 2026 10:00:07 GMT",
       "content_type": "application/json"
     },
     "records": [
@@ -21726,7 +21726,7 @@
         "ShortSaleUtilizationRate": "0.0",
         "ShortSaleQuota": "179869",
         "Offsetting": "0",
-        "Note": "X"
+        "Note": ""
       },
       {
         "Date": "1151022",
@@ -21979,7 +21979,7 @@
         "ShortSaleUtilizationRate": "0.0",
         "ShortSaleQuota": "28942",
         "Offsetting": "0",
-        "Note": "X"
+        "Note": ""
       },
       {
         "Date": "1151022",
@@ -27499,7 +27499,7 @@
         "ShortSaleUtilizationRate": "0.0",
         "ShortSaleQuota": "19799",
         "Offsetting": "0",
-        "Note": "X"
+        "Note": ""
       },
       {
         "Date": "1151022",
@@ -38838,7 +38838,7 @@
         "ShortSaleUtilizationRate": "0.0",
         "ShortSaleQuota": "0",
         "Offsetting": "0",
-        "Note": "OX        !"
+        "Note": "OX"
       },
       {
         "Date": "1151022",
