@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import http.client
 import io
 import json
 import re
@@ -170,6 +171,13 @@ def download_json_dataset(
         try:
             with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
                 raw = response.read()
+                content_length = response.headers.get("Content-Length")
+                if content_length is not None:
+                    length_text = content_length.strip()
+                    if not re.fullmatch(r"[0-9]+", length_text):
+                        raise RuntimeError(f"{label} response has invalid Content-Length")
+                    if len(raw) != int(length_text):
+                        raise RuntimeError(f"{label} response length does not match Content-Length")
                 final_url = response.geturl()
                 headers = {
                     "etag": response.headers.get("ETag", ""),
@@ -182,7 +190,7 @@ def download_json_dataset(
             if len(raw) < minimum_bytes:
                 raise RuntimeError(f"{label} response is unexpectedly short")
             return raw, headers, final_url
-        except (OSError, RuntimeError, urllib.error.URLError) as error:
+        except (OSError, RuntimeError, urllib.error.URLError, http.client.IncompleteRead) as error:
             last_error = error
             if attempt < max_attempts:
                 time.sleep(attempt * 3)
