@@ -5,12 +5,12 @@
   "source_name": "TPEx 上櫃股票基本資料",
   "source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
   "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
-  "fetched_at_utc": "2026-10-27T05:15:33.534310Z",
-  "fetched_at_taipei": "2026-10-27T13:15:33.534310+08:00",
-  "record_count": 893,
+  "fetched_at_utc": "2026-10-27T12:29:53.777638Z",
+  "fetched_at_taipei": "2026-10-27T20:29:53.777638+08:00",
+  "record_count": 894,
   "response_metadata": {
-    "etag": "\"6adf7275-1069d5\"",
-    "last_modified": "Mon, 26 Oct 2026 15:32:05 GMT",
+    "etag": "\"6ae092c5-106ec7\"",
+    "last_modified": "Tue, 27 Oct 2026 12:02:13 GMT",
     "content_type": "application/json"
   },
   "records": [
@@ -3583,6 +3583,11 @@
       "SecuritiesCompanyCode": "6895",
       "CompanyAbbreviation": "宏碩系統",
       "SecuritiesIndustryCode": "24"
+    },
+    {
+      "SecuritiesCompanyCode": "6898",
+      "CompanyAbbreviation": "程曦資訊",
+      "SecuritiesIndustryCode": "30"
     },
     {
       "SecuritiesCompanyCode": "6899",
