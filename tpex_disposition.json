@@ -4,10 +4,70 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-10-28T13:17:34.716779Z",
-  "fetched_at_taipei": "2026-10-28T21:17:34.716779+08:00",
-  "record_count": 11,
-  "security_code_count": 10,
+  "fetched_at_utc": "2026-10-28T16:46:27.578218Z",
+  "fetched_at_taipei": "2026-10-29T00:46:27.578218+08:00",
+  "last_attempt_at": "2026-10-28T16:46:24.011550Z",
+  "last_successful_fetch_at": "2026-10-28T16:46:27.578218Z",
+  "source_publication_date": "2026-10-28",
+  "effective_periods": [
+    {
+      "security_code": "3441",
+      "from": "2026-10-29",
+      "through": "2026-11-06"
+    },
+    {
+      "security_code": "3354",
+      "from": "2026-10-28",
+      "through": "2026-11-03"
+    },
+    {
+      "security_code": "5475",
+      "from": "2026-10-28",
+      "through": "2026-11-03"
+    },
+    {
+      "security_code": "6751",
+      "from": "2026-10-28",
+      "through": "2026-11-03"
+    },
+    {
+      "security_code": "6925",
+      "from": "2026-10-28",
+      "through": "2026-11-03"
+    },
+    {
+      "security_code": "4542",
+      "from": "2026-10-23",
+      "through": "2026-11-03"
+    },
+    {
+      "security_code": "5205",
+      "from": "2026-10-23",
+      "through": "2026-10-30"
+    },
+    {
+      "security_code": "8358",
+      "from": "2026-10-23",
+      "through": "2026-10-30"
+    },
+    {
+      "security_code": "8437",
+      "from": "2026-10-23",
+      "through": "2026-10-30"
+    },
+    {
+      "security_code": "3287",
+      "from": "2026-10-22",
+      "through": "2026-10-29"
+    }
+  ],
+  "covered_through": "UNKNOWN",
+  "stale": true,
+  "coverage_status": "UNKNOWN_SOURCE_FIELD_ABSENT",
+  "eligibility_status": "UNKNOWN_SOURCE_ROLE_BINDING",
+  "complete_response_structure": true,
+  "empty_result_basis": null,
+  "record_count": 10,
   "security_codes": [
     "3287",
     "3354",
@@ -20,11 +80,7 @@
     "8358",
     "8437"
   ],
-  "response_metadata": {
-    "etag": "",
-    "last_modified": "",
-    "content_type": "application/csv;charset=utf-8"
-  },
+  "security_code_count": 10,
   "records": [
     {
       "公布日期": "1151028",
@@ -105,14 +161,89 @@
       "處置起訖時間": "1151022~1151029",
       "處置原因": "連續3個營業日",
       "處置內容": "* 公布日期：115/10/21* 證券代號：3287* 證券名稱：廣寰科技股份有限公司* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準，且最近30個營業日內曾發布處置。* 處置起訖期間：自115年10月22日起5個營業日(115年10月22日至115年10月29日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券，向該投資人收取全部之買進價金或賣出證券；(3)信用交易部分，則收足融資自備款或融券保證金。但信用交易了結及違約專戶委託買賣該有價證券時，不在此限。"
-    },
-    {
-      "公布日期": "1151020",
-      "證券代號": "3354",
-      "證券名稱": "律勝",
-      "處置起訖時間": "1151021~1151028",
-      "處置原因": "連續3個營業日",
-      "處置內容": "* 公布日期：115/10/20* 證券代號：3354* 證券名稱：律勝科技股份有限公司* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準。* 處置起訖期間：自115年10月21日起5個營業日(115年10月21日至115年10月28日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券之數量單筆達10交易單位或多筆累積達30交易單位以上時，向該投資人收取全部之買進價金或賣出證券；(3)信用交易部分，則收足融資自備款或融券保證金。但信用交易了結及違約專戶委託買賣該有價證券時，不在此限。"
     }
-  ]
+  ],
+  "response_metadata": {
+    "etag": "",
+    "last_modified": "",
+    "content_type": "application/csv;charset=utf-8"
+  },
+  "auxiliary_sources": {
+    "company_profiles": {
+      "status": "fresh_fetch_native_coverage_unknown",
+      "stale": true,
+      "published": true,
+      "source_fetched_at_utc": "2026-10-28T16:46:34.630428Z",
+      "last_attempt_at": "2026-10-28T16:46:27.578218Z",
+      "last_successful_fetch_at": "2026-10-28T16:46:34.630428Z",
+      "source_publication_date": "UNKNOWN",
+      "covered_through": "UNKNOWN",
+      "quality": {
+        "state": "UNKNOWN",
+        "display_allowed": false,
+        "daily_scoring_allowed": false,
+        "age_completed_sessions": null,
+        "policy_completed_trading_days": 5,
+        "calendar_binding": "UNKNOWN"
+      },
+      "refresh_error": null
+    },
+    "institutions": {
+      "status": "fresh_fetch_native_coverage_unknown",
+      "stale": true,
+      "published": true,
+      "source_fetched_at_utc": "2026-10-28T16:46:39.516908Z",
+      "last_attempt_at": "2026-10-28T16:46:27.578218Z",
+      "last_successful_fetch_at": "2026-10-28T16:46:39.516908Z",
+      "source_publication_date": "UNKNOWN",
+      "covered_through": "UNKNOWN",
+      "quality": {
+        "state": "UNKNOWN",
+        "display_allowed": false,
+        "daily_scoring_allowed": false,
+        "age_completed_sessions": null,
+        "policy_completed_trading_days": 1,
+        "calendar_binding": "UNKNOWN"
+      },
+      "refresh_error": null
+    },
+    "margin": {
+      "status": "fresh_fetch_native_coverage_unknown",
+      "stale": true,
+      "published": true,
+      "source_fetched_at_utc": "2026-10-28T16:46:41.945753Z",
+      "last_attempt_at": "2026-10-28T16:46:27.578218Z",
+      "last_successful_fetch_at": "2026-10-28T16:46:41.945753Z",
+      "source_publication_date": "UNKNOWN",
+      "covered_through": "UNKNOWN",
+      "quality": {
+        "state": "UNKNOWN",
+        "display_allowed": false,
+        "daily_scoring_allowed": false,
+        "age_completed_sessions": null,
+        "policy_completed_trading_days": 1,
+        "calendar_binding": "UNKNOWN"
+      },
+      "refresh_error": null
+    },
+    "tdcc": {
+      "status": "fresh_fetch_native_coverage_unknown",
+      "stale": true,
+      "published": true,
+      "source_fetched_at_utc": "2026-10-28T16:46:46.551747Z",
+      "last_attempt_at": "2026-10-28T16:46:27.578218Z",
+      "last_successful_fetch_at": "2026-10-28T16:46:46.551747Z",
+      "source_publication_date": "UNKNOWN",
+      "covered_through": "UNKNOWN",
+      "quality": {
+        "state": "QUALIFICATION_UNKNOWN",
+        "display_allowed": false,
+        "daily_scoring_allowed": false,
+        "age_completed_sessions": null,
+        "policy_completed_trading_days": null,
+        "calendar_binding": "UNKNOWN"
+      },
+      "refresh_error": null
+    }
+  }
 }
