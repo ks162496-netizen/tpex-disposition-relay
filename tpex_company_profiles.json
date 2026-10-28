@@ -5,12 +5,12 @@
   "source_name": "TPEx 上櫃股票基本資料",
   "source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
   "resolved_source_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
-  "fetched_at_utc": "2026-10-28T02:27:10.480149Z",
-  "fetched_at_taipei": "2026-10-28T10:27:10.480149+08:00",
-  "record_count": 894,
+  "fetched_at_utc": "2026-10-28T13:17:34.716779Z",
+  "fetched_at_taipei": "2026-10-28T21:17:34.716779+08:00",
+  "record_count": 895,
   "response_metadata": {
-    "etag": "\"6ae0c3f6-106ec7\"",
-    "last_modified": "Tue, 27 Oct 2026 15:32:06 GMT",
+    "etag": "\"6ae1e443-107385\"",
+    "last_modified": "Wed, 28 Oct 2026 12:02:11 GMT",
     "content_type": "application/json"
   },
   "records": [
@@ -3633,6 +3633,11 @@
       "SecuritiesCompanyCode": "6929",
       "CompanyAbbreviation": "佑全",
       "SecuritiesIndustryCode": "22"
+    },
+    {
+      "SecuritiesCompanyCode": "6938",
+      "CompanyAbbreviation": "藍新資訊",
+      "SecuritiesIndustryCode": "30"
     },
     {
       "SecuritiesCompanyCode": "6945",
