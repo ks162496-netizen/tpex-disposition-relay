@@ -2,9 +2,9 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-10-29T16:34:38.389089Z",
-  "fetched_at_taipei": "2026-10-30T00:34:38.389089+08:00",
-  "last_attempt_at": "2026-10-29T16:34:35.090192+00:00",
+  "fetched_at_utc": "2026-10-30T02:43:36.902214Z",
+  "fetched_at_taipei": "2026-10-30T10:43:36.902214+08:00",
+  "last_attempt_at": "2026-10-30T02:43:31.058420+00:00",
   "source_publication_date": "UNKNOWN",
   "covered_through": "UNKNOWN",
   "stale": true,
@@ -19402,14 +19402,14 @@
       "last_modified": "Thu, 29 Oct 2026 15:30:20 GMT",
       "content_type": "application/json"
     },
-    "fetched_at_utc": "2026-10-29T16:34:38.389089Z",
-    "fetched_at_taipei": "2026-10-30T00:34:38.389089+08:00",
+    "fetched_at_utc": "2026-10-30T02:43:36.902214Z",
+    "fetched_at_taipei": "2026-10-30T10:43:36.902214+08:00",
     "source_publication_date": "UNKNOWN",
     "covered_through": "UNKNOWN",
     "refresh_status": "fresh_fetch_native_coverage_unknown",
     "refresh_error": null,
-    "last_attempt_at": "2026-10-29T16:34:35.090192Z",
-    "last_successful_fetch_at": "2026-10-29T16:34:38.389089Z",
+    "last_attempt_at": "2026-10-30T02:43:31.058420Z",
+    "last_successful_fetch_at": "2026-10-30T02:43:36.902214Z",
     "stale": true
   },
   "margin": {
@@ -40561,14 +40561,14 @@
       "last_modified": "Thu, 29 Oct 2026 15:30:09 GMT",
       "content_type": "application/json"
     },
-    "fetched_at_utc": "2026-10-29T16:34:39.335649Z",
-    "fetched_at_taipei": "2026-10-30T00:34:39.335649+08:00",
+    "fetched_at_utc": "2026-10-30T02:43:38.802831Z",
+    "fetched_at_taipei": "2026-10-30T10:43:38.802831+08:00",
     "source_publication_date": "UNKNOWN",
     "covered_through": "UNKNOWN",
     "refresh_status": "fresh_fetch_native_coverage_unknown",
     "refresh_error": null,
-    "last_attempt_at": "2026-10-29T16:34:35.090192Z",
-    "last_successful_fetch_at": "2026-10-29T16:34:39.335649Z",
+    "last_attempt_at": "2026-10-30T02:43:31.058420Z",
+    "last_successful_fetch_at": "2026-10-30T02:43:38.802831Z",
     "stale": true
   }
 }
