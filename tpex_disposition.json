@@ -4,12 +4,17 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-11-02T06:23:35.907409Z",
-  "fetched_at_taipei": "2026-11-02T14:23:35.907409+08:00",
-  "last_attempt_at": "2026-11-02T06:23:35.499563Z",
-  "last_successful_fetch_at": "2026-11-02T06:23:35.907409Z",
-  "source_publication_date": "2026-10-30",
+  "fetched_at_utc": "2026-11-02T16:21:29.055250Z",
+  "fetched_at_taipei": "2026-11-03T00:21:29.055250+08:00",
+  "last_attempt_at": "2026-11-02T16:21:22.074410Z",
+  "last_successful_fetch_at": "2026-11-02T16:21:29.055250Z",
+  "source_publication_date": "2026-11-02",
   "effective_periods": [
+    {
+      "security_code": "8291",
+      "from": "2026-11-03",
+      "through": "2026-11-09"
+    },
     {
       "security_code": "3374",
       "from": "2026-11-02",
@@ -72,7 +77,7 @@
   "eligibility_status": "UNKNOWN_SOURCE_ROLE_BINDING",
   "complete_response_structure": true,
   "empty_result_basis": null,
-  "record_count": 11,
+  "record_count": 12,
   "security_codes": [
     "3354",
     "3374",
@@ -84,10 +89,19 @@
     "5475",
     "6751",
     "6925",
-    "8099"
+    "8099",
+    "8291"
   ],
-  "security_code_count": 11,
+  "security_code_count": 12,
   "records": [
+    {
+      "公布日期": "1151102",
+      "證券代號": "8291",
+      "證券名稱": "尚茂",
+      "處置起訖時間": "1151103~1151109",
+      "處置原因": "連續3個營業日",
+      "處置內容": "* 公布日期：115/11/02* 證券代號：8291* 證券名稱：尚茂電子材料股份有限公司* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準。* 處置起訖期間：自115年11月3日起5個營業日(115年11月3日至115年11月9日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每10分鐘撮合一次)；(2)依本中心業務規則第12條規定，證券商應就投資人每日已委託買賣該有價證券，向該投資人收取全部之買進價金或賣出證券。但違約專戶委託買賣該有價證券時，不在此限。"
+    },
     {
       "公布日期": "1151030",
       "證券代號": "3374",
@@ -187,9 +201,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-02T06:23:43.038303Z",
-      "last_attempt_at": "2026-11-02T06:23:35.907409Z",
-      "last_successful_fetch_at": "2026-11-02T06:23:43.038303Z",
+      "source_fetched_at_utc": "2026-11-02T16:21:31.467389Z",
+      "last_attempt_at": "2026-11-02T16:21:29.055250Z",
+      "last_successful_fetch_at": "2026-11-02T16:21:31.467389Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -206,9 +220,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-02T06:23:44.256487Z",
-      "last_attempt_at": "2026-11-02T06:23:35.907409Z",
-      "last_successful_fetch_at": "2026-11-02T06:23:44.256487Z",
+      "source_fetched_at_utc": "2026-11-02T16:21:33.171785Z",
+      "last_attempt_at": "2026-11-02T16:21:29.055250Z",
+      "last_successful_fetch_at": "2026-11-02T16:21:33.171785Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -225,9 +239,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-02T06:23:46.349686Z",
-      "last_attempt_at": "2026-11-02T06:23:35.907409Z",
-      "last_successful_fetch_at": "2026-11-02T06:23:46.349686Z",
+      "source_fetched_at_utc": "2026-11-02T16:21:36.285048Z",
+      "last_attempt_at": "2026-11-02T16:21:29.055250Z",
+      "last_successful_fetch_at": "2026-11-02T16:21:36.285048Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -244,9 +258,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-02T06:23:51.363560Z",
-      "last_attempt_at": "2026-11-02T06:23:35.907409Z",
-      "last_successful_fetch_at": "2026-11-02T06:23:51.363560Z",
+      "source_fetched_at_utc": "2026-11-02T16:21:41.366672Z",
+      "last_attempt_at": "2026-11-02T16:21:29.055250Z",
+      "last_successful_fetch_at": "2026-11-02T16:21:41.366672Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
