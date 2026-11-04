@@ -871,7 +871,7 @@
     },
     {
       "SecuritiesCompanyCode": "3489",
-      "CompanyAbbreviation": "森寶",
+      "CompanyAbbreviation": "長耀地產",
       "SecuritiesIndustryCode": "14"
     },
     {
@@ -4486,18 +4486,18 @@
     }
   ],
   "response_metadata": {
-    "etag": "\"6aeaca74-10784d\"",
-    "last_modified": "Wed, 04 Nov 2026 06:02:28 GMT",
+    "etag": "\"6aeb3af9-107867\"",
+    "last_modified": "Wed, 04 Nov 2026 14:02:33 GMT",
     "content_type": "application/json"
   },
-  "fetched_at_utc": "2026-11-04T06:39:47.681545Z",
-  "fetched_at_taipei": "2026-11-04T14:39:47.681545+08:00",
+  "fetched_at_utc": "2026-11-04T14:44:19.708042Z",
+  "fetched_at_taipei": "2026-11-04T22:44:19.708042+08:00",
   "source_publication_date": "UNKNOWN",
   "covered_through": "UNKNOWN",
   "refresh_status": "fresh_fetch_native_coverage_unknown",
   "refresh_error": null,
-  "last_attempt_at": "2026-11-04T06:39:41.177659Z",
-  "last_successful_fetch_at": "2026-11-04T06:39:47.681545Z",
+  "last_attempt_at": "2026-11-04T14:44:15.190733Z",
+  "last_successful_fetch_at": "2026-11-04T14:44:19.708042Z",
   "stale": true,
   "schema_version": 1,
   "dataset": "company_profiles",
