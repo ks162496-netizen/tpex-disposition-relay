@@ -193,6 +193,29 @@ class ParserTests(unittest.TestCase):
             bp.SPECS["TWSE_CHANGED"](json.dumps([{"Unexpected": "2330"}]).encode())
         self.assertEqual(bp.SPECS["TWSE_CHANGED"](b"[]"), [])
 
+    def test_twse_www_daily_and_daytrade(self):
+        daily = {"stat": "OK", "date": "20261105", "tables": [
+            {"title": "index", "fields": ["指數", "收盤指數"], "data": [["發行量加權", "1"]]},
+            {"fields": ["證券代號", "證券名稱", "成交股數", "收盤價"],
+             "data": [["2330", "台積電", "25,000,000", "1,450.00"], ["00878", "ETF", "1", "20"],
+                      ["030001", "權證", "1", "1"]]}]}
+        rows = bp.parse_twse_www_daily(json.dumps(daily).encode(), DATA_DATE)
+        self.assertEqual(rows, [{"code": "2330", "name": "台積電", "date": "2026-11-05",
+                                 "close": 1450.0, "volume": 25000000.0}])
+        self.assertEqual(bp.parse_twse_www_daily(json.dumps(daily).encode(), TARGET), [])  # wrong date
+        nodata = {"stat": "很抱歉，沒有符合條件的資料!"}
+        self.assertEqual(bp.parse_twse_www_daytrade(json.dumps(nodata).encode(), TARGET), [])
+        dt = {"stat": "OK", "date": "20261106", "fields1": ["證券代號", "證券名稱", "暫停現股賣出後現款買進當沖註記"],
+              "data1": [["2330", "台積電", "Y"], ["2303", "聯電", ""]]}
+        self.assertEqual([(r["code"], r["sell_first_suspended"]) for r in
+                          bp.parse_twse_www_daytrade(json.dumps(dt).encode(), TARGET)],
+                         [("2330", True), ("2303", False)])
+
+    def test_scope_excludes_warrants_from_lists(self):
+        raw = json.dumps([{"Date": "1151105", "SecuritiesCompanyCode": c, "Close": "50", "TradingShares": "1"}
+                          for c in ("6488", "700001", "00679B", "1234A")]).encode()
+        self.assertEqual([r["code"] for r in bp.SPECS["TPEX_DAILY"](raw)], ["6488", "1234A"])
+
     def test_render_is_valid_json(self):
         doc = {"schema": bp.SCHEMA, "counts": {"members": 1},
                "members": [{"market": "TWSE", "symbol": "2330"}], "excluded": []}

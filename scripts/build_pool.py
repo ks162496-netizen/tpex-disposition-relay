@@ -57,6 +57,15 @@ URLS = {
     "TPEX_DAYTRADE": "https://www.tpex.org.tw/www/zh-tw/intraday/list?date={date}&response=json",
     "TPEX_ISIN": "https://isin.twse.com.tw/isin/C_public.jsp?strMode=4",
 }
+# www.twse.com.tw fallbacks, used only when the OpenAPI copy is older than needed.
+TWSE_WWW_DAILY = (
+    "https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY_ALL?date={ymd}&response=json",
+    "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date={ymd}&type=ALLBUT0999&response=json",
+)
+TWSE_WWW_DAYTRADE = "https://www.twse.com.tw/rwd/zh/afterTrading/TWTB4U?date={ymd}&selectType=All&response=json"
+# Only 4-digit codes (optionally with a letter suffix) are evaluated; warrants,
+# bonds and 5/6-digit ETFs are out of scope and not listed in "excluded".
+STOCK_SCOPE = re.compile(r"\d{4}[A-Z]?")
 SIZE_CAP = {"TPEX_ISIN": 48 * 1024 * 1024}
 DEFAULT_SIZE_CAP = 24 * 1024 * 1024
 MIN_ROWS = {
@@ -251,7 +260,7 @@ def norm_twse_company(rows):
 def norm_twse_daily(rows):
     return [{"code": clean_code(r.get("Code")), "name": str(r.get("Name", "")).strip(),
              "date": fmt(parse_date(r.get("Date"))), "close": parse_number(r.get("ClosingPrice")),
-             "volume": parse_number(r.get("TradeVolume"))} for r in rows if clean_code(r.get("Code"))]
+             "volume": parse_number(r.get("TradeVolume"))} for r in rows if STOCK_SCOPE.fullmatch(clean_code(r.get("Code")))]
 
 
 def norm_code_only(rows, key="Code"):
@@ -288,7 +297,8 @@ def norm_tpex_company(rows):
 def norm_tpex_daily(rows):
     return [{"code": clean_code(r.get("SecuritiesCompanyCode")), "name": str(r.get("CompanyName", "")).strip(),
              "date": fmt(parse_date(r.get("Date"))), "close": parse_number(r.get("Close")),
-             "volume": parse_number(r.get("TradingShares"))} for r in rows if clean_code(r.get("SecuritiesCompanyCode"))]
+             "volume": parse_number(r.get("TradingShares"))} for r in rows
+            if STOCK_SCOPE.fullmatch(clean_code(r.get("SecuritiesCompanyCode")))]
 
 
 def norm_tpex_status(rows):
@@ -389,6 +399,112 @@ SPECS = {
     "TPEX_HALT": via_json(norm_halt, "SecuritiesCompanyCode", "DateOfSuspendedTrading", "DateOfResumedTrading"),
     "TPEX_ISIN": parse_isin_html,
 }
+
+
+def twse_www_tables(obj: dict) -> list[tuple[list[str], list]]:
+    """All (fields, data) tables in a www.twse.com.tw rwd JSON response."""
+    found = []
+    if isinstance(obj.get("fields"), list) and isinstance(obj.get("data"), list):
+        found.append((obj["fields"], obj["data"]))
+    for table in obj.get("tables") or []:
+        if isinstance(table, dict) and isinstance(table.get("fields"), list) and isinstance(table.get("data"), list):
+            found.append((table["fields"], table["data"]))
+    for key, value in obj.items():
+        m = re.fullmatch(r"fields(\d+)", key)
+        if m and isinstance(value, list) and isinstance(obj.get(f"data{m.group(1)}"), list):
+            found.append((value, obj[f"data{m.group(1)}"]))
+    return [([re.sub(r"<[^>]+>", "", str(f)).strip() for f in fields], data) for fields, data in found]
+
+
+def cell(row: list, index: int | None) -> str:
+    if index is None or index >= len(row):
+        return ""
+    return html.unescape(re.sub(r"<[^>]+>", "", str(row[index]))).strip()
+
+
+def twse_www_payload(raw: bytes, want: date) -> dict | None:
+    """Parsed response if stat OK and dated `want`; None when not published."""
+    obj = decode_json(raw)
+    if not isinstance(obj, dict):
+        raise RuntimeError("TWSE www response is not a JSON object")
+    if str(obj.get("stat", "")).upper() != "OK" or parse_date(obj.get("date")) != want:
+        return None
+    return obj
+
+
+def parse_twse_www_daily(raw: bytes, want: date) -> list[dict]:
+    obj = twse_www_payload(raw, want)
+    if obj is None:
+        return []
+    for fields, data in twse_www_tables(obj):
+        if {"證券代號", "收盤價", "成交股數"} <= set(fields):
+            i_code, i_close, i_vol = fields.index("證券代號"), fields.index("收盤價"), fields.index("成交股數")
+            i_name = fields.index("證券名稱") if "證券名稱" in fields else None
+            return [{"code": clean_code(cell(r, i_code)), "name": cell(r, i_name), "date": want.isoformat(),
+                     "close": parse_number(cell(r, i_close)), "volume": parse_number(cell(r, i_vol))}
+                    for r in data if isinstance(r, list) and STOCK_SCOPE.fullmatch(clean_code(cell(r, i_code)))]
+    return []
+
+
+def parse_twse_www_daytrade(raw: bytes, want: date) -> list[dict]:
+    obj = twse_www_payload(raw, want)
+    if obj is None:
+        return []
+    for fields, data in twse_www_tables(obj):
+        if "證券代號" in fields:
+            i_code = fields.index("證券代號")
+            i_flag = next((i for i, f in enumerate(fields) if "暫停現股賣出" in f), None)
+            return [{"code": clean_code(cell(r, i_code)), "date": want.isoformat(),
+                     "sell_first_suspended": is_marked(cell(r, i_flag))}
+                    for r in data if isinstance(r, list) and clean_code(cell(r, i_code))]
+    return []
+
+
+def fetch_twse_www(source_id: str, urls, parser, want: date) -> tuple[list[dict] | None, dict | None]:
+    """Try www.twse.com.tw URLs for date `want`; return (rows, status) or (None, None)."""
+    for template in urls:
+        url = template.format(ymd=want.strftime("%Y%m%d"))
+        time.sleep(3)  # www.twse.com.tw rate-limits bursts
+        rows, error = with_retries(f"{source_id}[www {want}]", lambda u=url: parser(http_get(u, DEFAULT_SIZE_CAP), want))
+        if rows and len(rows) >= MIN_ROWS.get(source_id, 0):
+            fetched_at = now_text()
+            save_cache(source_id, rows, want.isoformat(), fetched_at)
+            log(f"{source_id}: fresh from www.twse.com.tw for {want}, {len(rows)} rows")
+            return rows, {"status": "fresh", "source_date": want.isoformat(), "rows": len(rows),
+                          "fetched_at": fetched_at, "error": None, "note": f"www fallback: {url}"}
+        log(f"{source_id}: www {want} not usable ({error or f'{len(rows or [])} rows'})")
+    return None, None
+
+
+def prefer_newer_cache(source_id: str, rows, status: dict, limit: date):
+    """If the cache holds a newer copy (<= limit) than what we fetched, use the cache."""
+    cached = load_cache(source_id)
+    current = source_date_of(rows or []) or ""
+    if cached and current < (cached.get("source_date") or "") <= limit.isoformat():
+        log(f"{source_id}: cached copy {cached['source_date']} is newer than fetched {current or 'none'}; using cache")
+        return cached["rows"], {"status": "stale_cache", "source_date": cached["source_date"],
+                                "rows": len(cached["rows"]), "fetched_at": cached.get("fetched_at"),
+                                "error": status.get("error") or f"fetched copy is older ({current or 'none'})"}
+    return rows, status
+
+
+def refresh_twse(data: dict, sources: dict, target: date, data_date: date) -> None:
+    """OpenAPI can lag a day; fill TWSE daily quotes / day-trade list from www.twse.com.tw."""
+    if (source_date_of(data.get("TWSE_DAILY") or []) or "") < data_date.isoformat():
+        rows, status = fetch_twse_www("TWSE_DAILY", TWSE_WWW_DAILY, parse_twse_www_daily, data_date)
+        if rows:
+            data["TWSE_DAILY"], sources["TWSE_DAILY"] = rows, status
+    data["TWSE_DAILY"], sources["TWSE_DAILY"] = prefer_newer_cache(
+        "TWSE_DAILY", data.get("TWSE_DAILY"), sources["TWSE_DAILY"], data_date)
+    for want in (target, data_date):
+        if (source_date_of(data.get("TWSE_DAYTRADE") or []) or "") >= want.isoformat():
+            break
+        rows, status = fetch_twse_www("TWSE_DAYTRADE", (TWSE_WWW_DAYTRADE,), parse_twse_www_daytrade, want)
+        if rows:
+            data["TWSE_DAYTRADE"], sources["TWSE_DAYTRADE"] = rows, status
+            break
+    data["TWSE_DAYTRADE"], sources["TWSE_DAYTRADE"] = prefer_newer_cache(
+        "TWSE_DAYTRADE", data.get("TWSE_DAYTRADE"), sources["TWSE_DAYTRADE"], target)
 
 
 # --------------------------------------------------------------- cache ------
@@ -540,7 +656,7 @@ def evaluate_market(market: str, ctx: dict) -> tuple[list[dict], list[dict]]:
     halts = ctx.get("halt") or []
     daytrade = {r["code"]: r for r in ctx.get("daytrade") or []} if ctx.get("daytrade") is not None else None
 
-    universe = set(company) | set(daily) | (set(common) if common else set())
+    universe = {c for c in set(company) | set(daily) | set(common or ()) if STOCK_SCOPE.fullmatch(c)}
     members, excluded = [], []
     for code in sorted(universe):
         reason = None
@@ -642,13 +758,19 @@ def main() -> int:
         for sid in ids:
             data[sid], sources[sid] = fetch_source(sid)
 
+    def run_twse():
+        run_serial(twse_ids)
+        refresh_twse(data, sources, target, data_date)
+
     def run_tpex():
         run_serial(tpex_ids)
+        data["TPEX_DAILY"], sources["TPEX_DAILY"] = prefer_newer_cache(
+            "TPEX_DAILY", data.get("TPEX_DAILY"), sources["TPEX_DAILY"], data_date)
         data["TPEX_DAYTRADE"], sources["TPEX_DAYTRADE"] = fetch_tpex_daytrade(target, holidays)
 
     # One serial lane per host to stay polite; the three lanes run in parallel.
     with ThreadPoolExecutor(max_workers=3) as pool:
-        futures = [pool.submit(run_serial, twse_ids), pool.submit(run_tpex), pool.submit(run_serial, ["TPEX_ISIN"])]
+        futures = [pool.submit(run_twse), pool.submit(run_tpex), pool.submit(run_serial, ["TPEX_ISIN"])]
         for f in futures:
             f.result()
 
@@ -657,18 +779,8 @@ def main() -> int:
     for market in ("TWSE", "TPEX"):
         sid = f"{market}_DAYTRADE"
         rows = data.get(sid)
-        if market == "TWSE" and rows is not None:
-            list_date = source_date_of(rows)
-            if list_date and list_date > target.isoformat():
-                warnings.append(f"TWSE day-trade list dated {list_date} is after target {target}")
-            # If the fresh copy is older than cache, prefer the newer cached list.
-            cached = load_cache(sid)
-            if cached and list_date and (cached.get("source_date") or "") > list_date \
-                    and cached["source_date"] <= target.isoformat():
-                rows = cached["rows"]
-                data[sid] = rows
-                sources[sid]["status"] = "stale_cache"
-                sources[sid]["source_date"] = cached["source_date"]
+        if rows is not None and (source_date_of(rows) or "") > target.isoformat():
+            warnings.append(f"{market} day-trade list dated {source_date_of(rows)} is after target {target}")
         if rows is None:
             daytrade_date[market], daytrade_fallback[market] = None, True
             warnings.append(f"{market} day-trade list unavailable: market has no members")
