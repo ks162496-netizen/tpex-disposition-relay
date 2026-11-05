@@ -2,121 +2,120 @@
   "schema": "SIMPLE_POOL_V1",
   "target": "2026-11-06",
   "data_date": "2026-11-05",
-  "generated_at_taipei": "2026-11-06T03:07:30+08:00",
+  "generated_at_taipei": "2026-11-06T03:08:32+08:00",
   "run_reason": "push",
   "sources": {
     "TPEX_COMPANY": {
       "status": "fresh",
       "source_date": "2026-11-05",
       "rows": 897,
-      "fetched_at": "2026-11-06T03:04:58+08:00",
+      "fetched_at": "2026-11-06T03:08:20+08:00",
       "error": null
     },
     "TPEX_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-05",
       "rows": 893,
-      "fetched_at": "2026-11-06T03:05:11+08:00",
+      "fetched_at": "2026-11-06T03:08:28+08:00",
       "error": null
     },
     "TPEX_DAYTRADE": {
       "status": "fresh",
       "source_date": "2026-11-06",
       "rows": 847,
-      "fetched_at": "2026-11-06T03:05:15+08:00",
+      "fetched_at": "2026-11-06T03:08:32+08:00",
       "error": null
     },
     "TPEX_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
       "rows": 9,
-      "fetched_at": "2026-11-06T03:05:11+08:00",
+      "fetched_at": "2026-11-06T03:08:30+08:00",
       "error": null
     },
     "TPEX_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 362,
-      "fetched_at": "2026-11-06T03:05:14+08:00",
+      "fetched_at": "2026-11-06T03:08:30+08:00",
       "error": null
     },
     "TPEX_ISIN": {
       "status": "fresh",
       "source_date": null,
       "rows": 897,
-      "fetched_at": "2026-11-06T03:05:02+08:00",
+      "fetched_at": "2026-11-06T03:08:16+08:00",
       "error": null
     },
     "TPEX_STATUS": {
       "status": "fresh",
       "source_date": "2026-11-05",
       "rows": 23,
-      "fetched_at": "2026-11-06T03:05:11+08:00",
+      "fetched_at": "2026-11-06T03:08:28+08:00",
       "error": null
     },
     "TWSE_CHANGED": {
       "status": "fresh",
       "source_date": null,
       "rows": 10,
-      "fetched_at": "2026-11-06T03:05:00+08:00",
+      "fetched_at": "2026-11-06T03:08:16+08:00",
       "error": null
     },
     "TWSE_COMPANY": {
       "status": "fresh",
       "source_date": "2026-11-04",
       "rows": 1099,
-      "fetched_at": "2026-11-06T03:04:57+08:00",
+      "fetched_at": "2026-11-06T03:08:14+08:00",
       "error": null
     },
     "TWSE_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-05",
       "rows": 1125,
-      "fetched_at": "2026-11-06T03:06:17+08:00",
+      "fetched_at": "2026-11-06T03:08:22+08:00",
       "error": null,
       "note": "www fallback: https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20261105&type=ALLBUT0999&response=json"
     },
     "TWSE_DAYTRADE": {
       "status": "fresh",
-      "source_date": "2026-11-05",
+      "source_date": "2026-11-06",
       "rows": 1241,
-      "fetched_at": "2026-11-06T03:05:04+08:00",
-      "error": null
+      "fetched_at": "2026-11-06T03:08:26+08:00",
+      "error": null,
+      "note": "www fallback: https://www.twse.com.tw/rwd/zh/dayTrading/TWTB4U?date=20261106&selectType=All&response=json"
     },
     "TWSE_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
       "rows": 5,
-      "fetched_at": "2026-11-06T03:05:00+08:00",
+      "fetched_at": "2026-11-06T03:08:16+08:00",
       "error": null
     },
     "TWSE_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 1,
-      "fetched_at": "2026-11-06T03:05:02+08:00",
+      "fetched_at": "2026-11-06T03:08:17+08:00",
       "error": null
     },
     "TWSE_HOLIDAY": {
       "status": "fresh",
       "source_date": "2026-12-25",
       "rows": 27,
-      "fetched_at": "2026-11-06T03:04:55+08:00",
+      "fetched_at": "2026-11-06T03:08:12+08:00",
       "error": null
     }
   },
   "daytrade_list_date": {
-    "TWSE": "2026-11-05",
+    "TWSE": "2026-11-06",
     "TPEX": "2026-11-06"
   },
   "daytrade_fallback": {
-    "TWSE": true,
+    "TWSE": false,
     "TPEX": false
   },
   "skipped_markets": {},
-  "warnings": [
-    "TWSE day-trade list for 2026-11-06 not published yet; using list of 2026-11-05"
-  ],
+  "warnings": [],
   "counts": {
     "members": 613,
     "by_market": {
