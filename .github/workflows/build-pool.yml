@@ -1,0 +1,79 @@
+name: Build day-trade stock pool
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/build_pool.py"
+      - ".github/workflows/build-pool.yml"
+  schedule:
+    # UTC times. Taiwan time is UTC+8.
+    - cron: "40 9 * * 1-5"   # 17:40 Mon-Fri Taiwan (after close; next-day pool)
+    - cron: "40 13 * * 1-5"  # 21:40 Mon-Fri Taiwan
+    - cron: "20 15 * * 1-5"  # 23:20 Mon-Fri Taiwan
+    - cron: "40 22 * * 0-4"  # 06:40 Mon-Fri Taiwan (same-day pool)
+    - cron: "40 23 * * 0-4"  # 07:40 Mon-Fri Taiwan
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-day-trade-pool
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build pool
+        id: build
+        continue-on-error: true
+        shell: bash
+        env:
+          RUN_REASON: "${{ github.event_name }} ${{ github.event.schedule }}"
+        run: |
+          set -o pipefail
+          mkdir -p data pool
+          python -u scripts/build_pool.py 2>&1 | tee data/last_run.log
+
+      - name: Commit pool and data
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- pool data
+          if git diff --cached --quiet; then
+            echo "No pool/data changes to commit."
+            exit 0
+          fi
+          target="$(python -c 'import json;print(json.load(open("pool/latest.json"))["target"])' 2>/dev/null || echo unknown)"
+          git commit -m "chore(pool): day-trade pool for ${target} (${{ steps.build.outcome }})"
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 10))
+          done
+          echo "Push failed after 5 attempts." >&2
+          exit 1
+
+      - name: Fail job if build failed
+        if: steps.build.outcome != 'success'
+        run: |
+          echo "build_pool.py failed; see data/last_run.log" >&2
+          exit 1
