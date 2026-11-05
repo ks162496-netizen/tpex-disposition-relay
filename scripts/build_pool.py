@@ -59,10 +59,9 @@ URLS = {
 }
 # www.twse.com.tw fallbacks, used only when the OpenAPI copy is older than needed.
 TWSE_WWW_DAILY = (
-    "https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY_ALL?date={ymd}&response=json",
     "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date={ymd}&type=ALLBUT0999&response=json",
 )
-TWSE_WWW_DAYTRADE = "https://www.twse.com.tw/rwd/zh/afterTrading/TWTB4U?date={ymd}&selectType=All&response=json"
+TWSE_WWW_DAYTRADE = "https://www.twse.com.tw/rwd/zh/dayTrading/TWTB4U?date={ymd}&selectType=All&response=json"
 # Only 4-digit codes (optionally with a letter suffix) are evaluated; warrants,
 # bonds and 5/6-digit ETFs are out of scope and not listed in "excluded".
 STOCK_SCOPE = re.compile(r"\d{4}[A-Z]?")
