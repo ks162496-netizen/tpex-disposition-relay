@@ -1,23 +1,22 @@
-[18:01:17] build_pool start, run_reason=workflow_dispatch
-[18:01:18] TWSE_HOLIDAY: fresh, 27 rows, source_date 2026-12-25
-[18:01:18] target=2026-11-09 data_date=2026-11-06
-[18:01:19] TPEX_COMPANY: fresh, 897 rows, source_date 2026-11-05
-[18:01:20] TWSE_COMPANY: fresh, 1099 rows, source_date 2026-11-05
-[18:01:21] TWSE_DAILY: fresh, 1125 rows, source_date 2026-11-05
-[18:01:21] TWSE_CHANGED: fresh, 10 rows, source_date None
-[18:01:22] TWSE_DISPOSITION: fresh, 4 rows, source_date None
-[18:01:23] TWSE_HALT: fresh, 1 rows, source_date None
-[18:01:24] TWSE_DAYTRADE: fresh, 1241 rows, source_date 2026-11-06
-[18:01:27] TPEX_DAILY: fresh, 893 rows, source_date 2026-11-06
-[18:01:28] TPEX_STATUS: fresh, 23 rows, source_date 2026-11-06
-[18:01:28] TPEX_DISPOSITION: fresh, 8 rows, source_date None
-[18:01:28] TPEX_HALT: fresh, 362 rows, source_date None
-[18:01:28] TPEX_DAYTRADE: list for 2026-11-09 not published (0 rows); trying previous trading day
-[18:01:28] TPEX_DAYTRADE: fresh list for 2026-11-06, 847 rows
-[18:01:29] TWSE_DAILY: fresh from www.twse.com.tw for 2026-11-06, 1125 rows
-[18:01:33] TWSE_DAYTRADE: www 2026-11-09 not usable (0 rows)
-[18:02:42] TPEX_ISIN: fresh, 897 rows, source_date None
-[18:02:42] WARNING: TWSE day-trade list for 2026-11-09 not published yet; using list of 2026-11-06
-[18:02:42] WARNING: TPEX day-trade list for 2026-11-09 not published yet; using list of 2026-11-06
-[18:02:42] members=754 by_market={'TWSE': 513, 'TPEX': 241} excluded={'disposition': 5, 'low_volume': 668, 'no_quote': 7, 'not_common_stock': 39, 'not_daytrade_listed': 15, 'price_out_of_range': 537}
-[18:02:42] wrote pool/2026-11-09.json and pool/latest.json
+[00:55:56] build_pool start, run_reason=schedule 40 9 * * 1-5
+[00:55:57] TWSE_HOLIDAY: fresh, 27 rows, source_date 2026-12-25
+[00:55:57] target=2026-11-09 data_date=2026-11-06
+[00:55:59] TWSE_COMPANY: fresh, 1099 rows, source_date 2026-11-05
+[00:56:00] TWSE_DAILY: fresh, 1125 rows, source_date 2026-11-05
+[00:56:00] TWSE_CHANGED: fresh, 10 rows, source_date None
+[00:56:01] TWSE_DISPOSITION: fresh, 4 rows, source_date None
+[00:56:01] TPEX_ISIN: fresh, 897 rows, source_date None
+[00:56:01] TWSE_HALT: fresh, 1 rows, source_date None
+[00:56:02] TPEX_COMPANY: fresh, 897 rows, source_date 2026-11-06
+[00:56:02] TWSE_DAYTRADE: fresh, 1241 rows, source_date 2026-11-06
+[00:56:06] TWSE_DAILY: fresh from www.twse.com.tw for 2026-11-06, 1125 rows
+[00:56:11] TWSE_DAYTRADE: www 2026-11-09 not usable (0 rows)
+[00:56:17] TPEX_DAILY: attempt 1/3 failed: JSONDecodeError: Unterminated string starting at: line 9179 column 300 (char 3480061)
+[00:56:45] TPEX_DAILY: fresh, 893 rows, source_date 2026-11-06
+[00:56:45] TPEX_STATUS: fresh, 23 rows, source_date 2026-11-06
+[00:56:46] TPEX_DISPOSITION: fresh, 8 rows, source_date None
+[00:56:47] TPEX_HALT: fresh, 362 rows, source_date None
+[00:56:47] TPEX_DAYTRADE: fresh list for 2026-11-09, 850 rows
+[00:56:47] WARNING: TWSE day-trade list for 2026-11-09 not published yet; using list of 2026-11-06
+[00:56:47] members=756 by_market={'TWSE': 513, 'TPEX': 243} excluded={'disposition': 5, 'low_volume': 668, 'no_quote': 7, 'not_common_stock': 39, 'not_daytrade_listed': 13, 'price_out_of_range': 537}
+[00:56:47] wrote pool/2026-11-09.json and pool/latest.json

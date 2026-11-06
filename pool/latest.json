@@ -2,77 +2,77 @@
   "schema": "SIMPLE_POOL_V1",
   "target": "2026-11-09",
   "data_date": "2026-11-06",
-  "generated_at_taipei": "2026-11-06T18:02:42+08:00",
-  "run_reason": "workflow_dispatch",
+  "generated_at_taipei": "2026-11-07T00:56:47+08:00",
+  "run_reason": "schedule 40 9 * * 1-5",
   "sources": {
     "TPEX_COMPANY": {
       "status": "fresh",
-      "source_date": "2026-11-05",
+      "source_date": "2026-11-06",
       "rows": 897,
-      "fetched_at": "2026-11-06T18:01:19+08:00",
+      "fetched_at": "2026-11-07T00:56:02+08:00",
       "error": null
     },
     "TPEX_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-06",
       "rows": 893,
-      "fetched_at": "2026-11-06T18:01:27+08:00",
+      "fetched_at": "2026-11-07T00:56:45+08:00",
       "error": null
     },
     "TPEX_DAYTRADE": {
       "status": "fresh",
-      "source_date": "2026-11-06",
-      "rows": 847,
-      "fetched_at": "2026-11-06T18:01:28+08:00",
-      "error": "2026-11-09: not published"
+      "source_date": "2026-11-09",
+      "rows": 850,
+      "fetched_at": "2026-11-07T00:56:47+08:00",
+      "error": null
     },
     "TPEX_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
       "rows": 8,
-      "fetched_at": "2026-11-06T18:01:28+08:00",
+      "fetched_at": "2026-11-07T00:56:46+08:00",
       "error": null
     },
     "TPEX_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 362,
-      "fetched_at": "2026-11-06T18:01:28+08:00",
+      "fetched_at": "2026-11-07T00:56:47+08:00",
       "error": null
     },
     "TPEX_ISIN": {
       "status": "fresh",
       "source_date": null,
       "rows": 897,
-      "fetched_at": "2026-11-06T18:02:42+08:00",
+      "fetched_at": "2026-11-07T00:56:01+08:00",
       "error": null
     },
     "TPEX_STATUS": {
       "status": "fresh",
       "source_date": "2026-11-06",
       "rows": 23,
-      "fetched_at": "2026-11-06T18:01:28+08:00",
+      "fetched_at": "2026-11-07T00:56:45+08:00",
       "error": null
     },
     "TWSE_CHANGED": {
       "status": "fresh",
       "source_date": null,
       "rows": 10,
-      "fetched_at": "2026-11-06T18:01:21+08:00",
+      "fetched_at": "2026-11-07T00:56:00+08:00",
       "error": null
     },
     "TWSE_COMPANY": {
       "status": "fresh",
       "source_date": "2026-11-05",
       "rows": 1099,
-      "fetched_at": "2026-11-06T18:01:20+08:00",
+      "fetched_at": "2026-11-07T00:55:59+08:00",
       "error": null
     },
     "TWSE_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-06",
       "rows": 1125,
-      "fetched_at": "2026-11-06T18:01:29+08:00",
+      "fetched_at": "2026-11-07T00:56:06+08:00",
       "error": null,
       "note": "www fallback: https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20261106&type=ALLBUT0999&response=json"
     },
@@ -80,56 +80,55 @@
       "status": "fresh",
       "source_date": "2026-11-06",
       "rows": 1241,
-      "fetched_at": "2026-11-06T18:01:24+08:00",
+      "fetched_at": "2026-11-07T00:56:02+08:00",
       "error": null
     },
     "TWSE_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
       "rows": 4,
-      "fetched_at": "2026-11-06T18:01:22+08:00",
+      "fetched_at": "2026-11-07T00:56:01+08:00",
       "error": null
     },
     "TWSE_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 1,
-      "fetched_at": "2026-11-06T18:01:23+08:00",
+      "fetched_at": "2026-11-07T00:56:01+08:00",
       "error": null
     },
     "TWSE_HOLIDAY": {
       "status": "fresh",
       "source_date": "2026-12-25",
       "rows": 27,
-      "fetched_at": "2026-11-06T18:01:18+08:00",
+      "fetched_at": "2026-11-07T00:55:57+08:00",
       "error": null
     }
   },
   "daytrade_list_date": {
     "TWSE": "2026-11-06",
-    "TPEX": "2026-11-06"
+    "TPEX": "2026-11-09"
   },
   "daytrade_fallback": {
     "TWSE": true,
-    "TPEX": true
+    "TPEX": false
   },
   "skipped_markets": {},
   "warnings": [
-    "TWSE day-trade list for 2026-11-09 not published yet; using list of 2026-11-06",
-    "TPEX day-trade list for 2026-11-09 not published yet; using list of 2026-11-06"
+    "TWSE day-trade list for 2026-11-09 not published yet; using list of 2026-11-06"
   ],
   "counts": {
-    "members": 754,
+    "members": 756,
     "by_market": {
       "TWSE": 513,
-      "TPEX": 241
+      "TPEX": 243
     },
     "excluded_by_reason": {
       "disposition": 5,
       "low_volume": 668,
       "no_quote": 7,
       "not_common_stock": 39,
-      "not_daytrade_listed": 15,
+      "not_daytrade_listed": 13,
       "price_out_of_range": 537
     }
   },
@@ -163,7 +162,7 @@
     {"market": "TPEX", "symbol": "3264", "name": "欣銓", "industry": "24", "close": 164.5, "volume_lots": 15238, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3265", "name": "台星科", "industry": "24", "close": 144.0, "volume_lots": 1741, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3287", "name": "廣寰科", "industry": "25", "close": 73.3, "volume_lots": 3725, "sell_first_suspended": false},
-    {"market": "TPEX", "symbol": "3289", "name": "宜特", "industry": "31", "close": 106.5, "volume_lots": 1137, "sell_first_suspended": true},
+    {"market": "TPEX", "symbol": "3289", "name": "宜特", "industry": "31", "close": 106.5, "volume_lots": 1137, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3290", "name": "東浦", "industry": "28", "close": 43.35, "volume_lots": 1527, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3294", "name": "英濟", "industry": "28", "close": 23.5, "volume_lots": 710, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3306", "name": "鼎天", "industry": "27", "close": 46.05, "volume_lots": 1481, "sell_first_suspended": false},
@@ -177,6 +176,7 @@
     {"market": "TPEX", "symbol": "3379", "name": "彬台", "industry": "05", "close": 30.7, "volume_lots": 2450, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3388", "name": "崇越電", "industry": "28", "close": 68.1, "volume_lots": 976, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3402", "name": "漢科", "industry": "31", "close": 103.0, "volume_lots": 525, "sell_first_suspended": false},
+    {"market": "TPEX", "symbol": "3441", "name": "聯一光電", "industry": "26", "close": 145.0, "volume_lots": 1009, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3455", "name": "由田", "industry": "26", "close": 168.5, "volume_lots": 1838, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3466", "name": "德晉", "industry": "27", "close": 27.4, "volume_lots": 589, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3479", "name": "安勤", "industry": "25", "close": 102.0, "volume_lots": 1270, "sell_first_suspended": false},
@@ -197,8 +197,9 @@
     {"market": "TPEX", "symbol": "3630", "name": "新鉅科", "industry": "26", "close": 22.05, "volume_lots": 1056, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3663", "name": "鑫科", "industry": "31", "close": 43.75, "volume_lots": 949, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3675", "name": "德微", "industry": "24", "close": 207.0, "volume_lots": 696, "sell_first_suspended": false},
-    {"market": "TPEX", "symbol": "3680", "name": "家登", "industry": "24", "close": 384.0, "volume_lots": 1515, "sell_first_suspended": false},
+    {"market": "TPEX", "symbol": "3680", "name": "家登", "industry": "24", "close": 384.0, "volume_lots": 1515, "sell_first_suspended": true},
     {"market": "TPEX", "symbol": "3689", "name": "湧德", "industry": "28", "close": 90.7, "volume_lots": 1769, "sell_first_suspended": false},
+    {"market": "TPEX", "symbol": "3691", "name": "碩禾", "industry": "26", "close": 135.0, "volume_lots": 3756, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3693", "name": "營邦", "industry": "25", "close": 513.0, "volume_lots": 1381, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3707", "name": "漢磊", "industry": "24", "close": 50.9, "volume_lots": 5492, "sell_first_suspended": false},
     {"market": "TPEX", "symbol": "3709", "name": "鑫聯大投控", "industry": "25", "close": 55.5, "volume_lots": 833, "sell_first_suspended": false},
@@ -1010,7 +1011,6 @@
     {"market": "TPEX", "symbol": "3430", "reason": "low_volume"},
     {"market": "TPEX", "symbol": "3434", "reason": "low_volume"},
     {"market": "TPEX", "symbol": "3438", "reason": "low_volume"},
-    {"market": "TPEX", "symbol": "3441", "reason": "not_daytrade_listed"},
     {"market": "TPEX", "symbol": "3444", "reason": "low_volume"},
     {"market": "TPEX", "symbol": "3465", "reason": "low_volume"},
     {"market": "TPEX", "symbol": "3467", "reason": "low_volume"},
@@ -1057,7 +1057,6 @@
     {"market": "TPEX", "symbol": "3684", "reason": "low_volume"},
     {"market": "TPEX", "symbol": "3685", "reason": "not_daytrade_listed"},
     {"market": "TPEX", "symbol": "3687", "reason": "low_volume"},
-    {"market": "TPEX", "symbol": "3691", "reason": "not_daytrade_listed"},
     {"market": "TPEX", "symbol": "3710", "reason": "price_out_of_range"},
     {"market": "TPEX", "symbol": "3713", "reason": "price_out_of_range"},
     {"market": "TPEX", "symbol": "4102", "reason": "price_out_of_range"},
