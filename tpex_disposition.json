@@ -4,10 +4,10 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-11-06T03:29:15.132252Z",
-  "fetched_at_taipei": "2026-11-06T11:29:15.132252+08:00",
-  "last_attempt_at": "2026-11-06T03:29:13.941973Z",
-  "last_successful_fetch_at": "2026-11-06T03:29:15.132252Z",
+  "fetched_at_utc": "2026-11-06T06:58:29.119508Z",
+  "fetched_at_taipei": "2026-11-06T14:58:29.119508+08:00",
+  "last_attempt_at": "2026-11-06T06:58:28.760357Z",
+  "last_successful_fetch_at": "2026-11-06T06:58:29.119508Z",
   "source_publication_date": "2026-11-04",
   "effective_periods": [
     {
@@ -144,9 +144,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-06T03:29:20.229573Z",
-      "last_attempt_at": "2026-11-06T03:29:15.132252Z",
-      "last_successful_fetch_at": "2026-11-06T03:29:20.229573Z",
+      "source_fetched_at_utc": "2026-11-06T06:58:34.365294Z",
+      "last_attempt_at": "2026-11-06T06:58:29.119508Z",
+      "last_successful_fetch_at": "2026-11-06T06:58:34.365294Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -163,9 +163,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-06T03:29:24.300375Z",
-      "last_attempt_at": "2026-11-06T03:29:15.132252Z",
-      "last_successful_fetch_at": "2026-11-06T03:29:24.300375Z",
+      "source_fetched_at_utc": "2026-11-06T06:58:42.058483Z",
+      "last_attempt_at": "2026-11-06T06:58:29.119508Z",
+      "last_successful_fetch_at": "2026-11-06T06:58:42.058483Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -182,9 +182,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-06T03:29:33.028186Z",
-      "last_attempt_at": "2026-11-06T03:29:15.132252Z",
-      "last_successful_fetch_at": "2026-11-06T03:29:33.028186Z",
+      "source_fetched_at_utc": "2026-11-06T06:58:44.706853Z",
+      "last_attempt_at": "2026-11-06T06:58:29.119508Z",
+      "last_successful_fetch_at": "2026-11-06T06:58:44.706853Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -198,12 +198,12 @@
       "refresh_error": null
     },
     "tdcc": {
-      "status": "stale_fallback",
+      "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-05T17:50:16.782015Z",
-      "last_attempt_at": "2026-11-06T03:29:15.132252Z",
-      "last_successful_fetch_at": "2026-11-05T17:50:16.782015Z",
+      "source_fetched_at_utc": "2026-11-06T06:58:49.813270Z",
+      "last_attempt_at": "2026-11-06T06:58:29.119508Z",
+      "last_successful_fetch_at": "2026-11-06T06:58:49.813270Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -214,7 +214,7 @@
         "policy_completed_trading_days": null,
         "calendar_binding": "UNKNOWN"
       },
-      "refresh_error": "BudgetExceeded"
+      "refresh_error": null
     }
   }
 }
