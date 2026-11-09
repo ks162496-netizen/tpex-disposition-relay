@@ -2,107 +2,105 @@
   "schema": "SIMPLE_POOL_V1",
   "target": "2026-11-09",
   "data_date": "2026-11-06",
-  "generated_at_taipei": "2026-11-07T04:57:23+08:00",
-  "run_reason": "schedule 20 15 * * 1-5",
+  "generated_at_taipei": "2026-11-09T10:00:19+08:00",
+  "run_reason": "schedule 40 22 * * 0-4",
   "sources": {
     "TPEX_COMPANY": {
       "status": "fresh",
-      "source_date": "2026-11-06",
+      "source_date": "2026-11-08",
       "rows": 897,
-      "fetched_at": "2026-11-07T04:57:09+08:00",
+      "fetched_at": "2026-11-09T09:58:12+08:00",
       "error": null
     },
     "TPEX_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-06",
       "rows": 893,
-      "fetched_at": "2026-11-07T04:57:10+08:00",
+      "fetched_at": "2026-11-09T09:58:22+08:00",
       "error": null
     },
     "TPEX_DAYTRADE": {
       "status": "fresh",
       "source_date": "2026-11-09",
       "rows": 850,
-      "fetched_at": "2026-11-07T04:57:14+08:00",
+      "fetched_at": "2026-11-09T09:58:26+08:00",
       "error": null
     },
     "TPEX_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
       "rows": 8,
-      "fetched_at": "2026-11-07T04:57:12+08:00",
+      "fetched_at": "2026-11-09T09:58:25+08:00",
       "error": null
     },
     "TPEX_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 362,
-      "fetched_at": "2026-11-07T04:57:13+08:00",
+      "fetched_at": "2026-11-09T09:58:25+08:00",
       "error": null
     },
     "TPEX_ISIN": {
       "status": "fresh",
       "source_date": null,
       "rows": 897,
-      "fetched_at": "2026-11-07T04:57:10+08:00",
+      "fetched_at": "2026-11-09T10:00:19+08:00",
       "error": null
     },
     "TPEX_STATUS": {
       "status": "fresh",
       "source_date": "2026-11-06",
       "rows": 23,
-      "fetched_at": "2026-11-07T04:57:10+08:00",
+      "fetched_at": "2026-11-09T09:58:24+08:00",
       "error": null
     },
     "TWSE_CHANGED": {
       "status": "fresh",
       "source_date": null,
       "rows": 10,
-      "fetched_at": "2026-11-07T04:57:11+08:00",
+      "fetched_at": "2026-11-09T09:58:13+08:00",
       "error": null
     },
     "TWSE_COMPANY": {
       "status": "fresh",
-      "source_date": "2026-11-05",
+      "source_date": "2026-11-08",
       "rows": 1099,
-      "fetched_at": "2026-11-07T04:57:08+08:00",
+      "fetched_at": "2026-11-09T09:58:11+08:00",
       "error": null
     },
     "TWSE_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-06",
       "rows": 1125,
-      "fetched_at": "2026-11-07T04:57:19+08:00",
-      "error": null,
-      "note": "www fallback: https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20261106&type=ALLBUT0999&response=json"
+      "fetched_at": "2026-11-09T09:58:13+08:00",
+      "error": null
     },
     "TWSE_DAYTRADE": {
       "status": "fresh",
       "source_date": "2026-11-09",
       "rows": 1239,
-      "fetched_at": "2026-11-07T04:57:23+08:00",
-      "error": null,
-      "note": "www fallback: https://www.twse.com.tw/rwd/zh/dayTrading/TWTB4U?date=20261109&selectType=All&response=json"
+      "fetched_at": "2026-11-09T09:58:16+08:00",
+      "error": null
     },
     "TWSE_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
-      "rows": 4,
-      "fetched_at": "2026-11-07T04:57:12+08:00",
+      "rows": 7,
+      "fetched_at": "2026-11-09T09:58:14+08:00",
       "error": null
     },
     "TWSE_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 1,
-      "fetched_at": "2026-11-07T04:57:13+08:00",
+      "fetched_at": "2026-11-09T09:58:15+08:00",
       "error": null
     },
     "TWSE_HOLIDAY": {
       "status": "fresh",
       "source_date": "2026-12-25",
       "rows": 27,
-      "fetched_at": "2026-11-07T04:57:07+08:00",
+      "fetched_at": "2026-11-09T09:58:10+08:00",
       "error": null
     }
   },
@@ -123,11 +121,11 @@
       "TPEX": 243
     },
     "excluded_by_reason": {
-      "disposition": 5,
+      "disposition": 6,
       "low_volume": 668,
       "no_quote": 7,
       "not_common_stock": 39,
-      "not_daytrade_listed": 14,
+      "not_daytrade_listed": 13,
       "price_out_of_range": 537
     }
   },
@@ -1887,7 +1885,7 @@
     {"market": "TWSE", "symbol": "3447", "reason": "low_volume"},
     {"market": "TWSE", "symbol": "3494", "reason": "price_out_of_range"},
     {"market": "TWSE", "symbol": "3530", "reason": "low_volume"},
-    {"market": "TWSE", "symbol": "3532", "reason": "not_daytrade_listed"},
+    {"market": "TWSE", "symbol": "3532", "reason": "disposition"},
     {"market": "TWSE", "symbol": "3533", "reason": "price_out_of_range"},
     {"market": "TWSE", "symbol": "3550", "reason": "price_out_of_range"},
     {"market": "TWSE", "symbol": "3557", "reason": "low_volume"},

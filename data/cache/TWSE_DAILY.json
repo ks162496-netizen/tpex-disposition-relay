@@ -1,7 +1,7 @@
 {
   "id": "TWSE_DAILY",
   "source_date": "2026-11-06",
-  "fetched_at": "2026-11-06T18:01:29+08:00",
+  "fetched_at": "2026-11-09T09:58:13+08:00",
   "rows": [
     {"close":92.5,"code":"0050","date":"2026-11-06","name":"元大台灣50","volume":943224572.0},
     {"close":124.5,"code":"0051","date":"2026-11-06","name":"元大中型100","volume":244864.0},
@@ -48,7 +48,7 @@
     {"close":11.25,"code":"1309","date":"2026-11-06","name":"台達化","volume":2803845.0},
     {"close":8.06,"code":"1310","date":"2026-11-06","name":"台苯","volume":3394595.0},
     {"close":12.55,"code":"1312","date":"2026-11-06","name":"國喬","volume":17334857.0},
-    {"close":null,"code":"1312A","date":"2026-11-06","name":"國喬特","volume":0.0},
+    {"close":null,"code":"1312A","date":"2026-11-06","name":"國喬特","volume":null},
     {"close":11.4,"code":"1313","date":"2026-11-06","name":"聯成","volume":5947256.0},
     {"close":7.28,"code":"1314","date":"2026-11-06","name":"中石化","volume":34230633.0},
     {"close":69.3,"code":"1315","date":"2026-11-06","name":"達新","volume":149477.0},
@@ -801,7 +801,7 @@
     {"close":98.9,"code":"5871A","date":"2026-11-06","name":"中租-KY甲特","volume":237322.0},
     {"close":51.0,"code":"5876","date":"2026-11-06","name":"上海商銀","volume":7630273.0},
     {"close":27.9,"code":"5880","date":"2026-11-06","name":"合庫金","volume":32173499.0},
-    {"close":null,"code":"5906","date":"2026-11-06","name":"台南-KY","volume":0.0},
+    {"close":null,"code":"5906","date":"2026-11-06","name":"台南-KY","volume":null},
     {"close":3.91,"code":"5907","date":"2026-11-06","name":"大洋-KY","volume":537968.0},
     {"close":27.5,"code":"6005","date":"2026-11-06","name":"群益證","volume":9294411.0},
     {"close":56.6,"code":"6024","date":"2026-11-06","name":"群益期","volume":514338.0},
