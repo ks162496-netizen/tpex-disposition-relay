@@ -4,12 +4,17 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-11-09T06:49:29.109927Z",
-  "fetched_at_taipei": "2026-11-09T14:49:29.109927+08:00",
-  "last_attempt_at": "2026-11-09T06:49:28.738896Z",
-  "last_successful_fetch_at": "2026-11-09T06:49:29.109927Z",
-  "source_publication_date": "2026-11-04",
+  "fetched_at_utc": "2026-11-09T16:41:10.784869Z",
+  "fetched_at_taipei": "2026-11-10T00:41:10.784869+08:00",
+  "last_attempt_at": "2026-11-09T16:41:10.302671Z",
+  "last_successful_fetch_at": "2026-11-09T16:41:10.784869Z",
+  "source_publication_date": "2026-11-09",
   "effective_periods": [
+    {
+      "security_code": "4542",
+      "from": "2026-11-10",
+      "through": "2026-11-16"
+    },
     {
       "security_code": "8099",
       "from": "2026-11-05",
@@ -19,11 +24,6 @@
       "security_code": "8272",
       "from": "2026-11-05",
       "through": "2026-11-11"
-    },
-    {
-      "security_code": "8291",
-      "from": "2026-11-03",
-      "through": "2026-11-09"
     },
     {
       "security_code": "3374",
@@ -40,12 +40,20 @@
   "record_count": 4,
   "security_codes": [
     "3374",
+    "4542",
     "8099",
-    "8272",
-    "8291"
+    "8272"
   ],
   "security_code_count": 4,
   "records": [
+    {
+      "公布日期": "1151109",
+      "證券代號": "4542",
+      "證券名稱": "科嶠",
+      "處置起訖時間": "1151110~1151116",
+      "處置原因": "連續3個營業日",
+      "處置內容": "* 公布日期：115/11/09* 證券代號：4542* 證券名稱：科嶠工業股份有限公司* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準，且最近30個營業日內曾發布處置。* 處置起訖期間：自115年11月10日起5個營業日(115年11月10日至115年11月16日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券，向該投資人收取全部之買進價金或賣出證券；(3)信用交易部分，則收足融資自備款或融券保證金。但信用交易了結及違約專戶委託買賣該有價證券時，不在此限。"
+    },
     {
       "公布日期": "1151104",
       "證券代號": "8099",
@@ -61,14 +69,6 @@
       "處置起訖時間": "1151105~1151111",
       "處置原因": "連續3個營業日",
       "處置內容": "* 公布日期：115/11/04* 證券代號：8272* 證券名稱：全景軟體股份有限公司* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準。* 處置起訖期間：自115年11月5日起5個營業日(115年11月5日至115年11月11日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券之數量單筆達10交易單位或多筆累積達30交易單位以上時，向該投資人收取全部之買進價金或賣出證券。但違約專戶委託買賣該有價證券時，不在此限。"
-    },
-    {
-      "公布日期": "1151102",
-      "證券代號": "8291",
-      "證券名稱": "尚茂",
-      "處置起訖時間": "1151103~1151109",
-      "處置原因": "連續3個營業日",
-      "處置內容": "* 公布日期：115/11/02* 證券代號：8291* 證券名稱：尚茂電子材料股份有限公司* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準。* 處置起訖期間：自115年11月3日起5個營業日(115年11月3日至115年11月9日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每10分鐘撮合一次)；(2)依本中心業務規則第12條規定，證券商應就投資人每日已委託買賣該有價證券，向該投資人收取全部之買進價金或賣出證券。但違約專戶委託買賣該有價證券時，不在此限。"
     },
     {
       "公布日期": "1151030",
@@ -89,9 +89,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-09T06:49:32.591650Z",
-      "last_attempt_at": "2026-11-09T06:49:29.109927Z",
-      "last_successful_fetch_at": "2026-11-09T06:49:32.591650Z",
+      "source_fetched_at_utc": "2026-11-09T16:41:13.576099Z",
+      "last_attempt_at": "2026-11-09T16:41:10.784869Z",
+      "last_successful_fetch_at": "2026-11-09T16:41:13.576099Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -108,9 +108,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-09T06:49:39.557708Z",
-      "last_attempt_at": "2026-11-09T06:49:29.109927Z",
-      "last_successful_fetch_at": "2026-11-09T06:49:39.557708Z",
+      "source_fetched_at_utc": "2026-11-09T16:41:20.044187Z",
+      "last_attempt_at": "2026-11-09T16:41:10.784869Z",
+      "last_successful_fetch_at": "2026-11-09T16:41:20.044187Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -127,9 +127,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-09T06:49:42.225337Z",
-      "last_attempt_at": "2026-11-09T06:49:29.109927Z",
-      "last_successful_fetch_at": "2026-11-09T06:49:42.225337Z",
+      "source_fetched_at_utc": "2026-11-09T16:41:23.379563Z",
+      "last_attempt_at": "2026-11-09T16:41:10.784869Z",
+      "last_successful_fetch_at": "2026-11-09T16:41:23.379563Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -146,9 +146,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-09T06:49:52.092543Z",
-      "last_attempt_at": "2026-11-09T06:49:29.109927Z",
-      "last_successful_fetch_at": "2026-11-09T06:49:52.092543Z",
+      "source_fetched_at_utc": "2026-11-09T16:41:28.445413Z",
+      "last_attempt_at": "2026-11-09T16:41:10.784869Z",
+      "last_successful_fetch_at": "2026-11-09T16:41:28.445413Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
