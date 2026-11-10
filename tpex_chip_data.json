@@ -2,9 +2,9 @@
   "schema_version": 1,
   "dataset": "chip_data",
   "market": "tpex",
-  "fetched_at_utc": "2026-11-10T04:41:29.757773Z",
-  "fetched_at_taipei": "2026-11-10T12:41:29.757773+08:00",
-  "last_attempt_at": "2026-11-10T04:41:21.051372+00:00",
+  "fetched_at_utc": "2026-11-10T07:28:34.388889Z",
+  "fetched_at_taipei": "2026-11-10T15:28:34.388889+08:00",
+  "last_attempt_at": "2026-11-10T07:28:27.359978+00:00",
   "source_publication_date": "UNKNOWN",
   "covered_through": "UNKNOWN",
   "stale": true,
@@ -20058,18 +20058,18 @@
       }
     ],
     "response_metadata": {
-      "etag": "\"6af1e708-d2892\"",
-      "last_modified": "Mon, 09 Nov 2026 15:30:16 GMT",
+      "etag": "\"6af2b2f1-d2892\"",
+      "last_modified": "Tue, 10 Nov 2026 06:00:17 GMT",
       "content_type": "application/json"
     },
-    "fetched_at_utc": "2026-11-10T04:41:29.757773Z",
-    "fetched_at_taipei": "2026-11-10T12:41:29.757773+08:00",
+    "fetched_at_utc": "2026-11-10T07:28:34.388889Z",
+    "fetched_at_taipei": "2026-11-10T15:28:34.388889+08:00",
     "source_publication_date": "UNKNOWN",
     "covered_through": "UNKNOWN",
     "refresh_status": "fresh_fetch_native_coverage_unknown",
     "refresh_error": null,
-    "last_attempt_at": "2026-11-10T04:41:21.051372Z",
-    "last_successful_fetch_at": "2026-11-10T04:41:29.757773Z",
+    "last_attempt_at": "2026-11-10T07:28:27.359978Z",
+    "last_successful_fetch_at": "2026-11-10T07:28:34.388889Z",
     "stale": true
   },
   "margin": {
@@ -41217,18 +41217,18 @@
       }
     ],
     "response_metadata": {
-      "etag": "\"6af1e6fe-86712\"",
-      "last_modified": "Mon, 09 Nov 2026 15:30:06 GMT",
+      "etag": "\"6af2b2e7-86712\"",
+      "last_modified": "Tue, 10 Nov 2026 06:00:07 GMT",
       "content_type": "application/json"
     },
-    "fetched_at_utc": "2026-11-10T04:41:32.059121Z",
-    "fetched_at_taipei": "2026-11-10T12:41:32.059121+08:00",
+    "fetched_at_utc": "2026-11-10T07:28:39.810050Z",
+    "fetched_at_taipei": "2026-11-10T15:28:39.810050+08:00",
     "source_publication_date": "UNKNOWN",
     "covered_through": "UNKNOWN",
     "refresh_status": "fresh_fetch_native_coverage_unknown",
     "refresh_error": null,
-    "last_attempt_at": "2026-11-10T04:41:21.051372Z",
-    "last_successful_fetch_at": "2026-11-10T04:41:32.059121Z",
+    "last_attempt_at": "2026-11-10T07:28:27.359978Z",
+    "last_successful_fetch_at": "2026-11-10T07:28:39.810050Z",
     "stale": true
   }
 }
