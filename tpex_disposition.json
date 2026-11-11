@@ -4,12 +4,17 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-11-11T06:43:03.615950Z",
-  "fetched_at_taipei": "2026-11-11T14:43:03.615950+08:00",
-  "last_attempt_at": "2026-11-11T06:42:58.686613Z",
-  "last_successful_fetch_at": "2026-11-11T06:43:03.615950Z",
-  "source_publication_date": "2026-11-10",
+  "fetched_at_utc": "2026-11-11T14:35:40.269902Z",
+  "fetched_at_taipei": "2026-11-11T22:35:40.269902+08:00",
+  "last_attempt_at": "2026-11-11T14:35:38.230691Z",
+  "last_successful_fetch_at": "2026-11-11T14:35:40.269902Z",
+  "source_publication_date": "2026-11-11",
   "effective_periods": [
+    {
+      "security_code": "54642",
+      "from": "2026-11-12",
+      "through": "2026-11-18"
+    },
     {
       "security_code": "24552",
       "from": "2026-11-11",
@@ -47,17 +52,26 @@
   "eligibility_status": "UNKNOWN_SOURCE_ROLE_BINDING",
   "complete_response_structure": true,
   "empty_result_basis": null,
-  "record_count": 6,
+  "record_count": 7,
   "security_codes": [
     "24552",
     "24553",
     "4542",
+    "54642",
     "62075",
     "8099",
     "8272"
   ],
-  "security_code_count": 6,
+  "security_code_count": 7,
   "records": [
+    {
+      "公布日期": "1151111",
+      "證券代號": "54642",
+      "證券名稱": "霖宏二",
+      "處置起訖時間": "1151112~1151118",
+      "處置原因": "連續3個營業日",
+      "處置內容": "* 公布日期：115/11/11* 證券代號：54642* 證券名稱：霖宏科技股份有限公司國內第二次有擔保轉換公司債* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準。* 處置起訖期間：自115年11月12日起5個營業日(115年11月12日至115年11月18日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券之數量單筆達10交易單位或多筆累積達30交易單位以上時，向該投資人收取全部之買進價金或賣出證券。但違約專戶委託買賣該有價證券時，不在此限。"
+    },
     {
       "公布日期": "1151110",
       "證券代號": "24552",
@@ -117,9 +131,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-11T06:43:12.203662Z",
-      "last_attempt_at": "2026-11-11T06:43:03.615950Z",
-      "last_successful_fetch_at": "2026-11-11T06:43:12.203662Z",
+      "source_fetched_at_utc": "2026-11-11T14:35:42.639331Z",
+      "last_attempt_at": "2026-11-11T14:35:40.269902Z",
+      "last_successful_fetch_at": "2026-11-11T14:35:42.639331Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -136,9 +150,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-11T06:43:19.416618Z",
-      "last_attempt_at": "2026-11-11T06:43:03.615950Z",
-      "last_successful_fetch_at": "2026-11-11T06:43:19.416618Z",
+      "source_fetched_at_utc": "2026-11-11T14:35:45.386788Z",
+      "last_attempt_at": "2026-11-11T14:35:40.269902Z",
+      "last_successful_fetch_at": "2026-11-11T14:35:45.386788Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -155,9 +169,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-11T06:43:21.501228Z",
-      "last_attempt_at": "2026-11-11T06:43:03.615950Z",
-      "last_successful_fetch_at": "2026-11-11T06:43:21.501228Z",
+      "source_fetched_at_utc": "2026-11-11T14:35:51.090549Z",
+      "last_attempt_at": "2026-11-11T14:35:40.269902Z",
+      "last_successful_fetch_at": "2026-11-11T14:35:51.090549Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -174,9 +188,9 @@
       "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-11T06:43:25.674618Z",
-      "last_attempt_at": "2026-11-11T06:43:03.615950Z",
-      "last_successful_fetch_at": "2026-11-11T06:43:25.674618Z",
+      "source_fetched_at_utc": "2026-11-11T14:35:55.492282Z",
+      "last_attempt_at": "2026-11-11T14:35:40.269902Z",
+      "last_successful_fetch_at": "2026-11-11T14:35:55.492282Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
