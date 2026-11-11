@@ -1,8 +1,8 @@
 {
   "id": "TWSE_HALT",
   "source_date": null,
-  "fetched_at": "2026-11-06T03:01:36+08:00",
+  "fetched_at": "2026-11-11T10:14:29+08:00",
   "rows": [
-    {"code":"1218","halt":"2026-08-13","resume":"2026-08-14"}
+    {"code":"2314","halt":"2026-11-10","resume":null}
   ]
 }
