@@ -1,18 +1,40 @@
-[12:11:56] build_pool start, run_reason=schedule 40 23 * * 0-4
-[12:11:58] TWSE_HOLIDAY: fresh, 27 rows, source_date 2026-12-25
-[12:11:58] target=2026-11-12 data_date=2026-11-11
-[12:11:59] TWSE_COMPANY: fresh, 1099 rows, source_date 2026-11-11
-[12:12:01] TWSE_DAILY: fresh, 1125 rows, source_date 2026-11-11
-[12:12:01] TWSE_CHANGED: fresh, 10 rows, source_date None
-[12:12:02] TWSE_DISPOSITION: fresh, 5 rows, source_date None
-[12:12:03] TWSE_HALT: fresh, 1 rows, source_date None
-[12:12:03] TWSE_DAYTRADE: fresh, 1241 rows, source_date 2026-11-12
-[12:12:11] TPEX_COMPANY: fresh, 897 rows, source_date 2026-11-11
-[12:12:20] TPEX_DAILY: fresh, 896 rows, source_date 2026-11-11
-[12:12:21] TPEX_STATUS: fresh, 21 rows, source_date 2026-11-11
-[12:12:21] TPEX_DISPOSITION: fresh, 7 rows, source_date None
-[12:12:22] TPEX_HALT: fresh, 362 rows, source_date None
-[12:12:23] TPEX_DAYTRADE: fresh list for 2026-11-12, 852 rows
-[12:14:26] TPEX_ISIN: fresh, 897 rows, source_date None
-[12:14:26] members=548 by_market={'TWSE': 380, 'TPEX': 168} excluded={'disposition': 2, 'low_volume': 881, 'no_quote': 4, 'not_common_stock': 39, 'not_daytrade_listed': 8, 'price_out_of_range': 543}
-[12:14:26] wrote pool/2026-11-12.json and pool/latest.json
+[01:43:34] build_pool start, run_reason=schedule 40 9 * * 1-5
+[01:43:35] TWSE_HOLIDAY: fresh, 27 rows, source_date 2026-12-25
+[01:43:35] target=2026-11-13 data_date=2026-11-12
+[01:43:35] TPEX_COMPANY: attempt 1/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:43:37] TWSE_COMPANY: fresh, 1099 rows, source_date 2026-11-11
+[01:43:38] TWSE_DAILY: fresh, 1125 rows, source_date 2026-11-11
+[01:43:38] TWSE_CHANGED: fresh, 10 rows, source_date None
+[01:43:39] TWSE_DISPOSITION: fresh, 5 rows, source_date None
+[01:43:40] TWSE_HALT: fresh, 1 rows, source_date None
+[01:43:40] TWSE_DAYTRADE: fresh, 1241 rows, source_date 2026-11-12
+[01:43:45] TWSE_DAILY: fresh from www.twse.com.tw for 2026-11-12, 1124 rows
+[01:43:49] TWSE_DAYTRADE: fresh from www.twse.com.tw for 2026-11-13, 1241 rows
+[01:43:53] TPEX_ISIN: fresh, 897 rows, source_date None
+[01:43:55] TPEX_COMPANY: attempt 2/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:44:35] TPEX_COMPANY: attempt 3/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:44:35] TPEX_COMPANY: using stale cache from 2026-11-12T01:25:55+08:00 (source_date 2026-11-11)
+[01:44:35] TPEX_DAILY: attempt 1/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:44:55] TPEX_DAILY: attempt 2/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:45:35] TPEX_DAILY: attempt 3/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:45:35] TPEX_DAILY: using stale cache from 2026-11-12T01:26:20+08:00 (source_date 2026-11-11)
+[01:45:35] TPEX_STATUS: attempt 1/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:45:55] TPEX_STATUS: attempt 2/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:46:35] TPEX_STATUS: attempt 3/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:46:35] TPEX_STATUS: using stale cache from 2026-11-12T01:26:22+08:00 (source_date 2026-11-11)
+[01:46:37] TPEX_DISPOSITION: attempt 1/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:46:57] TPEX_DISPOSITION: attempt 2/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:47:37] TPEX_DISPOSITION: attempt 3/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:47:37] TPEX_DISPOSITION: using stale cache from 2026-11-12T01:26:24+08:00 (source_date None)
+[01:47:37] TPEX_HALT: attempt 1/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:47:57] TPEX_HALT: attempt 2/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:48:37] TPEX_HALT: attempt 3/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:48:37] TPEX_HALT: using stale cache from 2026-11-06T03:01:47+08:00 (source_date None)
+[01:48:37] TPEX_DAYTRADE[2026-11-13]: attempt 1/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:48:57] TPEX_DAYTRADE[2026-11-13]: attempt 2/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:49:37] TPEX_DAYTRADE[2026-11-13]: attempt 3/3 failed: HTTPError: HTTP Error 403: Forbidden
+[01:49:37] TPEX_DAYTRADE: using stale cache from 2026-11-12T01:26:25+08:00 (source_date 2026-11-12)
+[01:49:37] WARNING: TPEX day-trade list for 2026-11-13 not published yet; using list of 2026-11-12
+[01:49:37] WARNING: TPEX daily quotes are dated 2026-11-11, expected 2026-11-12
+[01:49:37] members=393 by_market={'TWSE': 393, 'TPEX': 0} excluded={'disposition': 2, 'low_volume': 372, 'no_quote': 5, 'not_common_stock': 39, 'not_daytrade_listed': 4, 'price_out_of_range': 315, 'stale_quote': 895}
+[01:49:37] wrote pool/2026-11-13.json and pool/latest.json
