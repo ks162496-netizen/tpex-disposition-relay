@@ -1,7 +1,7 @@
 {
   "id": "TPEX_ISIN",
   "source_date": null,
-  "fetched_at": "2026-11-06T03:01:33+08:00",
+  "fetched_at": "2026-11-14T01:22:20+08:00",
   "rows": [
     {"code":"1240","industry":"農業科技業","name":"茂生農經"},
     {"code":"1259","industry":"觀光餐旅","name":"安心"},
@@ -785,6 +785,7 @@
     {"code":"7828","industry":"半導體業","name":"創新服務"},
     {"code":"7839","industry":"數位雲端","name":"達人網"},
     {"code":"7842","industry":"綠能環保","name":"天能綠電"},
+    {"code":"7848","industry":"其他電子業","name":"騏億鑫"},
     {"code":"7856","industry":"半導體業","name":"漢測"},
     {"code":"8024","industry":"半導體業","name":"佑華"},
     {"code":"8027","industry":"電機機械","name":"鈦昇"},

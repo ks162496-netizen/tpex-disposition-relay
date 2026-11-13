@@ -1,7 +1,7 @@
 {
   "id": "TPEX_HALT",
   "source_date": null,
-  "fetched_at": "2026-11-13T05:05:47+08:00",
+  "fetched_at": "2026-11-14T01:22:41+08:00",
   "rows": [
     {"code":"1788","halt":"2026-06-18","resume":null},
     {"code":"1788","halt":null,"resume":"2026-06-22"},
@@ -25,6 +25,7 @@
     {"code":"4127","halt":null,"resume":"2026-05-14"},
     {"code":"4130","halt":"2026-03-12","resume":null},
     {"code":"4130","halt":null,"resume":"2026-03-13"},
+    {"code":"4174","halt":"2026-11-13","resume":null},
     {"code":"4303","halt":"2026-04-28","resume":null},
     {"code":"4303","halt":null,"resume":"2026-04-29"},
     {"code":"4987","halt":"2026-02-09","resume":null},
@@ -364,6 +365,7 @@
     {"code":"8047","halt":"2026-05-13","resume":null},
     {"code":"8047","halt":null,"resume":"2026-05-14"},
     {"code":"8426","halt":"2026-11-12","resume":null},
+    {"code":"8426","halt":null,"resume":"2026-11-13"},
     {"code":"9960","halt":"2026-04-28","resume":null},
     {"code":"9960","halt":null,"resume":"2026-04-29"}
   ]
