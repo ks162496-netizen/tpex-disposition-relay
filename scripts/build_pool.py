@@ -762,6 +762,7 @@ def evaluate_market(market: str, ctx: dict) -> tuple[list[dict], list[dict]]:
             reason = "not_daytrade_listed"
         if reason:
             excluded.append({"market": market, "symbol": code, "reason": reason,
+                             "name": (comp or {}).get("name") or (quote or {}).get("name") or ((common or {}).get(code) or {}).get("name") or None,
                              "industry": (comp or {}).get("industry") or None, "flags": flags})
             continue
         name = comp.get("name") or quote.get("name") or ((common or {}).get(code) or {}).get("name", "")
