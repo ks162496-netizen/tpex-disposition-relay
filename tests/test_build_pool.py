@@ -224,3 +224,49 @@ class ParserTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TrialFlagsAndMarginTests(unittest.TestCase):
+    """Additive fields for the trader trial (2026-11-14): legal flags for every code, optional margin rows."""
+
+    def ctx(self, **kw):
+        base = {"target": TARGET, "data_date": DATA_DATE, "company": [], "daily": [],
+                "disposition": [{"code": "2002", "start": "2026-11-03", "end": "2026-11-14"}],
+                "halt": [], "changed": [{"code": "2003"}], "status": None}
+        base.update(kw)
+        return base
+
+    def test_flags_known_and_unknown(self):
+        daytrade = {"2001": {"sell_first_suspended": True}, "2002": {"sell_first_suspended": False}}
+        f1 = bp.trade_flags("TWSE", "2001", self.ctx(), daytrade, {}, {"2003"})
+        self.assertEqual(f1, {"daytrade": True, "sell_first_suspended": True, "disposition": False, "halted": False,
+                              "changed": False, "special": False})
+        f2 = bp.trade_flags("TWSE", "2002", self.ctx(), daytrade, {}, {"2003"})
+        self.assertTrue(f2["disposition"])
+        f3 = bp.trade_flags("TWSE", "2003", self.ctx(), daytrade, {}, {"2003"})
+        self.assertFalse(f3["daytrade"]); self.assertIsNone(f3["sell_first_suspended"]); self.assertTrue(f3["changed"])
+        # sources unavailable -> None (unknown), never False
+        f4 = bp.trade_flags("TWSE", "2001", self.ctx(disposition=None, halt=None, changed=None), None, {}, set())
+        self.assertIsNone(f4["daytrade"]); self.assertIsNone(f4["disposition"]); self.assertIsNone(f4["halted"]); self.assertIsNone(f4["changed"])
+        f5 = bp.trade_flags("TPEX", "6001", self.ctx(status=None), daytrade, {}, set())
+        self.assertIsNone(f5["special"]); self.assertFalse(f5["changed"])
+
+    def test_twse_margin_table(self):
+        obj = {"stat": "OK", "date": "20261113", "tables": [
+            {"title": "信用交易統計", "fields": ["項目", "買進", "賣出", "現金(券)償還", "前日餘額", "今日餘額"], "data": [["融資(交易單位)", "1", "2", "3", "4", "5"]]},
+            {"title": "融資融券彙總", "fields": ["代號", "名稱", "買進", "賣出", "現金償還", "前日餘額", "今日餘額", "次一營業日限額",
+                                             "買進", "賣出", "現券償還", "前日餘額", "今日餘額", "次一營業日限額", "資券互抵", "註記"],
+             "data": [["2330", "台積電", "680", "477", "83", "32,256", "32,376", "6,483,092", "20", "5", "9", "74", "50", "6,483,092", "3", " "],
+                      ["0050", "元大台灣50", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", ""]]}]}
+        rows = bp.parse_margin_tables(bp.margin_payload(json.dumps(obj).encode(), date(2026, 11, 13)), date(2026, 11, 13))
+        self.assertEqual(rows, [{"code": "2330", "date": "2026-11-13", "m": 32376, "m_prev": 32256, "s": 50, "s_prev": 74},
+                                {"code": "0050", "date": "2026-11-13", "m": 1, "m_prev": 1, "s": 1, "s_prev": 1}])
+        # another date -> not published (None), never mixed in
+        self.assertIsNone(bp.margin_payload(json.dumps(obj).encode(), date(2026, 11, 14)))
+
+    def test_render_keeps_margin_rows_compact(self):
+        doc = {"schema": bp.SCHEMA, "members": [{"symbol": "2330"}], "excluded": [], "margin": {"unit": "lots"},
+               "margin_rows": [{"market": "TWSE", "symbol": "2330", "m": 1, "m_prev": 1, "s": 0, "s_prev": 0}]}
+        text = bp.render(doc)
+        self.assertEqual(json.loads(text)["margin_rows"][0]["symbol"], "2330")
+        self.assertIn('\n    {"market": "TWSE", "symbol": "2330"', text)

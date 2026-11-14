@@ -62,6 +62,13 @@ TWSE_WWW_DAILY = (
     "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date={ymd}&type=ALLBUT0999&response=json",
 )
 TWSE_WWW_DAYTRADE = "https://www.twse.com.tw/rwd/zh/dayTrading/TWTB4U?date={ymd}&selectType=All&response=json"
+# Margin / short balances of data_date (optional: a failure only leaves "margin_rows" empty with a status and a warning).
+# Units: lots (張). TWSE publishes in the evening; the morning runs (06:40 / 07:40) always see it.
+MARGIN_URLS = {
+    "TWSE": ("https://www.twse.com.tw/rwd/zh/marginTrading/MI_MARGN?date={ymd}&selectType=ALL&response=json",),
+    "TPEX": ("https://www.tpex.org.tw/www/zh-tw/margin/balance?date={slash}&response=json",
+             "https://www.tpex.org.tw/web/stock/margin_trading/margin_balance/margin_bal_result.php?l=zh-tw&o=json&d={roc}"),
+}
 # Only 4-digit codes (optionally with a letter suffix) are evaluated; warrants,
 # bonds and 5/6-digit ETFs are out of scope and not listed in "excluded".
 STOCK_SCOPE = re.compile(r"\d{4}[A-Z]?")
@@ -475,6 +482,65 @@ def fetch_twse_www(source_id: str, urls, parser, want: date) -> tuple[list[dict]
     return None, None
 
 
+def parse_margin_tables(obj: dict, want: date) -> list[dict]:
+    """TWSE / TPEX rwd-style margin tables -> rows [code, margin_today, margin_prev, short_today, short_prev] (lots).
+    The two '今日餘額' columns are margin then short (TWSE order: 代號, 名稱, 融資 6 cols, 融券 6 cols, 資券互抵, 註記)."""
+    for fields, data in twse_www_tables(obj):
+        code_i = next((i for i, f in enumerate(fields) if f in ("代號", "股票代號", "證券代號")), None)
+        today = [i for i, f in enumerate(fields) if "今日餘額" in f or f.startswith(("資餘額", "券餘額"))]
+        prev = [i for i, f in enumerate(fields) if "前日餘額" in f or f.startswith(("前資餘額", "前券餘額"))]
+        if code_i is None or len(today) < 2 or len(prev) < 2:
+            continue
+        out = []
+        for r in data:
+            if not isinstance(r, list):
+                continue
+            code = clean_code(cell(r, code_i))
+            if not STOCK_SCOPE.fullmatch(code):
+                continue
+            vals = [parse_number(cell(r, i)) for i in (today[0], prev[0], today[1], prev[1])]
+            if any(v is None for v in vals):
+                continue
+            out.append({"code": code, "date": want.isoformat(), "m": int(vals[0]), "m_prev": int(vals[1]), "s": int(vals[2]), "s_prev": int(vals[3])})
+        if out:
+            return out
+    return []
+
+
+def margin_payload(raw: bytes, want: date) -> dict | None:
+    obj = decode_json(raw)
+    if not isinstance(obj, dict):
+        raise RuntimeError("margin response is not a JSON object")
+    stat = str(obj.get("stat", obj.get("status", "ok"))).lower()
+    when = parse_date(obj.get("date") or obj.get("reportDate") or "")
+    if stat not in ("ok", "") or (when is not None and when != want):
+        return None
+    if "aaData" in obj and isinstance(obj["aaData"], list):  # old TPEX php shape: fields are implied
+        obj = {"tables": [{"fields": ["代號", "名稱", "前資餘額", "資買", "資賣", "現償", "資今日餘額", "資屬證金", "資使用率", "資限額",
+                                      "前券餘額", "券賣", "券買", "券償", "券今日餘額", "券屬證金", "券使用率", "券限額", "資券相抵", "備註"],
+                           "data": obj["aaData"]}]}
+        obj["tables"][0]["fields"] = [f.replace("前資餘額", "融資前日餘額").replace("前券餘額", "融券前日餘額") for f in obj["tables"][0]["fields"]]
+    return obj
+
+
+def fetch_margin(market: str, want: date) -> tuple[list[dict], dict]:
+    """Optional margin source; never raises; status 'fresh' / 'not_published' / 'failed'."""
+    errors = []
+    for template in MARGIN_URLS[market]:
+        url = template.format(ymd=want.strftime("%Y%m%d"), slash=want.strftime("%Y/%m/%d"),
+                              roc=f"{want.year - 1911}/{want:%m/%d}")
+        if "twse.com.tw" in url:
+            time.sleep(3)  # www.twse.com.tw rate-limits bursts
+        rows, error = with_retries(f"{market}_MARGIN[{want}]", lambda u=url: (
+            (lambda obj: parse_margin_tables(obj, want) if obj is not None else [])(margin_payload(http_get(u, DEFAULT_SIZE_CAP), want))))
+        if rows and len(rows) >= 100:
+            log(f"{market}_MARGIN: fresh for {want}, {len(rows)} rows")
+            return rows, {"status": "fresh", "source_date": want.isoformat(), "rows": len(rows), "error": None, "url": url}
+        errors.append(error or f"{len(rows or [])} rows")
+    status = "failed" if any(e and not e.endswith(" rows") for e in errors) else "not_published"
+    return [], {"status": status, "source_date": None, "rows": 0, "error": "; ".join(e for e in errors if e)[:300] or None}
+
+
 def prefer_newer_cache(source_id: str, rows, status: dict, limit: date):
     """If the cache holds a newer copy (<= limit) than what we fetched, use the cache."""
     cached = load_cache(source_id)
@@ -658,6 +724,7 @@ def evaluate_market(market: str, ctx: dict) -> tuple[list[dict], list[dict]]:
     universe = {c for c in set(company) | set(daily) | set(common or ()) if STOCK_SCOPE.fullmatch(c)}
     members, excluded = [], []
     for code in sorted(universe):
+        flags = trade_flags(market, code, ctx, daytrade, status, changed)
         reason = None
         if market == "TWSE":
             if not twse_common(code):
@@ -694,26 +761,46 @@ def evaluate_market(market: str, ctx: dict) -> tuple[list[dict], list[dict]]:
         if reason is None and (daytrade is None or code not in daytrade):
             reason = "not_daytrade_listed"
         if reason:
-            excluded.append({"market": market, "symbol": code, "reason": reason})
+            excluded.append({"market": market, "symbol": code, "reason": reason,
+                             "industry": (comp or {}).get("industry") or None, "flags": flags})
             continue
         name = comp.get("name") or quote.get("name") or ((common or {}).get(code) or {}).get("name", "")
         members.append({
             "market": market, "symbol": code, "name": name, "industry": comp.get("industry"),
             "close": close, "volume_lots": int(volume // 1000),
             "sell_first_suspended": bool(daytrade[code].get("sell_first_suspended")),
+            "flags": flags,
         })
     return members, excluded
+
+
+def trade_flags(market: str, code: str, ctx: dict, daytrade, status: dict, changed: set) -> dict:
+    """Legal day-trade facts for one code, independent of the pool's liquidity / price rules (consumers such as the
+    trader trial apply them as hard rules). None = the source was unavailable (unknown, never assumed)."""
+    target = ctx["target"]
+    disp, halt = ctx.get("disposition"), ctx.get("halt")
+    listed = None if daytrade is None else code in daytrade
+    return {
+        "daytrade": listed,
+        "sell_first_suspended": None if not listed else bool(daytrade[code].get("sell_first_suspended")),
+        "disposition": None if disp is None else disposition_active(disp, code, target),
+        "halted": None if halt is None else halted_at(halt, code, target),
+        "changed": (None if ctx.get("changed") is None else code in changed) if market == "TWSE" else False,
+        "special": (None if ctx.get("status") is None else bool(status.get(code))) if market == "TPEX" else False,
+    }
 
 
 # --------------------------------------------------------------- output -----
 
 def render(doc: dict) -> str:
     """Pretty-print; member/excluded entries one per line to keep files compact."""
-    head = {k: v for k, v in doc.items() if k not in ("members", "excluded")}
+    head = {k: v for k, v in doc.items() if k not in ("members", "excluded", "margin_rows")}
     text = json.dumps(head, ensure_ascii=False, indent=2)
     assert text.endswith("\n}")
     parts = [text[:-2]]
-    for key in ("members", "excluded"):
+    for key in ("members", "excluded", "margin_rows"):
+        if key not in doc:
+            continue
         items = ",\n".join("    " + json.dumps(i, ensure_ascii=False, separators=(", ", ": ")) for i in doc[key])
         parts.append(f',\n  "{key}": [\n{items}\n  ]' if items else f',\n  "{key}": []')
     return "".join(parts) + "\n}\n"
@@ -830,6 +917,13 @@ def main() -> int:
 
     members.sort(key=lambda r: (r["market"], r["symbol"]))
     excluded.sort(key=lambda r: (r["market"], r["symbol"]))
+    margin_rows, margin_status = [], {}
+    for market in ("TWSE", "TPEX"):
+        rows, margin_status[market] = fetch_margin(market, data_date)
+        margin_rows += [{"market": market, "symbol": r["code"], "m": r["m"], "m_prev": r["m_prev"], "s": r["s"], "s_prev": r["s_prev"]} for r in rows]
+        if margin_status[market]["status"] != "fresh":
+            warnings.append(f"{market} margin balances for {data_date} {margin_status[market]['status']} (optional)")
+    margin_rows.sort(key=lambda r: (r["market"], r["symbol"]))
     by_reason: dict[str, int] = {}
     for e in excluded:
         by_reason[e["reason"]] = by_reason.get(e["reason"], 0) + 1
@@ -851,6 +945,8 @@ def main() -> int:
         },
         "members": members,
         "excluded": excluded,
+        "margin": {"data_date": data_date.isoformat(), "unit": "lots", "status": margin_status},
+        "margin_rows": margin_rows,
     }
     for w in warnings:
         log(f"WARNING: {w}")
