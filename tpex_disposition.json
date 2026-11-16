@@ -4,12 +4,22 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-11-16T06:45:21.666319Z",
-  "fetched_at_taipei": "2026-11-16T14:45:21.666319+08:00",
-  "last_attempt_at": "2026-11-16T06:45:15.502654Z",
-  "last_successful_fetch_at": "2026-11-16T06:45:21.666319Z",
-  "source_publication_date": "2026-11-11",
+  "fetched_at_utc": "2026-11-16T16:10:32.793141Z",
+  "fetched_at_taipei": "2026-11-17T00:10:32.793141+08:00",
+  "last_attempt_at": "2026-11-16T16:10:32.417780Z",
+  "last_successful_fetch_at": "2026-11-16T16:10:32.793141Z",
+  "source_publication_date": "2026-11-16",
   "effective_periods": [
+    {
+      "security_code": "3441",
+      "from": "2026-11-17",
+      "through": "2026-11-25"
+    },
+    {
+      "security_code": "6751",
+      "from": "2026-11-17",
+      "through": "2026-11-23"
+    },
     {
       "security_code": "54642",
       "from": "2026-11-12",
@@ -29,11 +39,6 @@
       "security_code": "62075",
       "from": "2026-11-11",
       "through": "2026-11-17"
-    },
-    {
-      "security_code": "4542",
-      "from": "2026-11-10",
-      "through": "2026-11-16"
     }
   ],
   "covered_through": "UNKNOWN",
@@ -42,16 +47,33 @@
   "eligibility_status": "UNKNOWN_SOURCE_ROLE_BINDING",
   "complete_response_structure": true,
   "empty_result_basis": null,
-  "record_count": 5,
+  "record_count": 6,
   "security_codes": [
     "24552",
     "24553",
-    "4542",
+    "3441",
     "54642",
-    "62075"
+    "62075",
+    "6751"
   ],
-  "security_code_count": 5,
+  "security_code_count": 6,
   "records": [
+    {
+      "公布日期": "1151116",
+      "證券代號": "3441",
+      "證券名稱": "聯一光",
+      "處置起訖時間": "1151117~1151125",
+      "處置原因": "連續5個營業日及沖銷標準",
+      "處置內容": "* 公布日期：115/11/16* 證券代號：3441* 證券名稱：聯一光電股份有限公司* 處置原因：連續5個營業日達本中心「公布注意交易資訊」標準，且最近30個營業日內曾發布處置，且該連續期間曾達沖銷標準。* 處置起訖期間：自115年11月17日起7個營業日(115年11月17日至115年11月25日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券，向該投資人收取全部之買進價金或賣出證券；(3)信用交易部分，則收足融資自備款或融券保證金。但信用交易了結及違約專戶委託買賣該有價證券時，不在此限。"
+    },
+    {
+      "公布日期": "1151116",
+      "證券代號": "6751",
+      "證券名稱": "智聯服務",
+      "處置起訖時間": "1151117~1151123",
+      "處置原因": "連續3個營業日",
+      "處置內容": "* 公布日期：115/11/16* 證券代號：6751* 證券名稱：智聯服務股份有限公司* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準，且最近30個營業日內曾發布處置。* 處置起訖期間：自115年11月17日起5個營業日(115年11月17日至115年11月23日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券，向該投資人收取全部之買進價金或賣出證券；(3)信用交易部分，則收足融資自備款或融券保證金。但信用交易了結及違約專戶委託買賣該有價證券時，不在此限。"
+    },
     {
       "公布日期": "1151111",
       "證券代號": "54642",
@@ -83,14 +105,6 @@
       "處置起訖時間": "1151111~1151117",
       "處置原因": "連續3個營業日",
       "處置內容": "* 公布日期：115/11/10* 證券代號：62075* 證券名稱：雷科股份有限公司國內第五次無擔保轉換公司債* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準，且最近30個營業日內曾發布處置。* 處置起訖期間：自115年11月11日起5個營業日(115年11月11日至115年11月17日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券，向該投資人收取全部之買進價金或賣出證券。但違約專戶委託買賣該有價證券時，不在此限。"
-    },
-    {
-      "公布日期": "1151109",
-      "證券代號": "4542",
-      "證券名稱": "科嶠",
-      "處置起訖時間": "1151110~1151116",
-      "處置原因": "連續3個營業日",
-      "處置內容": "* 公布日期：115/11/09* 證券代號：4542* 證券名稱：科嶠工業股份有限公司* 處置原因：連續3個營業日達本中心「公布注意交易資訊」標準，且最近30個營業日內曾發布處置。* 處置起訖期間：自115年11月10日起5個營業日(115年11月10日至115年11月16日)，如遇：(1)有價證券最後交易日在處置期間，僅處置至其最後交易日；(2)休市、有價證券停止買賣、全日暫停交易，則順延執行。* 處置措施：(1)以人工管制之撮合終端機執行撮合作業(約每2分鐘撮合一次)；(2)證券商應就投資人每日已委託買賣該有價證券，向該投資人收取全部之買進價金或賣出證券；(3)信用交易部分，則收足融資自備款或融券保證金。但信用交易了結及違約專戶委託買賣該有價證券時，不在此限。"
     }
   ],
   "response_metadata": {
@@ -100,12 +114,12 @@
   },
   "auxiliary_sources": {
     "company_profiles": {
-      "status": "stale_fallback",
+      "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-16T02:53:46.067198Z",
-      "last_attempt_at": "2026-11-16T06:45:21.666319Z",
-      "last_successful_fetch_at": "2026-11-16T02:53:46.067198Z",
+      "source_fetched_at_utc": "2026-11-16T16:10:35.179926Z",
+      "last_attempt_at": "2026-11-16T16:10:32.793141Z",
+      "last_successful_fetch_at": "2026-11-16T16:10:35.179926Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -116,15 +130,15 @@
         "policy_completed_trading_days": 5,
         "calendar_binding": "UNKNOWN"
       },
-      "refresh_error": "BudgetExceeded"
+      "refresh_error": null
     },
     "institutions": {
-      "status": "stale_fallback",
+      "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-16T02:53:47.879976Z",
-      "last_attempt_at": "2026-11-16T06:45:21.666319Z",
-      "last_successful_fetch_at": "2026-11-16T02:53:47.879976Z",
+      "source_fetched_at_utc": "2026-11-16T16:10:36.852199Z",
+      "last_attempt_at": "2026-11-16T16:10:32.793141Z",
+      "last_successful_fetch_at": "2026-11-16T16:10:36.852199Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -135,15 +149,15 @@
         "policy_completed_trading_days": 1,
         "calendar_binding": "UNKNOWN"
       },
-      "refresh_error": "BudgetExceeded"
+      "refresh_error": null
     },
     "margin": {
-      "status": "stale_fallback",
+      "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-16T02:53:52.054367Z",
-      "last_attempt_at": "2026-11-16T06:45:21.666319Z",
-      "last_successful_fetch_at": "2026-11-16T02:53:52.054367Z",
+      "source_fetched_at_utc": "2026-11-16T16:10:38.609651Z",
+      "last_attempt_at": "2026-11-16T16:10:32.793141Z",
+      "last_successful_fetch_at": "2026-11-16T16:10:38.609651Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -154,15 +168,15 @@
         "policy_completed_trading_days": 1,
         "calendar_binding": "UNKNOWN"
       },
-      "refresh_error": "BudgetExceeded"
+      "refresh_error": null
     },
     "tdcc": {
-      "status": "stale_fallback",
+      "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-16T02:53:56.542660Z",
-      "last_attempt_at": "2026-11-16T06:45:21.666319Z",
-      "last_successful_fetch_at": "2026-11-16T02:53:56.542660Z",
+      "source_fetched_at_utc": "2026-11-16T16:10:43.708091Z",
+      "last_attempt_at": "2026-11-16T16:10:32.793141Z",
+      "last_successful_fetch_at": "2026-11-16T16:10:43.708091Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -173,7 +187,7 @@
         "policy_completed_trading_days": null,
         "calendar_binding": "UNKNOWN"
       },
-      "refresh_error": "BudgetExceeded"
+      "refresh_error": null
     }
   }
 }
