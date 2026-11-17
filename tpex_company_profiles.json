@@ -2976,7 +2976,7 @@
     },
     {
       "SecuritiesCompanyCode": "6474",
-      "CompanyAbbreviation": "華豫寧",
+      "CompanyAbbreviation": "維夫拉克控股",
       "SecuritiesIndustryCode": "29"
     },
     {
@@ -4491,18 +4491,18 @@
     }
   ],
   "response_metadata": {
-    "etag": "\"6afc0aa8-107d54\"",
-    "last_modified": "Tue, 17 Nov 2026 08:04:56 GMT",
+    "etag": "\"6afc737a-107d74\"",
+    "last_modified": "Tue, 17 Nov 2026 15:32:10 GMT",
     "content_type": "application/json"
   },
-  "fetched_at_utc": "2026-11-17T08:05:27.874358Z",
-  "fetched_at_taipei": "2026-11-17T16:05:27.874358+08:00",
+  "fetched_at_utc": "2026-11-17T16:17:34.266566Z",
+  "fetched_at_taipei": "2026-11-18T00:17:34.266566+08:00",
   "source_publication_date": "UNKNOWN",
   "covered_through": "UNKNOWN",
   "refresh_status": "fresh_fetch_native_coverage_unknown",
   "refresh_error": null,
-  "last_attempt_at": "2026-11-17T08:05:24.750240Z",
-  "last_successful_fetch_at": "2026-11-17T08:05:27.874358Z",
+  "last_attempt_at": "2026-11-17T16:17:30.228176Z",
+  "last_successful_fetch_at": "2026-11-17T16:17:34.266566Z",
   "stale": true,
   "schema_version": 1,
   "dataset": "company_profiles",
