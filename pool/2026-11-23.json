@@ -2,105 +2,105 @@
   "schema": "SIMPLE_POOL_V1",
   "target": "2026-11-23",
   "data_date": "2026-11-20",
-  "generated_at_taipei": "2026-11-21T05:32:12+08:00",
-  "run_reason": "schedule 40 13 * * 1-5",
+  "generated_at_taipei": "2026-11-21T06:16:53+08:00",
+  "run_reason": "schedule 20 15 * * 1-5",
   "sources": {
     "TPEX_COMPANY": {
       "status": "fresh",
       "source_date": "2026-11-20",
       "rows": 898,
-      "fetched_at": "2026-11-21T05:31:56+08:00",
+      "fetched_at": "2026-11-21T06:16:33+08:00",
       "error": null
     },
     "TPEX_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-20",
       "rows": 896,
-      "fetched_at": "2026-11-21T05:32:02+08:00",
+      "fetched_at": "2026-11-21T06:16:44+08:00",
       "error": null
     },
     "TPEX_DAYTRADE": {
       "status": "fresh",
       "source_date": "2026-11-23",
       "rows": 845,
-      "fetched_at": "2026-11-21T05:32:07+08:00",
+      "fetched_at": "2026-11-21T06:16:48+08:00",
       "error": null
     },
     "TPEX_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
       "rows": 17,
-      "fetched_at": "2026-11-21T05:32:05+08:00",
+      "fetched_at": "2026-11-21T06:16:46+08:00",
       "error": null
     },
     "TPEX_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 366,
-      "fetched_at": "2026-11-21T05:32:06+08:00",
+      "fetched_at": "2026-11-21T06:16:47+08:00",
       "error": null
     },
     "TPEX_ISIN": {
       "status": "fresh",
       "source_date": null,
       "rows": 898,
-      "fetched_at": "2026-11-21T05:31:54+08:00",
+      "fetched_at": "2026-11-21T06:16:31+08:00",
       "error": null
     },
     "TPEX_STATUS": {
       "status": "fresh",
       "source_date": "2026-11-20",
       "rows": 20,
-      "fetched_at": "2026-11-21T05:32:02+08:00",
+      "fetched_at": "2026-11-21T06:16:45+08:00",
       "error": null
     },
     "TWSE_CHANGED": {
       "status": "fresh",
       "source_date": null,
       "rows": 10,
-      "fetched_at": "2026-11-21T05:31:56+08:00",
+      "fetched_at": "2026-11-21T06:16:29+08:00",
       "error": null
     },
     "TWSE_COMPANY": {
       "status": "fresh",
-      "source_date": "2026-11-19",
+      "source_date": "2026-11-20",
       "rows": 1098,
-      "fetched_at": "2026-11-21T05:31:53+08:00",
+      "fetched_at": "2026-11-21T06:16:28+08:00",
       "error": null
     },
     "TWSE_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-20",
       "rows": 1125,
-      "fetched_at": "2026-11-21T05:31:55+08:00",
+      "fetched_at": "2026-11-21T06:16:29+08:00",
       "error": null
     },
     "TWSE_DAYTRADE": {
       "status": "fresh",
       "source_date": "2026-11-23",
       "rows": 1246,
-      "fetched_at": "2026-11-21T05:32:00+08:00",
+      "fetched_at": "2026-11-21T06:16:30+08:00",
       "error": null
     },
     "TWSE_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
-      "rows": 5,
-      "fetched_at": "2026-11-21T05:31:57+08:00",
+      "rows": 8,
+      "fetched_at": "2026-11-21T06:16:29+08:00",
       "error": null
     },
     "TWSE_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 1,
-      "fetched_at": "2026-11-21T05:31:58+08:00",
+      "fetched_at": "2026-11-21T06:16:29+08:00",
       "error": null
     },
     "TWSE_HOLIDAY": {
       "status": "fresh",
       "source_date": "2027-12-31",
       "rows": 29,
-      "fetched_at": "2026-11-21T05:31:52+08:00",
+      "fetched_at": "2026-11-21T06:16:27+08:00",
       "error": null
     }
   },
@@ -121,11 +121,11 @@
       "TPEX": 205
     },
     "excluded_by_reason": {
-      "disposition": 6,
+      "disposition": 7,
       "low_volume": 686,
       "no_quote": 4,
       "not_common_stock": 39,
-      "not_daytrade_listed": 10,
+      "not_daytrade_listed": 9,
       "price_out_of_range": 594
     }
   },
@@ -1722,7 +1722,7 @@
     {"market": "TWSE", "symbol": "2248", "reason": "low_volume", "name": "華勝-KY", "industry": "12", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "2250", "reason": "low_volume", "name": "IKKA-KY", "industry": "12", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "2258", "reason": "not_daytrade_listed", "name": "鴻華先進-創", "industry": "12", "flags": {"daytrade": false, "sell_first_suspended": null, "disposition": false, "halted": false, "changed": false, "special": false}},
-    {"market": "TWSE", "symbol": "2305", "reason": "not_daytrade_listed", "name": "全友", "industry": "25", "flags": {"daytrade": false, "sell_first_suspended": null, "disposition": false, "halted": false, "changed": false, "special": false}},
+    {"market": "TWSE", "symbol": "2305", "reason": "disposition", "name": "全友", "industry": "25", "flags": {"daytrade": false, "sell_first_suspended": null, "disposition": true, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "2308", "reason": "price_out_of_range", "name": "台達電", "industry": "28", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "2314", "reason": "price_out_of_range", "name": "台揚", "industry": "27", "flags": {"daytrade": false, "sell_first_suspended": null, "disposition": false, "halted": false, "changed": true, "special": false}},
     {"market": "TWSE", "symbol": "2321", "reason": "low_volume", "name": "東訊", "industry": "27", "flags": {"daytrade": false, "sell_first_suspended": null, "disposition": false, "halted": false, "changed": true, "special": false}},
@@ -1892,7 +1892,7 @@
     {"market": "TWSE", "symbol": "3501", "reason": "low_volume", "name": "維熹", "industry": "28", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "3528", "reason": "low_volume", "name": "安馳", "industry": "29", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "3530", "reason": "low_volume", "name": "晶相光", "industry": "24", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
-    {"market": "TWSE", "symbol": "3532", "reason": "low_volume", "name": "台勝科", "industry": "24", "flags": {"daytrade": false, "sell_first_suspended": null, "disposition": false, "halted": false, "changed": false, "special": false}},
+    {"market": "TWSE", "symbol": "3532", "reason": "low_volume", "name": "台勝科", "industry": "24", "flags": {"daytrade": false, "sell_first_suspended": null, "disposition": true, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "3533", "reason": "price_out_of_range", "name": "嘉澤", "industry": "28", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "3550", "reason": "price_out_of_range", "name": "聯穎", "industry": "28", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "3557", "reason": "price_out_of_range", "name": "嘉威", "industry": "38", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
