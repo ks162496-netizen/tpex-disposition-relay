@@ -1,20 +1,20 @@
-[09:12:04] build_pool start, run_reason=schedule 40 13 * * 1-5
-[09:12:05] TWSE_HOLIDAY: fresh, 29 rows, source_date 2027-12-31
-[09:12:05] target=2026-11-24 data_date=2026-11-23
-[09:12:06] TWSE_COMPANY: fresh, 1098 rows, source_date 2026-11-23
-[09:12:06] TWSE_DAILY: fresh, 1126 rows, source_date 2026-11-23
-[09:12:06] TWSE_CHANGED: fresh, 10 rows, source_date None
-[09:12:07] TWSE_DISPOSITION: fresh, 13 rows, source_date None
-[09:12:07] TWSE_HALT: fresh, 1 rows, source_date None
-[09:12:07] TWSE_DAYTRADE: fresh, 1243 rows, source_date 2026-11-24
-[09:12:47] TPEX_COMPANY: fresh, 898 rows, source_date 2026-11-23
-[09:13:03] TPEX_DAILY: fresh, 896 rows, source_date 2026-11-23
-[09:13:05] TPEX_STATUS: fresh, 20 rows, source_date 2026-11-23
-[09:13:06] TPEX_DISPOSITION: fresh, 31 rows, source_date None
-[09:13:07] TPEX_HALT: fresh, 366 rows, source_date None
-[09:13:09] TPEX_DAYTRADE: fresh list for 2026-11-24, 846 rows
-[09:16:34] TPEX_ISIN: fresh, 898 rows, source_date None
-[09:16:38] TWSE_MARGIN: fresh for 2026-11-23, 1071 rows
-[09:16:41] TPEX_MARGIN: fresh for 2026-11-23, 806 rows
-[09:16:41] members=624 by_market={'TWSE': 439, 'TPEX': 185} excluded={'disposition': 18, 'low_volume': 741, 'no_quote': 3, 'not_common_stock': 39, 'not_daytrade_listed': 5, 'price_out_of_range': 595}
-[09:16:41] wrote pool/2026-11-24.json and pool/latest.json
+[10:22:25] build_pool start, run_reason=schedule 20 15 * * 1-5
+[10:22:27] TWSE_HOLIDAY: fresh, 29 rows, source_date 2027-12-31
+[10:22:27] target=2026-11-24 data_date=2026-11-23
+[10:22:28] TWSE_COMPANY: fresh, 1098 rows, source_date 2026-11-23
+[10:22:29] TWSE_DAILY: fresh, 1126 rows, source_date 2026-11-23
+[10:22:30] TWSE_CHANGED: fresh, 10 rows, source_date None
+[10:22:31] TWSE_DISPOSITION: fresh, 13 rows, source_date None
+[10:22:32] TWSE_HALT: fresh, 1 rows, source_date None
+[10:22:32] TPEX_COMPANY: fresh, 898 rows, source_date 2026-11-23
+[10:22:32] TWSE_DAYTRADE: fresh, 1243 rows, source_date 2026-11-24
+[10:22:41] TPEX_DAILY: fresh, 896 rows, source_date 2026-11-23
+[10:22:42] TPEX_STATUS: fresh, 20 rows, source_date 2026-11-23
+[10:22:44] TPEX_DISPOSITION: fresh, 31 rows, source_date None
+[10:22:45] TPEX_HALT: fresh, 366 rows, source_date None
+[10:22:45] TPEX_DAYTRADE: fresh list for 2026-11-24, 846 rows
+[10:25:26] TPEX_ISIN: fresh, 898 rows, source_date None
+[10:25:31] TWSE_MARGIN: fresh for 2026-11-23, 1071 rows
+[10:25:32] TPEX_MARGIN: fresh for 2026-11-23, 806 rows
+[10:25:32] members=624 by_market={'TWSE': 439, 'TPEX': 185} excluded={'disposition': 18, 'low_volume': 741, 'no_quote': 3, 'not_common_stock': 39, 'not_daytrade_listed': 5, 'price_out_of_range': 595}
+[10:25:32] wrote pool/2026-11-24.json and pool/latest.json
