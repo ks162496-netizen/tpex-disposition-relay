@@ -2,107 +2,105 @@
   "schema": "SIMPLE_POOL_V1",
   "target": "2026-11-26",
   "data_date": "2026-11-25",
-  "generated_at_taipei": "2026-11-26T03:34:20+08:00",
-  "run_reason": "schedule 40 9 * * 1-5",
+  "generated_at_taipei": "2026-11-26T06:44:43+08:00",
+  "run_reason": "schedule 40 13 * * 1-5",
   "sources": {
     "TPEX_COMPANY": {
       "status": "fresh",
       "source_date": "2026-11-25",
       "rows": 898,
-      "fetched_at": "2026-11-26T03:33:59+08:00",
+      "fetched_at": "2026-11-26T06:44:22+08:00",
       "error": null
     },
     "TPEX_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-25",
       "rows": 896,
-      "fetched_at": "2026-11-26T03:34:10+08:00",
+      "fetched_at": "2026-11-26T06:44:31+08:00",
       "error": null
     },
     "TPEX_DAYTRADE": {
       "status": "fresh",
       "source_date": "2026-11-26",
       "rows": 846,
-      "fetched_at": "2026-11-26T03:34:15+08:00",
+      "fetched_at": "2026-11-26T06:44:37+08:00",
       "error": null
     },
     "TPEX_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
       "rows": 31,
-      "fetched_at": "2026-11-26T03:34:12+08:00",
+      "fetched_at": "2026-11-26T06:44:35+08:00",
       "error": null
     },
     "TPEX_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 366,
-      "fetched_at": "2026-11-26T03:34:13+08:00",
+      "fetched_at": "2026-11-26T06:44:37+08:00",
       "error": null
     },
     "TPEX_ISIN": {
       "status": "fresh",
       "source_date": null,
       "rows": 899,
-      "fetched_at": "2026-11-26T03:33:58+08:00",
+      "fetched_at": "2026-11-26T06:44:22+08:00",
       "error": null
     },
     "TPEX_STATUS": {
       "status": "fresh",
       "source_date": "2026-11-25",
       "rows": 20,
-      "fetched_at": "2026-11-26T03:34:11+08:00",
+      "fetched_at": "2026-11-26T06:44:35+08:00",
       "error": null
     },
     "TWSE_CHANGED": {
       "status": "fresh",
       "source_date": null,
       "rows": 10,
-      "fetched_at": "2026-11-26T03:33:59+08:00",
+      "fetched_at": "2026-11-26T06:44:23+08:00",
       "error": null
     },
     "TWSE_COMPANY": {
       "status": "fresh",
-      "source_date": "2026-11-24",
+      "source_date": "2026-11-25",
       "rows": 1098,
-      "fetched_at": "2026-11-26T03:33:57+08:00",
+      "fetched_at": "2026-11-26T06:44:21+08:00",
       "error": null
     },
     "TWSE_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-25",
       "rows": 1126,
-      "fetched_at": "2026-11-26T03:34:06+08:00",
-      "error": null,
-      "note": "www fallback: https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20261125&type=ALLBUT0999&response=json"
+      "fetched_at": "2026-11-26T06:44:22+08:00",
+      "error": null
     },
     "TWSE_DAYTRADE": {
       "status": "fresh",
       "source_date": "2026-11-26",
       "rows": 1242,
-      "fetched_at": "2026-11-26T03:34:10+08:00",
-      "error": null,
-      "note": "www fallback: https://www.twse.com.tw/rwd/zh/dayTrading/TWTB4U?date=20261126&selectType=All&response=json"
+      "fetched_at": "2026-11-26T06:44:25+08:00",
+      "error": null
     },
     "TWSE_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
-      "rows": 16,
-      "fetched_at": "2026-11-26T03:34:00+08:00",
+      "rows": 17,
+      "fetched_at": "2026-11-26T06:44:24+08:00",
       "error": null
     },
     "TWSE_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 1,
-      "fetched_at": "2026-11-26T03:34:00+08:00",
+      "fetched_at": "2026-11-26T06:44:24+08:00",
       "error": null
     },
     "TWSE_HOLIDAY": {
       "status": "fresh",
       "source_date": "2027-12-31",
       "rows": 29,
-      "fetched_at": "2026-11-26T03:33:55+08:00",
+      "fetched_at": "2026-11-26T06:44:20+08:00",
       "error": null
     }
   },
@@ -1859,7 +1857,7 @@
     {"market": "TWSE", "symbol": "3588", "reason": "low_volume", "name": "通嘉", "industry": "24", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "3591", "reason": "low_volume", "name": "艾笛森", "industry": "26", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "3592", "reason": "low_volume", "name": "瑞鼎", "industry": "24", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
-    {"market": "TWSE", "symbol": "3593", "reason": "price_out_of_range", "name": "力銘", "industry": "28", "flags": {"daytrade": false, "sell_first_suspended": null, "disposition": false, "halted": false, "changed": true, "special": false}},
+    {"market": "TWSE", "symbol": "3593", "reason": "price_out_of_range", "name": "力銘", "industry": "28", "flags": {"daytrade": false, "sell_first_suspended": null, "disposition": true, "halted": false, "changed": true, "special": false}},
     {"market": "TWSE", "symbol": "3607", "reason": "price_out_of_range", "name": "谷崧", "industry": "28", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "3622", "reason": "low_volume", "name": "洋華", "industry": "26", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
     {"market": "TWSE", "symbol": "3652", "reason": "low_volume", "name": "精聯", "industry": "25", "flags": {"daytrade": true, "sell_first_suspended": false, "disposition": false, "halted": false, "changed": false, "special": false}},
