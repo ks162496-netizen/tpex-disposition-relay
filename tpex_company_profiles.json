@@ -4141,7 +4141,7 @@
     },
     {
       "SecuritiesCompanyCode": "8155",
-      "CompanyAbbreviation": "博智",
+      "CompanyAbbreviation": "博智電子",
       "SecuritiesIndustryCode": "28"
     },
     {
@@ -4491,18 +4491,18 @@
     }
   ],
   "response_metadata": {
-    "etag": "\"6b067a17-107d79\"",
-    "last_modified": "Wed, 25 Nov 2026 06:03:03 GMT",
+    "etag": "\"6b06ff74-107d7f\"",
+    "last_modified": "Wed, 25 Nov 2026 15:32:04 GMT",
     "content_type": "application/json"
   },
-  "fetched_at_utc": "2026-11-25T08:49:38.643705Z",
-  "fetched_at_taipei": "2026-11-25T16:49:38.643705+08:00",
+  "fetched_at_utc": "2026-11-25T17:27:47.434128Z",
+  "fetched_at_taipei": "2026-11-26T01:27:47.434128+08:00",
   "source_publication_date": "UNKNOWN",
   "covered_through": "UNKNOWN",
   "refresh_status": "fresh_fetch_native_coverage_unknown",
   "refresh_error": null,
-  "last_attempt_at": "2026-11-25T08:49:27.656254Z",
-  "last_successful_fetch_at": "2026-11-25T08:49:38.643705Z",
+  "last_attempt_at": "2026-11-25T17:27:44.413947Z",
+  "last_successful_fetch_at": "2026-11-25T17:27:47.434128Z",
   "stale": true,
   "schema_version": 1,
   "dataset": "company_profiles",
