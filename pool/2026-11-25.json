@@ -2,105 +2,105 @@
   "schema": "SIMPLE_POOL_V1",
   "target": "2026-11-25",
   "data_date": "2026-11-24",
-  "generated_at_taipei": "2026-11-25T13:06:13+08:00",
-  "run_reason": "schedule 40 22 * * 0-4",
+  "generated_at_taipei": "2026-11-25T13:43:52+08:00",
+  "run_reason": "schedule 40 23 * * 0-4",
   "sources": {
     "TPEX_COMPANY": {
       "status": "fresh",
       "source_date": "2026-11-24",
       "rows": 898,
-      "fetched_at": "2026-11-25T13:02:00+08:00",
+      "fetched_at": "2026-11-25T13:40:00+08:00",
       "error": null
     },
     "TPEX_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-24",
       "rows": 896,
-      "fetched_at": "2026-11-25T13:02:07+08:00",
+      "fetched_at": "2026-11-25T13:40:09+08:00",
       "error": null
     },
     "TPEX_DAYTRADE": {
       "status": "fresh",
       "source_date": "2026-11-25",
       "rows": 845,
-      "fetched_at": "2026-11-25T13:02:11+08:00",
+      "fetched_at": "2026-11-25T13:40:17+08:00",
       "error": null
     },
     "TPEX_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
       "rows": 33,
-      "fetched_at": "2026-11-25T13:02:10+08:00",
+      "fetched_at": "2026-11-25T13:40:10+08:00",
       "error": null
     },
     "TPEX_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 366,
-      "fetched_at": "2026-11-25T13:02:10+08:00",
+      "fetched_at": "2026-11-25T13:40:11+08:00",
       "error": null
     },
     "TPEX_ISIN": {
       "status": "fresh",
       "source_date": null,
       "rows": 898,
-      "fetched_at": "2026-11-25T13:06:07+08:00",
+      "fetched_at": "2026-11-25T13:43:45+08:00",
       "error": null
     },
     "TPEX_STATUS": {
       "status": "fresh",
       "source_date": "2026-11-24",
       "rows": 20,
-      "fetched_at": "2026-11-25T13:02:08+08:00",
+      "fetched_at": "2026-11-25T13:40:09+08:00",
       "error": null
     },
     "TWSE_CHANGED": {
       "status": "fresh",
       "source_date": null,
       "rows": 10,
-      "fetched_at": "2026-11-25T13:01:58+08:00",
+      "fetched_at": "2026-11-25T13:40:00+08:00",
       "error": null
     },
     "TWSE_COMPANY": {
       "status": "fresh",
       "source_date": "2026-11-24",
       "rows": 1098,
-      "fetched_at": "2026-11-25T13:01:58+08:00",
+      "fetched_at": "2026-11-25T13:39:57+08:00",
       "error": null
     },
     "TWSE_DAILY": {
       "status": "fresh",
       "source_date": "2026-11-24",
       "rows": 1126,
-      "fetched_at": "2026-11-25T13:01:58+08:00",
+      "fetched_at": "2026-11-25T13:39:59+08:00",
       "error": null
     },
     "TWSE_DAYTRADE": {
       "status": "fresh",
       "source_date": "2026-11-25",
       "rows": 1241,
-      "fetched_at": "2026-11-25T13:01:58+08:00",
+      "fetched_at": "2026-11-25T13:40:03+08:00",
       "error": null
     },
     "TWSE_DISPOSITION": {
       "status": "fresh",
       "source_date": null,
       "rows": 16,
-      "fetched_at": "2026-11-25T13:01:58+08:00",
+      "fetched_at": "2026-11-25T13:40:01+08:00",
       "error": null
     },
     "TWSE_HALT": {
       "status": "fresh",
       "source_date": null,
       "rows": 1,
-      "fetched_at": "2026-11-25T13:01:58+08:00",
+      "fetched_at": "2026-11-25T13:40:01+08:00",
       "error": null
     },
     "TWSE_HOLIDAY": {
       "status": "fresh",
       "source_date": "2027-12-31",
       "rows": 29,
-      "fetched_at": "2026-11-25T13:01:57+08:00",
+      "fetched_at": "2026-11-25T13:39:55+08:00",
       "error": null
     }
   },
