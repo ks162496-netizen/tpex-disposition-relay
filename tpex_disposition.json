@@ -4,10 +4,10 @@
   "source_name": "TPEx 上櫃處置有價證券資訊",
   "source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
   "resolved_source_url": "https://www.tpex.org.tw/web/bulletin/disposal_information/disposal_information_result.php?l=zh-tw&o=data",
-  "fetched_at_utc": "2026-11-27T16:52:04.502792Z",
-  "fetched_at_taipei": "2026-11-28T00:52:04.502792+08:00",
-  "last_attempt_at": "2026-11-27T16:52:03.529920Z",
-  "last_successful_fetch_at": "2026-11-27T16:52:04.502792Z",
+  "fetched_at_utc": "2026-11-27T19:19:40.550441Z",
+  "fetched_at_taipei": "2026-11-28T03:19:40.550441+08:00",
+  "last_attempt_at": "2026-11-27T19:19:39.615129Z",
+  "last_successful_fetch_at": "2026-11-27T19:19:40.550441Z",
   "source_publication_date": "2026-11-26",
   "effective_periods": [
     {
@@ -434,12 +434,12 @@
   },
   "auxiliary_sources": {
     "company_profiles": {
-      "status": "stale_fallback",
+      "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-27T05:11:26.706775Z",
-      "last_attempt_at": "2026-11-27T16:52:04.502792Z",
-      "last_successful_fetch_at": "2026-11-27T05:11:26.706775Z",
+      "source_fetched_at_utc": "2026-11-27T19:19:43.745822Z",
+      "last_attempt_at": "2026-11-27T19:19:40.550441Z",
+      "last_successful_fetch_at": "2026-11-27T19:19:43.745822Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -450,15 +450,15 @@
         "policy_completed_trading_days": 5,
         "calendar_binding": "UNKNOWN"
       },
-      "refresh_error": "BudgetExceeded"
+      "refresh_error": null
     },
     "institutions": {
-      "status": "stale_fallback",
+      "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-27T05:11:30.064757Z",
-      "last_attempt_at": "2026-11-27T16:52:04.502792Z",
-      "last_successful_fetch_at": "2026-11-27T05:11:30.064757Z",
+      "source_fetched_at_utc": "2026-11-27T19:19:44.920636Z",
+      "last_attempt_at": "2026-11-27T19:19:40.550441Z",
+      "last_successful_fetch_at": "2026-11-27T19:19:44.920636Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -469,15 +469,15 @@
         "policy_completed_trading_days": 1,
         "calendar_binding": "UNKNOWN"
       },
-      "refresh_error": "BudgetExceeded"
+      "refresh_error": null
     },
     "margin": {
-      "status": "stale_fallback",
+      "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-27T05:11:35.853077Z",
-      "last_attempt_at": "2026-11-27T16:52:04.502792Z",
-      "last_successful_fetch_at": "2026-11-27T05:11:35.853077Z",
+      "source_fetched_at_utc": "2026-11-27T19:19:46.546992Z",
+      "last_attempt_at": "2026-11-27T19:19:40.550441Z",
+      "last_successful_fetch_at": "2026-11-27T19:19:46.546992Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -488,15 +488,15 @@
         "policy_completed_trading_days": 1,
         "calendar_binding": "UNKNOWN"
       },
-      "refresh_error": "BudgetExceeded"
+      "refresh_error": null
     },
     "tdcc": {
-      "status": "stale_fallback",
+      "status": "fresh_fetch_native_coverage_unknown",
       "stale": true,
       "published": true,
-      "source_fetched_at_utc": "2026-11-27T05:11:39.740932Z",
-      "last_attempt_at": "2026-11-27T16:52:04.502792Z",
-      "last_successful_fetch_at": "2026-11-27T05:11:39.740932Z",
+      "source_fetched_at_utc": "2026-11-27T19:19:51.058694Z",
+      "last_attempt_at": "2026-11-27T19:19:40.550441Z",
+      "last_successful_fetch_at": "2026-11-27T19:19:51.058694Z",
       "source_publication_date": "UNKNOWN",
       "covered_through": "UNKNOWN",
       "quality": {
@@ -507,7 +507,7 @@
         "policy_completed_trading_days": null,
         "calendar_binding": "UNKNOWN"
       },
-      "refresh_error": "BudgetExceeded"
+      "refresh_error": null
     }
   }
 }
