@@ -14971,7 +14971,7 @@
   "covered_through": "UNKNOWN",
   "refresh_status": "stale_fallback",
   "refresh_error": "BudgetExceeded",
-  "last_attempt_at": "2026-11-27T08:46:52.978952Z",
+  "last_attempt_at": "2026-11-27T16:52:04.502792Z",
   "last_successful_fetch_at": "2026-11-27T05:11:39.740932Z",
   "stale": true,
   "schema_version": 1,
